@@ -1,7 +1,10 @@
+import Titels from "../Components/Titels"
+
 const Home = () =>{
     return (
         <>
-            <h1>INI HOME</h1>
+            <Titels string="Indonesian Culture | HomePage"/>
+            <h1>ini Home Page</h1>
         </>
     )
 }
