@@ -1,10 +1,11 @@
-import Titels from "../Components/Titels"
+import Navbar from "../Components/Navbar"
+import Title from "../Components/title"
 
 const Home = () =>{
     return (
         <>
-            <Titels string="Indonesian Culture | HomePage"/>
-            <h1>ini Home Page</h1>
+            <Title string="Indonesian Culture | HomePage"/>
+            <Navbar />
         </>
      )
 }

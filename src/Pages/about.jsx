@@ -1,9 +1,9 @@
-import Titels from "../Components/Titels"
+import Title from "../Components/title"
 
 const About = () =>{
     return (
         <>
-            <Titels string="Indonesian Culture | About"/>
+            <Title string="Indonesian Culture | About"/>
             <h1>About Pages</h1>
         </>
     )

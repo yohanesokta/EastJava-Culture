@@ -1,4 +1,4 @@
-const Titels = (props) =>{
+const Title = (props) =>{
    document.getElementById('title').innerHTML = props.string
 }
-export default Titels
+export default Title
