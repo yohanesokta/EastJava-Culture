@@ -26,6 +26,10 @@ nav img{
     font-size: 25px;
     margin: auto;
 }
+.search input{
+    height: 28px;
+    margin-top:calc((70px - 28px)/2);
+}
 .col-nav{
     height: 100%;
     margin: auto;
@@ -116,20 +120,22 @@ nav img{
 }
 @media only screen and (max-width:800px){
     nav{
-        background-color: green;
+        transition: 0.3s ease;
     }
     .col-nav{
-        z-index: -10;
-        display: block;
+        z-index: 9;
+        display: none;
         width: 90%;
-        position: absolute;
         top:110px;
         left:5%; 
+        opacity: 0;
     }
     .col-nav a{
         margin-top: 10px;
     }
     .search{
+        display: none;
+        z-index: 9;
         position: relative;
         left: 5%;
         top: 60px;
@@ -163,5 +169,12 @@ nav img{
     .dropdown-active{
         border-radius: 5px;
         background-color: rgba(255, 255, 255,.3);
+    }
+    .active{
+        height: 300px;
+    }
+    .active .col-nav{
+        opacity: 1;
+        display: block;
     }
 }
