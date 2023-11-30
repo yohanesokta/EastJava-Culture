@@ -12,6 +12,7 @@
     border: 1px solid red;
 }
 body{
+    position: relative;
     background-color: gray;
 }
 .hide{

@@ -1,3 +1,4 @@
+import HeroSection from "../Components/HeroSection"
 import Navbar from "../Components/Navbar"
 import Title from "../Components/title"
 
@@ -6,6 +7,7 @@ const Home = () =>{
         <>
             <Title string="Indonesian Culture | HomePage"/>
             <Navbar />
+            <HeroSection />
         </>
      )
 }
