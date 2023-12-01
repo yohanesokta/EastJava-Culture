@@ -14,7 +14,7 @@ function Login(){
         <>
             <GoogleLogin
                 clientId={ClientID}
-                buttonText="Masuk"
+                buttonText="Login By Google"
                 onSuccess={onSuccess}
                 onFailure={onFailure}
                 cookiePolicy={"single_host_origin"}

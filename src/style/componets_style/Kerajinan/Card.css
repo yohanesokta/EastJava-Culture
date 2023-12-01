@@ -90,4 +90,8 @@
         margin-left: 10%;
         margin-right: 10%;
     }
+    .card-container .text-right p{
+        height: 250px;
+        overflow: hidden;
+    }
 }
