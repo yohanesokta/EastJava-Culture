@@ -4,9 +4,11 @@ const ClientID = "649924286661-uug7ckbh0oi8ck108abfqj5pocfpks2g.apps.googleuserc
 
 function onSuccess(res){
     console.log("sukses",res.profileObj);
+    document.getElementById("login-container").style.display = "none"
 }
 function onFailure(res){
     console.log("Falure | ",res)
+    document.getElementById("login-container").style.display = "none"
 }
 
 function Login(){
@@ -14,7 +16,7 @@ function Login(){
         <>
             <GoogleLogin
                 clientId={ClientID}
-                buttonText="Login By Google"
+                buttonText="Lanjut Dengan Google"
                 onSuccess={onSuccess}
                 onFailure={onFailure}
                 cookiePolicy={"single_host_origin"}

@@ -11,12 +11,14 @@ import KerajinanTangan from "../Components/Home/KerajinanTangan";
 import Footer from "../Components/bundle/Footer.jsx";
 import GayaHidup from "../Components/bundle/GayaHidup/GayaHidup.jsx";
 import KesenianTradisional from "../Components/Home/KesenianTradisional.jsx";
+import LoginContainer from "../Components/LoginContainer.jsx";
 
 const Home = () => {
 
     return (
         <>
             <Title string="Indonesian Culture | HomePage" />
+            <LoginContainer />
             <Navbar />
             <HeroSection />
             <HomeAbout />

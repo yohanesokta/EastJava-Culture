@@ -38,7 +38,9 @@ const Navbar = () => {
       drop = true
     }
   }
-
+function LoginButton(){
+  document.getElementById('login-container').style.display = "flex"
+}
 
   return (
     <>
@@ -64,8 +66,7 @@ const Navbar = () => {
           </a>
         </div>
         <div className="search">
-          {/* <input></input> */}
-          <Login />
+          <button onClick={LoginButton}>Login</button>
         </div>
       </nav>
     </>
