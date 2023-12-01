@@ -19,7 +19,7 @@ function Carosel() {
             caroselDom.classList.remove('carosel-animate');
                 caroselDom.style.marginLeft = '0'
                 caroselItems = 0
-            },1200)
+            },2200)
         }
     }
     const caro = setInterval(cek,banter * 1000)
