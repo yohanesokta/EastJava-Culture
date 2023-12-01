@@ -15,6 +15,16 @@ const DropdownMenuBudaya = () => {
   );
 };
 
+const DropdownMenuKesenian = () => {
+  return (
+    <div className="dropdown-menu drop2">
+      <a href="#">Kerajinan Tangan</a>
+      <a href="#">Bahasa dan Sastra</a>
+      <a href="#">Gaya Hidup Tradisional</a>
+    </div>
+  );
+}
+
 const Navbar = () => {
 
   let drop = false
@@ -27,6 +37,7 @@ const Navbar = () => {
       drop = true
     }
   }
+
 
   return (
     <>
@@ -45,7 +56,7 @@ const Navbar = () => {
           </a>
           <a href="#" className="nav-menu">
             <p>Kesenian</p> <Gmaterial name="arrow_drop_down" />
-            <DropdownMenuBudaya />
+            <DropdownMenuKesenian />
           </a>
           <a href="#" className="nav-menu">
             <p>Kuliner</p> <Gmaterial hide="yes" name="fiber_manual_record" />
