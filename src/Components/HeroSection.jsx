@@ -19,7 +19,7 @@ export default function HeroSection() {
     return (
         <>
         <div className="col-carosel">
-            <div className="carosel">
+            <div className="carosel carosel-animate">
                 <div className="f-carosel">
                     <img src={caroselFirst} alt="" />
                     <div className="f-carosel-center-text">
@@ -39,6 +39,13 @@ export default function HeroSection() {
                     <div className="f-carosel-left-text">
                         <h1>Wisata Kuliner Jawa Timur</h1>
                         <p>Menyajikan Citra Rasa sejati Yang Memikat Lidah Dan Hati</p>
+                    </div>
+                </div>
+                <div className="f-carosel">
+                    <img src={caroselFirst} alt="" />
+                    <div className="f-carosel-center-text">
+                        <h1>Explorasi Budaya Jawa Timur</h1>
+                        <p>Di Setiap Detik</p>
                     </div>
                 </div>
             </div>

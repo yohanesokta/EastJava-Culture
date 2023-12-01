@@ -1,14 +1,18 @@
+
 .col-carosel{
     z-index: -99;
     width: 100%;
-    height: 650px;
+    height: 720px;
     overflow: hidden;
     background-color: red;
 }
 .carosel{
     display: flex;
-    width: 300%;
+    width: 400%;
     right: 100%;
+}
+.carosel-animate{
+    transition: 1s ease;
 }
 .f-carosel{
     position: relative;
@@ -18,7 +22,7 @@
 
 .f-carosel img{
     width: 100%;
-    height: 650px;
+    height: 720px;
     object-fit: cover;
 }
 .f-carosel-center-text{
