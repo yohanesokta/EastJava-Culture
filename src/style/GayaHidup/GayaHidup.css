@@ -102,3 +102,22 @@
         margin-bottom: 40px;
     }
 }
+@media only screen and (max-width:980px){
+    
+    .image-top .col-text{
+        width: 90%;
+        line-height: 40pt;
+        word-spacing: 20px;
+    }
+}
+@media only screen and (max-width:750px){
+    .image-top .col-text{
+        height: 70%;
+    }
+}
+@media only screen and (max-width:400px){
+    .image-top .col-text p{
+        font-size: 24pt;
+        word-spacing: normal;
+    }
+}
