@@ -1,0 +1,28 @@
+.card-slider{
+    width: 250px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-slider img{
+    transition: .5s ease;
+    width: 250px;
+} 
+.card-text{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    bottom: 40px;   
+}
+.card-slider .card-text p{
+    width: 70%;
+    margin: auto;
+    color: white;
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: center;
+    line-height: 24pt;
+}
+.card-slider img:hover{
+    transform: scale(1.1);
+}

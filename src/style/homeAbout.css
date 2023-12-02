@@ -1,0 +1,79 @@
+.home-about{
+    padding-top: 45px;
+    background-color:  white;
+    width: 100%;
+    position: relative;
+}
+.flex-container{
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+    color: #585858;
+}
+.flex-container img{
+    margin: auto;
+}
+.flex-container p{
+    margin: auto;
+    width: 65%;
+    text-align: justify;
+}
+.about-line-2{
+    display: flex;
+    height: 80px;
+}
+.about-line-2 .first-svg{
+    position: absolute;
+    width: 80px;
+}
+.about-line-2 .line-effect{
+    margin: auto;
+}
+.box-effect {
+    position:absolute;
+    right: 4px;
+    height: 70px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.box-effect-f{
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.box-effect-f svg:last-child{
+    transform: rotate(90deg);
+}
+.box-effect .box-effect-f:last-child{
+    margin-top: 4px;
+}
+.box-effect .box-effect-f:last-child svg:first-child{
+    transform: rotate(90deg);
+}
+
+/* Next about ++ */
+
+.next-about{
+    background-color: white;
+    width: 100%;
+}
+.next-about .circle-element{
+    height: 80px;
+}
+@media only screen and (max-width:550px){
+    .circle-element , .first-svg{
+        display: none;
+    }
+    .box-effect-f{
+        display: none;
+    }
+}
+@media only screen and (max-width:460px){
+    
+    .home-about .flex-container img,.line-effect{
+        width: 40px;
+    }   
+    .flex-container p{
+        width: 90%;
+    }
+}

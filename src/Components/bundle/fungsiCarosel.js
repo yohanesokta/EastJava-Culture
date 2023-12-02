@@ -1,8 +1,8 @@
 function Carosel() {
     var banter = 5
     let caroselDom = document.querySelector(".carosel")
-    // caroselDom.style.marginLeft = '-100%'
-    let caroselItems = 0 // 0 - 1 - 2 - -3 [0]
+    
+    let caroselItems = 0
 
     function cek() {
         if (caroselItems == 0) {
@@ -19,7 +19,7 @@ function Carosel() {
             caroselDom.classList.remove('carosel-animate');
                 caroselDom.style.marginLeft = '0'
                 caroselItems = 0
-            },1200)
+            },2200)
         }
     }
     const caro = setInterval(cek,banter * 1000)

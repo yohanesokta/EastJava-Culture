@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 import "../style/heroSection.css";
 import caroselFirst from "../assets/image-x1.png";
-import caroselDwo from "../assets/image-x2.png";
+import caroselDwo from "../assets/image-x4.png";
 import caroselThree from "../assets/image-x3.png"
 import Carosel from "./bundle/fungsiCarosel";
 
@@ -50,6 +50,7 @@ export default function HeroSection() {
                 </div>
             </div>
         </div>
+        <div className="fix-col-carosel"></div>
         </>
     );
 }

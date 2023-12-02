@@ -50,11 +50,11 @@ const Navbar = () => {
           <a href="#" className="nav-menu">
             <p>Home</p> <Gmaterial hide="yes" name="fiber_manual_record" />
           </a>
-          <a href="#" className="nav-menu">
+          <a className="nav-menu">
             <p>Budaya</p> <Gmaterial name="arrow_drop_down" />
             <DropdownMenuBudaya />
           </a>
-          <a href="#" className="nav-menu">
+          <a className="nav-menu">
             <p>Kesenian</p> <Gmaterial name="arrow_drop_down" />
             <DropdownMenuKesenian />
           </a>
