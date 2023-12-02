@@ -55,6 +55,11 @@
 .f-carosel-left-text p, .f-carosel-left-text h1{
     color: white;
     margin-left: 15%;
+    line-height: 35pt;
+}
+.f-carosel-left-text p{
+    font-weight: 400;
+    font-size: 24pt;
 }
 .f-carosel-left-text h1{
     font-weight: bold;
@@ -63,4 +68,14 @@
 .f-carosel-left-text p{
     font-size: 24pt;
     font-weight: bold;
+}
+@media only screen and (max-width:1020px){
+    .f-carosel-left-text p, .f-carosel-left-text h1{
+        text-align: center;
+        margin: 0;
+    }
+    .f-carosel-left-text p{
+        font-weight: 400;
+        font-size: 24pt;
+    }
 }
