@@ -1,0 +1,51 @@
+.home-about{
+    padding-top: 57px;
+    background-color:  white;
+    width: 100%;
+    position: relative;
+}
+.flex-container{
+    width: 100%;
+    display: flex;
+}
+.flex-container img{
+    margin: auto;
+}
+.flex-container p{
+    margin: auto;
+    width: 65%;
+    text-align: justify;
+}
+.about-line-2{
+    display: flex;
+    height: 80px;
+}
+.about-line-2 .first-svg{
+    position: absolute;
+    width: 80px;
+}
+.about-line-2 .line-effect{
+    margin: auto;
+}
+
+.box-effect {
+    position:absolute;
+    right: 4px;
+    height: 70px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.box-effect-f{
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.box-effect-f svg:last-child{
+    transform: rotate(90deg);
+}
+.box-effect .box-effect-f:last-child{
+    margin-top: 4px;
+}
+.box-effect .box-effect-f:last-child svg:first-child{
+    transform: rotate(90deg);
+}
