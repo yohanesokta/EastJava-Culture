@@ -1,7 +1,7 @@
-import "../style/homeAbout.css";
-import lineEffect from "../assets/line-effect_1.svg";
-import firstSVG from "../assets/up-circle-effect_1.svg";
-
+import "../../style/homeAbout.css";
+import lineEffect from "../../assets/line-effect_1.svg";
+import firstSVG from "../../assets/up-circle-effect_1.svg";
+import circleSVG from "../../assets/up-circle-effect_2.svg";
 const TripleLineSvg = (props) => {
   return (
     <svg
@@ -22,7 +22,7 @@ const TripleLineSvg = (props) => {
       />
       <path d="M76 76L0 76L-1.24577e-06 61.75L76 61.75L76 76Z" fill={props.fill} />
     </svg>
-  );
+  );    
 };
 
 export default function HomeAbout() {
@@ -57,6 +57,14 @@ export default function HomeAbout() {
             <TripleLineSvg fill="#9EABA2" />
             </div>
           </div>
+        </div>
+      </div>
+
+
+      <div className="next-about">
+        <img src={circleSVG} alt="" className="circle-element" />
+
+        <div className="flex-container">
         </div>
       </div>
     </>

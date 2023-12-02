@@ -1,5 +1,6 @@
 import HeroSection from "../Components/HeroSection"
-import HomeAbout from "../Components/HomeAbout"
+import ExplorasiBudaya from "../Components/Home/ExplorasiBudaya"
+import HomeAbout from "../Components/Home/HomeAbout"
 import Navbar from "../Components/Navbar"
 import Title from "../Components/title"
 
@@ -10,6 +11,7 @@ const Home = () =>{
             <Navbar />
             <HeroSection />
             <HomeAbout />
+            <ExplorasiBudaya />
         </>
      )
 }

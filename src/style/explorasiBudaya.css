@@ -1,0 +1,68 @@
+
+.explorasi-budaya{
+    position: relative;
+    padding: 0;
+    width: 100%;
+    margin-top: -20px;
+    background-color: white;
+    display: flex;
+}
+.explorasi-budaya .element2{
+    position: absolute;
+    right: 0;
+    top:50px;
+    height: 70px;
+}
+.explorasi-budaya .images{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    position: relative;
+    margin:auto;    
+}
+.explorasi-budaya .images img:first-child{
+    height: 225px;
+    margin: auto;
+    z-index: 10;
+}
+.explorasi-budaya .images img:nth-child(2) , .explorasi-budaya .images img:last-child{
+    height: 150px;
+    position: absolute;
+}
+.explorasi-budaya .images img:nth-child(2){
+    right: 0;
+}
+.explorasi-budaya .images img:last-child{
+    left: 0;
+    bottom: 0;
+}
+.explorasi-budaya .images-container{
+    width: 50%;
+    display: flex;
+    height: 100%;
+}
+.explorasi-budaya .content-container{
+    width: 40%;
+    display: flex;
+    height: 300px;
+}
+.explorasi-budaya .content-container h1{
+    color: #9EABA2;
+}
+.explorasi-budaya .content-container p{
+    color: #585858;
+}
+.explorasi-budaya  .content-container button{
+    padding: 10px 15px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #919291;
+}
+.content-container .content{
+    margin: auto;
+}

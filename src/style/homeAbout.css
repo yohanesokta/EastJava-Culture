@@ -1,5 +1,5 @@
 .home-about{
-    padding-top: 57px;
+    padding-top: 45px;
     background-color:  white;
     width: 100%;
     position: relative;
@@ -7,6 +7,8 @@
 .flex-container{
     width: 100%;
     display: flex;
+    margin-bottom: 10px;
+    color: #585858;
 }
 .flex-container img{
     margin: auto;
@@ -27,7 +29,6 @@
 .about-line-2 .line-effect{
     margin: auto;
 }
-
 .box-effect {
     position:absolute;
     right: 4px;
@@ -48,4 +49,14 @@
 }
 .box-effect .box-effect-f:last-child svg:first-child{
     transform: rotate(90deg);
+}
+
+/* Next about ++ */
+
+.next-about{
+    background-color: white;
+    width: 100%;
+}
+.next-about .circle-element{
+    height: 80px;
 }
