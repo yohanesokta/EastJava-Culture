@@ -1,0 +1,24 @@
+.desBudaya{
+    padding-top: 40px;
+    display: block;
+    background-color: white;
+}
+.desBudaya .flex-container h1{
+    margin-left: 5%;
+}
+.slider-scrolling{
+    padding-top: 10px;
+    position: relative;
+    width: 100%;
+    overflow: scroll;
+    padding-bottom: 50px;
+}
+.slider-container{
+    position: relative;
+    display: inline-flex;
+    gap: 20px;
+    font-size: 0;
+}
+.slider-container a:first-child{
+    margin-left: calc(5 / 100 * 100vw);
+}

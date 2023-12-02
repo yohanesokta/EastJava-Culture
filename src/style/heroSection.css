@@ -70,12 +70,21 @@
     font-weight: bold;
 }
 @media only screen and (max-width:1020px){
+
     .f-carosel-left-text p, .f-carosel-left-text h1{
         text-align: center;
+        font-size: 24pt;
         margin: 0;
     }
     .f-carosel-left-text p{
         font-weight: 400;
+        font-size: 18pt;
+    }
+    .f-carosel-center-text p{
+        font-size: 18pt;
+    }
+    .f-carosel-center-text h1{
+        line-height: 30pt;
         font-size: 24pt;
     }
 }

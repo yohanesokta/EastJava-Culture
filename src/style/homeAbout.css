@@ -60,3 +60,20 @@
 .next-about .circle-element{
     height: 80px;
 }
+@media only screen and (max-width:550px){
+    .circle-element , .first-svg{
+        display: none;
+    }
+    .box-effect-f{
+        display: none;
+    }
+}
+@media only screen and (max-width:460px){
+    
+    .home-about .flex-container img,.line-effect{
+        width: 40px;
+    }   
+    .flex-container p{
+        width: 90%;
+    }
+}
