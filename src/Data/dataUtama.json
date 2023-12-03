@@ -1,0 +1,68 @@
+{
+    "Budaya":[{
+       "Destinasi budaya": [{
+         "nama": "Monumen Tugu Pahlawan",
+        "desc":"Monumen Tugu Pahlawan adalah landmark tinggi di Surabaya, Indonesia, untuk menghormati pahlawan yang berjuang untuk kemerdekaan. Terdiri dari struktur tinggi dengan api abadi di puncaknya, menjadi simbol keberanian dan pengorbanan para pejuang.",
+        "loc": "Jl. Pahlawan, Alun-alun Contong, Kec. Bubutan, Surabaya, Jawa Timur 60174"
+       },{
+        "nama": "Museum Sepuluh November",
+        "desc": "Museum 10 November di Surabaya adalah tempat yang mengenang pertempuran bersejarah pada 10 November 1945. Di sini, Anda bisa melihat artefak dan dokumentasi mengenai perjuangan heroik rakyat Surabaya dalam menghadapi penjajah.",
+        "loc":"Jl. Pahlawan, Alun-alun Contong, Kec. Bubutan, Surabaya, Jawa Timur 60174"
+       }
+    ]},[
+        {
+            "Kesenian tradisional": [{
+                "id":"1",
+                "nama": "Topeng Maulud",
+                "desc": "Topeng Maulud Surabaya adalah seni pertunjukan tradisional yang menggabungkan tarian, drama, dan topeng khas. Dipentaskan di Surabaya, kesenian ini memukau dengan gerakan tarian yang anggun dan cerita-cerita yang menghibur, seringkali berdasarkan tema keagamaan.",
+                "loc": "Kota Surabaya"
+            },{
+                "id":"2",
+                "nama": "Ludruk",
+                "desc": "Ludruk adalah seni teater rakyat Surabaya yang menggabungkan dialog, tarian, musik, dan komedi dalam pertunjukan yang menghibur. Dipentaskan oleh aktor lokal, Ludruk menampilkan cerita-cerita lucu yang mengangkat kisah-kisah lokal.",
+                "loc": "Kota Surabaya"
+            },{
+                "id": "3",
+                "nama":"Tari Tayub",
+                "desc":""
+            }
+        ]},[
+          {
+            "Kuliner Lokal": [{
+                "id":"1",
+                "nama":"Rujak Cingur",
+                "desc": "Rujak Cingur adalah hidangan khas Surabaya berisi mentimun, tauge, kentang, tempe, tahu, dan cingur (moncong sapi) dengan saus bumbu kacang yang lezat.",
+                "loc": "Kota Surabaya"
+            },{
+                "id":"2",
+                "nama":"Lontong Balap",
+                "desc":"Lontong Balap adalah hidangan khas Surabaya yang terdiri dari potongan lontong (nasi ketan kukus), taoge (kecambah kacang hijau), tahu goreng, lentho (perkedel kacang hijau), dan potongan kerupuk, disiram dengan kuah kacang yang kaya rasa. Hidangan ini sering ditaburi bawang goreng dan sambal, memberikan perpaduan tekstur dan rasa yang unik.",
+                "loc":"Kota Surabaya"
+            },{
+                "id":"3",
+                "nama":"Tahu Telur",
+                "desc":"Tahu Telur adalah hidangan khas Surabaya yang terbuat dari tahu yang digoreng, kemudian dicampur dengan adonan telur dan dimasak hingga berbentuk dadar. Hidangan ini disajikan dengan kuah kental manis yang terbuat dari bumbu kacang, petis (saus udang hitam), dan potongan daun bawang serta irisan timun.",
+                "loc":"Kota Surabaya"
+            }
+        ]},[
+        {
+            "Kerajinan Tangan": [{
+                "id":"1",
+                "nama":"Miniatur ikon Surabaya",
+                "desc":"Tahu Telur adalah hidangan khas Surabaya yang terbuat dari tahu yang digoreng, kemudian dicampur dengan adonan telur dan dimasak hingga berbentuk dadar. Hidangan ini disajikan dengan kuah kental manis yang terbuat dari bumbu kacang, petis (saus udang hitam), dan potongan daun bawang serta irisan timun.",
+                "loc":"Surabaya"
+            },{
+                "id":"2",
+                "nama":"Udeng",
+                "desc":"Udeng khas Surabaya adalah penutup kepala tradisional terbuat dari kain batik berwarna cerah dengan beragam motif. Bentuknya seperti topi pet tegak, bagian depan timbul ke atas. Dipakai miring ke belakang dan dihiasi renda, berfungsi melindungi kepala dari panas. Udeng Surabaya merupakan identitas budaya lokal yang kerap dikenakan penari remo dan pengantin perempuan Jawa.",
+                "loc":"Surabaya"
+            },{
+
+            }
+        ]}
+        ]
+        ]  
+        ]
+    ]
+
+}
