@@ -1,0 +1,27 @@
+.explore-kuliner{
+    width: 100%;
+    background-color: white;
+}
+.explore-kuliner h1{
+    text-align: center;
+    font-size: 24pt;
+    color: #9EABA2;
+}
+.con-explore{
+    width: 100%;
+    overflow-x: scroll;
+}
+.con-content-explore{
+    width: 300%;
+    display: inline-flex;
+}
+.content-explore{
+    width: 100%;
+    display: flex;
+}
+.content-explore .content{
+    width: 80%;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px auto;
+}

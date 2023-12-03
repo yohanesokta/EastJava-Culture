@@ -15,6 +15,7 @@ html{
     border: 1px solid red;
 }
 body{
+    cursor: pointer;
     background-color: white;
     position: relative;
 }
@@ -28,4 +29,8 @@ body{
 
 .disable{
     display: none;
+}
+#root,body{
+    position: relative;
+    z-index: -20;
 }

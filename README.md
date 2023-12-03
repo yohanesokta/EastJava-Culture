@@ -1,7 +1,5 @@
 ## 🫠 East Java Culture ~> TECHCOMFEST 2023
 
-Starting Dev On 01 Desember 2023
-
 # React + Vite
 Currently, two official plugins are available:
 
