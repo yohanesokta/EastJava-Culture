@@ -57,6 +57,25 @@ background: linear-gradient(269deg, #9EABA2 -19.52%, #FFF 57.32%);
 .large-card .right-field .right-content{
     margin: auto 0;
 }
+
+@media only screen and (max-width:1410px){
+    .large-card .right-field h2{
+        font-size: 16pt;
+        margin-bottom: 5px;
+    }
+    .large-card .right-field span{
+        padding: 5px 20px;
+        font-size: 23pt;
+    }
+    .large-card .right-field h4{
+        font-size: 18pt;
+        margin-top: 0;
+    }
+    .large-card .right-field p{
+        font-size: 11pt;
+    }
+}
+
 @media only screen and (max-width:1150px){
     .large-card .left-field, .large-card .right-field{
         width: 50%;

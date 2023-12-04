@@ -1,0 +1,65 @@
+.top-fest{
+    width: 100%;
+    position: relative;
+}
+.top-fest img{
+    width: 100%;
+    height: 80vh;
+    z-index: -4;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+}
+.top-fest svg{
+    height: 80vh;
+    width: 100%;
+}
+.bunder{
+    position: absolute;
+    width: 150px;
+    right: 0;
+    height: 300px;
+    bottom:-150px;
+    overflow: hidden;
+}
+.bunder::after{
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: #E8B298;
+    border-radius: 50%;
+}
+.gradient-nisor{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, #9EABA2 100%);
+}
+.container-text{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+.container-text .field-text{
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.container-text .field-text h1{
+    font-size: 42pt;
+}
+.container-text .field-text p{
+    font-size: 18pt;
+    color: white;
+    width: 80%;
+    text-align: center;
+}
+@media only screen and (max-width:980px){
+    .bunder{
+        display: none;
+    }
+}
