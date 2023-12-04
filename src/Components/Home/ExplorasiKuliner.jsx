@@ -7,7 +7,10 @@ import SegoTempong from "../../assets/kuliner/SegoTempong.png";
 import LontongKupang from "../../assets/kuliner/LontongKupang.png";
 import KueManco from "../../assets/kuliner/KueManco.png";
 
+
 const ExplorasiKuliner = () => {
+
+    
   return (
     <>
       <div className="explore-kuliner">
