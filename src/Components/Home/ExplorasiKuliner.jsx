@@ -10,21 +10,34 @@ import KueManco from "../../assets/kuliner/KueManco.png";
 
 const ExplorasiKuliner = () => {
 
+    let scrollValue = 0;
+    let dom = document.querySelector('con-content-explore')
     
+    function ButtonFunction(move){
+        if(move == 'right'){
+            if (scrollValue ){
+                
+            }
+        }
+    
+    }
   return (
     <>
       <div className="explore-kuliner">
         <h1>Explorasi Kuliner Lokal</h1>
         <div className="con-explore">
-          <div className="container-buuton">
-            <div className="btn-next kiwo">
-              <Gmaterial name="navigate_next" />
+
+          <div className="con-button">
+            <div className="tombol left">
+                  <button>
+                      <Gmaterial name="navigate_next" />
+                  </button>
             </div>
-          </div>
-          <div className="container-buuton tengen">
-            <a className="btn-next">
-              <Gmaterial name="navigate_next" />
-            </a>
+            <div className="tombol right">
+                  <button>
+                      <Gmaterial name="navigate_next" />
+                  </button>
+            </div>
           </div>
           <div className="con-content-explore">
             <div className="content-explore">

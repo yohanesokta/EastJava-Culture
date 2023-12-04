@@ -1,6 +1,8 @@
 .explore-kuliner{
     width: 100%;
     background-color: white;
+    padding-bottom: 120px;
+    padding-top: 4  0px;    
 }
 .explore-kuliner h1{
     text-align: center;
@@ -8,13 +10,14 @@
     color: #9EABA2;
 }
 .con-explore{
+    margin-top: 40px;
     position: relative;
     width: 100%;
-    overflow-x: scroll;
+    overflow-x: hidden;
 }
 .con-content-explore{
     width: 400%;
-    display: inline-flex;
+    display: flex;
 }
 .content-explore{
     width: 100%;
@@ -26,36 +29,54 @@
     overflow: hidden;
     margin: 20px auto;
 }
-.container-buuton{
-    margin-left: var(--global-gap);
-    width: auto;
+.con-button{
     position: absolute;
-    display: flex;
+    width: 100%;
     height: 100%;
 }
-.con-explore .btn-next{
-    cursor: pointer;
-    margin: auto 0;
-    width: 60px;
-    height: 60px;
+.con-button .tombol{
     display: flex;
-    border-radius: 50%;
-    background-color: rgb(155, 155, 155);
-    transition: .3s ease    ;
+    height: 100%;
+    position: absolute;
 }
-.con-explore .btn-next:hover{
+.con-button .tombol button{
+    width: 60px;
+    margin: auto 0;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    display: flex;
+    transition: .3s ease;
+    background-color: rgb(176, 176, 176);
+    height: 60px;
+}
+.con-button .tombol button:hover{
     background-color: gray;
 }
-.con-explore .btn-next span {
-    pointer-events: none;
+.con-button .tombol button:active{
+    background-color: rgb(192, 192, 192);
+}
+.con-button .tombol button span{
     margin: auto;
     font-size: 24pt;
+    font-weight: bold;
     color: white;
 }
-.con-explore .kiwo{margin-top: 200px;
+.con-button .left{
+    left: var(--global-gap);
+}
+.con-button .left button span{
     transform: rotate(180deg);
 }
-.con-explore .tengen{
-    margin-left: 0;
+.con-button .right{
     right: var(--global-gap);
+}
+
+@media only screen and (max-width:1050px){
+    .con-button{
+        display: none;
+    }
+    .con-explore{
+        overflow-x: scroll;
+    }
 }
