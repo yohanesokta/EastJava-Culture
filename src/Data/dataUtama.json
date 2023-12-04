@@ -1,14 +1,31 @@
 {
     "Budaya":[{
        "Destinasi budaya": [{
+        "id":"1",
          "nama": "Monumen Tugu Pahlawan",
         "desc":"Monumen Tugu Pahlawan adalah landmark tinggi di Surabaya, Indonesia, untuk menghormati pahlawan yang berjuang untuk kemerdekaan. Terdiri dari struktur tinggi dengan api abadi di puncaknya, menjadi simbol keberanian dan pengorbanan para pejuang.",
         "loc": "Jl. Pahlawan, Alun-alun Contong, Kec. Bubutan, Surabaya, Jawa Timur 60174"
        },{
+        "id":"2",
         "nama": "Museum Sepuluh November",
         "desc": "Museum 10 November di Surabaya adalah tempat yang mengenang pertempuran bersejarah pada 10 November 1945. Di sini, Anda bisa melihat artefak dan dokumentasi mengenai perjuangan heroik rakyat Surabaya dalam menghadapi penjajah.",
         "loc":"Jl. Pahlawan, Alun-alun Contong, Kec. Bubutan, Surabaya, Jawa Timur 60174"
-       }
+       },{
+        "id":"3",
+        "nama": "Monumen Trisula",
+        "desc":"Monumen Trisula di Blitar adalah monumen yang didedikasikan untuk mengenang Soekarno, Mohammad Hatta, dan Kyai Abdul Wahid Hasyim dalam perjuangan kemerdekaan Indonesia. Bentuknya menyerupai trisula dan menjadi simbol penting dalam sejarah perjuangan bangsa.",
+        "loc":"P3RF+5MX, Jl. Trisula, Bakung Utara, Bakung, Kec. Bakung, Kabupaten Blitar, Jawa Timur 66163"
+       },{
+        "id":"4",
+        "nama":"Candi Penataran",
+        "desc":"Candi Penataran di Blitar, Jawa Timur, adalah kompleks candi Hindu terbesar di Indonesia Timur. Dengan arsitektur megah dan relief menggambarkan kisah epik Hindu, candi ini menarik bagi pengunjung yang ingin menjelajahi warisan budaya Indonesia.",
+        "loc":"Penataran, Kec. Nglegok, Kabupaten Blitar, Jawa Timur 66181"
+    },{
+        "id":"5",
+        "nama":"Monumen Peta Blitar",
+        "desc":"Monumen Peta Blitar adalah monumen yang menampilkan peta Blitar, Jawa Timur, yang terbuat dari batu. Berlokasi di alun-alun kota, monumen ini menjadi landmark penting yang memberikan informasi geografis dan menjadi tempat berkumpul warga setempat serta pengunjung.",
+        "loc":"W54G+9VJ, Jl. Sudanco Supriyadi, Bendogerit, Kec. Sananwetan, Kota Blitar, Jawa Timur 66133"
+    }
     ]},[
         {
             "Kesenian tradisional": [{
@@ -24,7 +41,13 @@
             },{
                 "id": "3",
                 "nama":"Tari Tayub",
-                "desc":""
+                "desc":"Tari Tayub Blitar adalah versi lokal dari tari tradisional Jawa yang dimainkan di daerah Blitar, Jawa Timur. Tetap mempertahankan elemen-elemen tari Jawa, tarian ini sering menampilkan gerakan ringan, musik live, dan interaksi yang erat antara penari dan penonton, memberikan sentuhan khas dari budaya Blitar ke dalam pertunjukan.",
+                "loc":"Kota Blitar"
+            },{
+                "id":"4",
+                "nama":"Jaranan Trill",
+                "desc":"Jaranan Tril Blitar adalah variasi lokal dari kesenian Jaranan di Jawa Timur yang menampilkan pertunjukan tarian kuda-kudaan dengan gerakan dinamis dan musik live, seringkali memadukan aspek ritual dan cerita-cerita legenda dalam pertunjukan mereka.",
+                "loc":"Kota Blitar"
             }
         ]},[
           {
@@ -43,6 +66,11 @@
                 "nama":"Tahu Telur",
                 "desc":"Tahu Telur adalah hidangan khas Surabaya yang terbuat dari tahu yang digoreng, kemudian dicampur dengan adonan telur dan dimasak hingga berbentuk dadar. Hidangan ini disajikan dengan kuah kental manis yang terbuat dari bumbu kacang, petis (saus udang hitam), dan potongan daun bawang serta irisan timun.",
                 "loc":"Kota Surabaya"
+            },{
+                "id":"4",
+                "nama":"Wajik Kletik",
+                "desc":"Wajik Kletik adalah makanan khas dari Blitar yang terbuat dari ketan yang dimasak dengan gula kelapa, santan, dan beberapa rempah tradisional. Makanan ini memiliki tekstur kenyal dan manis, seringkali dibentuk seperti wajik (segi enam) sebelum dipotong menjadi potongan-potongan kecil. Biasanya disajikan sebagai camilan atau hidangan manis di Blitar.",
+                "loc":"Kota Blitar"
             }
         ]},[
         {
@@ -57,7 +85,7 @@
                 "desc":"Udeng khas Surabaya adalah penutup kepala tradisional terbuat dari kain batik berwarna cerah dengan beragam motif. Bentuknya seperti topi pet tegak, bagian depan timbul ke atas. Dipakai miring ke belakang dan dihiasi renda, berfungsi melindungi kepala dari panas. Udeng Surabaya merupakan identitas budaya lokal yang kerap dikenakan penari remo dan pengantin perempuan Jawa.",
                 "loc":"Surabaya"
             },{
-
+                "id":"3"
             }
         ]}
         ]
