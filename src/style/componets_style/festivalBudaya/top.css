@@ -63,3 +63,19 @@
         display: none;
     }
 }
+@media only screen and (max-width:950px){
+    .container-text .field-text h1{
+        font-size: 32pt;
+    }
+    .container-text .field-text p{
+        font-size: 16pt;
+    }
+}
+@media only screen and (max-width:580px){
+    .container-text .field-text h1{
+        font-size: 24pt;
+    }
+    .container-text .field-text p{
+        font-size: 12pt;
+    }
+}
