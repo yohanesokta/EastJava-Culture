@@ -11,7 +11,7 @@ const FestivalBudaya = () =>{
             <Kenduren />
             <GandrungSewu />
             <JemberFestival />
-            {/* <ReogPonorogo /> */}
+            <ReogPonorogo />
         </>
     )
 }
