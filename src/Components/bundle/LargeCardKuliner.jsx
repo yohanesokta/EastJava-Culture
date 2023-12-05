@@ -10,7 +10,7 @@ const LargeCardKuliner = (props) => {
         </div>
         <div className="right-field">
             <div className="right-content">
-            <h2>Kuliner Local</h2>
+            <h2>Kuliner Lokal</h2>
             <div className="flex-container">
               <span>{props.name}</span>
             </div>

@@ -4,6 +4,7 @@ import DestinasiBudaya from "../Components/Home/DestinasiBudaya"
 import ExplorasiBudaya from "../Components/Home/ExplorasiBudaya"
 import ExplorasiKuliner from "../Components/Home/ExplorasiKuliner"
 import HomeAbout from "../Components/Home/HomeAbout"
+import FestivalBudaya from "../Components/Home/FestivalBudaya"
 import Navbar from "../Components/Navbar"
 import Title from "../Components/title"
 
@@ -18,8 +19,8 @@ const Home = () =>{
             <DestinasiBudaya />
             <AboutKesenian />
             <DestinasiBudaya />
-
             <ExplorasiKuliner />
+            <FestivalBudaya />
         </>
      )
 }
