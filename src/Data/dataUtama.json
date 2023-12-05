@@ -25,6 +25,7 @@
         "nama":"Monumen Peta Blitar",
         "desc":"Monumen Peta Blitar adalah monumen yang menampilkan peta Blitar, Jawa Timur, yang terbuat dari batu. Berlokasi di alun-alun kota, monumen ini menjadi landmark penting yang memberikan informasi geografis dan menjadi tempat berkumpul warga setempat serta pengunjung.",
         "loc":"W54G+9VJ, Jl. Sudanco Supriyadi, Bendogerit, Kec. Sananwetan, Kota Blitar, Jawa Timur 66133"
+<<<<<<< HEAD
     },{
         "id":"6",
         "nama":"Candi Brahu",
@@ -111,6 +112,9 @@
     "desc":"Museum Balumbung Situbondo adalah museum kecil yang dibangun untuk melestarikan sejarah perjuangan rakyat Situbondo melawan penjajah Belanda pada abad ke-19 di bawah pimpinan pahlawan lokal Ki Balumbung. Museum ini menyimpan koleksi berupa senjata tradisional, bendera perjuangan, patung para pejuang, dan foto zaman dahulu. Bangunan museum didesain menyerupai rumah adat Situbondo.",
     "loc":"Jl. Raya Asembagus, Krajan Timur, Asembagus, Kec. Asembagus, Kabupaten Situbondo, Jawa Timur 68373"
 }
+=======
+    }
+>>>>>>> main
     ]},[
         {
             "Kesenian tradisional": [{
@@ -133,6 +137,7 @@
                 "nama":"Jaranan Trill",
                 "desc":"Jaranan Tril Blitar adalah variasi lokal dari kesenian Jaranan di Jawa Timur yang menampilkan pertunjukan tarian kuda-kudaan dengan gerakan dinamis dan musik live, seringkali memadukan aspek ritual dan cerita-cerita legenda dalam pertunjukan mereka.",
                 "loc":"Kota Blitar"
+<<<<<<< HEAD
             },{
                 "id":"5",
                 "nama":"Wayang Kurcil",
@@ -143,6 +148,8 @@
                 "nama":"Jaranan Madiun",
                 "desc":"Kesenian jaranan Madiun adalah pertunjukan tarian, musik gamelan, dan atraksi kuda-kudaan anyaman bambu. Para penari menceritakan cerita dengan gerakan dinamis di antara kuda-kudaan. Ini adalah seni tradisional yang penuh energi dan memukau.",
                 "loc":"Kota Madiun"
+=======
+>>>>>>> main
             }
         ]},[
           {
@@ -166,6 +173,7 @@
                 "nama":"Wajik Kletik",
                 "desc":"Wajik Kletik adalah makanan khas dari Blitar yang terbuat dari ketan yang dimasak dengan gula kelapa, santan, dan beberapa rempah tradisional. Makanan ini memiliki tekstur kenyal dan manis, seringkali dibentuk seperti wajik (segi enam) sebelum dipotong menjadi potongan-potongan kecil. Biasanya disajikan sebagai camilan atau hidangan manis di Blitar.",
                 "loc":"Kota Blitar"
+<<<<<<< HEAD
             },{
                 "id":"5",
                 "nama":"Getuk Lindri",
@@ -176,6 +184,8 @@
                 "nama":"Pecel madiun",
                 "desc":"Pecel Madiun adalah hidangan sayur dengan sambal kacang gurih dan pedas, disajikan dengan rempeyek, tahu, tempe, dan lontong.",
                 "loc":"Kota Madiun"
+=======
+>>>>>>> main
             }
         ]},[
         {
@@ -190,6 +200,7 @@
                 "desc":"Udeng khas Surabaya adalah penutup kepala tradisional terbuat dari kain batik berwarna cerah dengan beragam motif. Bentuknya seperti topi pet tegak, bagian depan timbul ke atas. Dipakai miring ke belakang dan dihiasi renda, berfungsi melindungi kepala dari panas. Udeng Surabaya merupakan identitas budaya lokal yang kerap dikenakan penari remo dan pengantin perempuan Jawa.",
                 "loc":"Surabaya"
             },{
+<<<<<<< HEAD
                 "id":"3",
                 "nama":"Kerajinan Gerabah",
                 "desc":"Kerajinan gerabah khas Blitar menampilkan keunikan dalam desain, sering terinspirasi dari budaya lokal. Warna alami tanah liat digunakan, dan motif-motif tradisional seperti bunga dan hewan diaplikasikan dengan indah. Proses pembuatannya melibatkan teknik tradisional, seperti pembentukan dengan roda atau tangan, pengeringan, dan pembakaran. Produknya bervariasi, mulai dari vas bunga, patung, mangkuk, hingga hiasan dinding, sering kali mengandung makna simbolis dari warisan budaya lokal Blitar.",
@@ -199,6 +210,9 @@
                 "nama":"Jaranan Kepang",
                 "desc":"Jaranan kepang Kediri adalah seni pertunjukan tradisional dengan tarian, musik gamelan, dan atraksi kuda-kudaan dari anyaman bambu. Para penari membawakan cerita-cerita dengan gerakan dinamis di antara kuda-kudaan tersebut. Pertunjukan penuh energi dengan kombinasi tarian, musik, dan atraksi visual yang memukau.",
                 "loc":"Kota Kediri"
+=======
+                "id":"3"
+>>>>>>> main
             }
         ]}
         ]
@@ -206,4 +220,8 @@
         ]
     ]
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> main
