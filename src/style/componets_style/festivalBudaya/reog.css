@@ -1,0 +1,67 @@
+.reog{
+    padding: 50px 0;
+    background: #BDD1C5;
+    width: 100%;
+    overflow: hidden;
+    height: 600px;
+    position: relative;
+}
+.reog .images{
+    z-index: 9;
+    width: 50%;
+    margin: 0 auto;
+}
+.reog .images img{
+    width: 100%;
+}
+.reog .line{
+    width: 70%;
+    height: 3px;
+    background-color: white;
+    margin:  0 auto;
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+}
+.reog .line span{
+    position: absolute;
+    left: calc(50% - 18px);
+    font-size: 18px;
+    color: white;
+    top: -10px;
+    padding: 0 10px;
+    background-color: #BDD1C5;
+    font-weight: 600;
+}
+.reog-paragraf{
+    text-align: center;
+    width: 50%;
+    font-weight: 400;
+    color: white;
+    margin: 0 auto;
+}
+.reog-paragraf span{
+    font-weight: 600;
+}
+#reog-ornam1{
+    width: 150px;
+    position: absolute;
+    left: 5%;
+}
+#reog-ornam2{
+    width: 120px;
+    position: absolute;
+    right: 5%;
+    top: 8%;
+}
+#reog-ornam3{
+    position: absolute;
+    width: 100px;
+    bottom: 0;
+}
+#reog-ornam4{
+    position: absolute;
+    width: 900px;
+    bottom: 0;
+    right: 0;
+}

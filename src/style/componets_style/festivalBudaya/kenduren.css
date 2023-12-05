@@ -118,6 +118,10 @@
         width: 98%;
     }
     .col-bawah .col-text p{
+<<<<<<< HEAD
+        padding-bottom: 40px;
+=======
+>>>>>>> main
         text-align: justify;
     }
 }

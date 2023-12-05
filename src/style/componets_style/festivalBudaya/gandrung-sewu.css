@@ -1,0 +1,110 @@
+.gandrung{
+    width: 100%;
+    position: relative;
+    height: 500px;
+    background-color: #EECC8C;
+}
+.gandrung .col-top{
+    display: flex;
+    width: 100%;
+    height: 10%;
+}
+.text-top{
+    display: flex;
+    width: 46%;
+    margin: auto;
+}
+.text-top h2{
+    padding: 10px;
+    color: #A36361;
+}
+.text-top .line{
+    background-color: #A36361;
+    height: 3px;
+    width: 100%;
+    border-radius: 10px;
+    margin: auto 0;
+}
+.col-top .ornament{
+    position: absolute;
+    width: 25%;
+    height:15%;
+    margin: 0 20px;
+    display: flex;
+}
+.col-top .ornament img{
+    height: 150%;
+    margin: 0 auto;
+}
+.gandrung .col-buttom{
+    width: 100%;
+    height: 90%;
+    position: relative;
+}
+.gandrung .bottom-text-right{
+    width: 25%;
+    height: 65%;
+    position: absolute;
+    right: 2%;
+    display: flex;
+}
+.gandrung .block-container{
+    margin: auto 0;
+}
+.gandrung .bottom-text-right h1{
+    color: #A36361;
+    font-weight: 800;
+    line-height: 30pt;
+}
+.gandrung .bottom-text-right p{
+    color: #a36361b8;
+    font-size: 16pt;
+    font-weight: 600;
+}
+.gandrung .bottom-image-center{
+    width: 42%;
+    height: 65%;
+    margin: 0 auto;
+}
+.gandrung .bottom-image-center img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 9px 9px 5px 0px rgba(0, 0, 0, 0.25);
+}
+.gandrung .bottom-text-left{
+    width: 25%;
+    margin-left: 2%;
+    height: 65%;
+    position: absolute;
+    top: 0;
+}
+.gandrung .bottom-text-left p{
+    position: absolute;
+    bottom: 0;
+    font-weight: 600;
+    color: #A36361;
+
+    
+}
+.gandrung .col-very-bottom{
+    width: 40%;
+    height: 10%;
+    position: absolute;
+    top: 69%;
+    text-align: justify;
+    margin-left: 2%;
+}
+.gandrung .col-very-bottom p{
+    text-align: justify;
+    font-weight: 600;
+    color: #A36361;
+}
+#onion-svg{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
