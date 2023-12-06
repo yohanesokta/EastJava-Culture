@@ -3,6 +3,7 @@
     height: 350px;
     padding: 50px 0;
     background-color: #A36361;
+    position: relative;
 }
 .jember-fest .text-right{
     width: 50%;
@@ -37,4 +38,20 @@
 .jember-fest .text-right p{
     margin-top: 20px;
     margin-left: 50px;
+}
+.kiri{
+    display:block;
+    position:absolute;
+    width: 50%;
+    height: 300px;
+    top:0;
+    border-radius: 30px;
+   border: 2px solid red;
+   margin: 50px 20px 80px 20px;
+   overflow-x: scroll;
+
+}
+.kiri img{
+    width: 100%;
+    object-fit: cover;
 }
