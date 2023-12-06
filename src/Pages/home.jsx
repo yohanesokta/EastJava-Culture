@@ -7,6 +7,7 @@ import HomeAbout from "../Components/Home/HomeAbout";
 import FestivalBudaya from "../Components/Home/FestivalBudaya";
 import Navbar from "../Components/Navbar";
 import Title from "../Components/title";
+import KerajinanTangan from "../Components/Home/KerajinanTangan";
 
 const Home = () => {
 
@@ -22,6 +23,7 @@ const Home = () => {
             <DestinasiBudaya />
             <ExplorasiKuliner />
             <FestivalBudaya />
+            <KerajinanTangan />
         </>
     );
 };
