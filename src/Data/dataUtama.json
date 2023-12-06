@@ -143,7 +143,62 @@
                 "nama":"Jaranan Madiun",
                 "desc":"Kesenian jaranan Madiun adalah pertunjukan tarian, musik gamelan, dan atraksi kuda-kudaan anyaman bambu. Para penari menceritakan cerita dengan gerakan dinamis di antara kuda-kudaan. Ini adalah seni tradisional yang penuh energi dan memukau.",
                 "loc":"Kota Madiun"
-            }
+            },{
+                "id":"7",
+                "nama":"Tari Topeng Malangan",
+                "desc":"Tari Topeng Malangan adalah tarian khas dari Malang, Jawa Timur. Menggunakan topeng dan gerakan ekspresif, tarian ini melambangkan tokoh-tokoh cerita rakyat. Dipertunjukkan dalam berbagai acara budaya, menjadi bagian dari warisan kaya daerah tersebut.",
+                "loc":"Kota Malang"
+            },{
+                "id":"8",
+                "nama":"Tari Remo Jombangan",
+                "desc":"Tari Remo Jombangan adalah variasi lokal dari Tari Remo Jawa Timur. Dengan gerakan dinamis dan kostum berwarna-warni, tarian ini menggambarkan kegembiraan dan kehidupan masyarakat. Dipentaskan dalam berbagai acara budaya di Jombangan dan sekitarnya.",
+                 "loc":"Kabupaten Jombang"
+            },{
+                "id":"9",
+                "nama":"Tari Beskalan",
+                "desc":"Tari Beskalan adalah tarian tradisional dari Malang, Jawa Timur yang ditampilkan menggunakan gerakan kaki yang lincah dan dinamis. Para penari mengenakan pakaian adat serta membawa beskalan atau tampah berisi sesajen. Tari ini biasanya ditampilkan dalam upacara panen untuk menggambarkan kegembiraan para petani Malang.",
+                "loc":"Kota Malang"
+            },{
+                "id":"10",
+                "nama":"Tari Gandrung Sewu",
+                "desc":"Tari Gandrung Sewu adalah Tarian tradisional dari Banyuwangi, Jawa Timur, melibatkan banyak penari dengan gerakan anggun dan semangat. Dipentaskan dalam festival besar dengan musik yang meriah.",
+                "loc":"Kabupaten Banyuwangi"
+            },{
+                "id":"11",
+                "nama":"Karapan Kambing",
+                "desc":"Karapan Kambing Probolinggo adalah tradisi di Probolinggo, Jawa Timur, di mana kambing-kambing yang dihias berlomba lari dengan kostum unik. Acara ini jadi daya tarik dalam festival lokal.",
+                "loc":"Kota Probolinggo"
+            },{
+                "id":"12",
+                "nama":"Bantengan",
+                "desc":"Bantengan Mojokerto adalah tradisi unik dari Mojokerto, Jawa Timur, yang melibatkan pertunjukan tarian yang menampilkan peserta yang mengenakan topeng dan kostum mirip banteng. Mereka menampilkan gerakan-gerakan dramatis yang menggambarkan pertarungan banteng. Acara ini sering menjadi bagian dari perayaan festival atau upacara adat di Mojokerto.",
+                "loc":"Kota Mojokerto"
+            },{
+                "id":"13",
+                "nama":"Tari Glundung",
+                "desc":"Tari Glundung merupakan tarian tradisional yang berasal dari daerah Jawa Timur, khususnya dari daerah Mojokerto. Tarian ini menggambarkan cerita-cerita mitologis atau legenda dengan penari yang mengenakan kostum yang menggambarkan karakter-karakter tertentu, seperti makhluk halus atau tokoh dalam cerita rakyat Jawa Timur. Glundung sering kali dipentaskan dalam berbagai acara budaya dan ritual di daerah tersebut.",
+                "loc":"Kota Mojokerto"
+            },{
+                "id":"14",
+                "nama":"Tari Gambyong",
+                "desc":"Tari Gambyong Ngawi merupakanTarian tradisional dari Ngawi, Jawa Timur, ditarikan oleh penari perempuan dengan gerakan lembut dan anggun. Dipentaskan dalam acara budaya di wilayah Ngawi.",
+                "loc":"Kabupaten Ngawi"
+            },{
+                "id":"15",
+                "nama":"Tari Topeng Pamekasan",
+                "desc":"Tari Topeng Pamekasan adalah Tarian tradisional dari Pamekasan, Madura, Jawa Timur, dengan penari menggunakan topeng yang menggambarkan cerita tradisional. Dipentaskan dalam acara budaya di wilayah Madura.",
+                "loc":"Kabupaten Pamekasan"
+            },{
+            "id":"16",
+            "nama":"Tari Reog",
+            "desc":"Tari Reog Ponorogo merupakan Tarian khas dari Ponorogo, Jawa Timur, dengan penari menggunakan kostum dan topeng berat. Pertunjukan ini dramatis, sering diiringi musik gamelan, dan mengambil bagian dari cerita rakyat. Dipentaskan dalam festival budaya di daerah tersebut.",
+            "loc":"Kabupaten Ponorogo"
+        },{
+            "id":"17",
+            "nama":"Tari Dolalak",
+            "desc":"Tari Dolalak di Sumenep, Madura, adalah pertunjukan tarian rakyat yang melibatkan banyak penari dengan gerakan yang lincah dan ceria. Biasanya, tarian ini diiringi dengan musik dan lagu-lagu tradisional. Dolalak di Sumenep sering menjadi bagian dari upacara adat, festival, atau perayaan masyarakat di wilayah Madura.",
+            "loc":"Kabupaten Sumenep"
+        }
         ]},[
           {
             "Kuliner Lokal": [{
@@ -176,6 +231,76 @@
                 "nama":"Pecel madiun",
                 "desc":"Pecel Madiun adalah hidangan sayur dengan sambal kacang gurih dan pedas, disajikan dengan rempeyek, tahu, tempe, dan lontong.",
                 "loc":"Kota Madiun"
+            },{
+                "id":"7",
+                "nama":"Bakso malang",
+                "desc":"Bakso Malang: Bakso khas dari Malang, Jawa Timur. Biasanya berukuran besar, dengan daging sapi cincang dan tekstur kenyal. Disajikan dalam kuah kaldu sapi kaya rasa, dengan mie, tahu, pangsit, dan sayuran. Sajian ini sering disantap dengan sambal dan bawang goreng.",
+                "loc":"Kota Malang"
+            },{
+                "id":"8",
+                "nama":"Lumpia Kota Batu",
+                "desc":"Lumpia Kota Batu adalah kuliner khas Kota Batu, Jawa Timur. Ini adalah lumpia dengan isi rebung, sayuran segar, dan kadang-kadang tambahan daging ayam atau udang. Biasanya disajikan dengan saus kacang atau saus pedas untuk menambah cita rasa. Lumpia Kota Batu memiliki cita rasa yang khas dan menjadi hidangan favorit di daerah tersebut.",
+                "loc":"Kota Batu"
+            },{
+                "id":"9",
+                "nama":"Sate Blitar",
+                "desc":"Sate Blitar merupakan Sate khas dari Blitar, Jawa Timur. Daging ayam, kambing, atau sapi dipanggang dan disajikan dengan bumbu kacang atau kecap khas Blitar.",
+                "loc":"Kota Blitar"
+            },{
+                "id":"10",
+                "nama":"Tape Bondowoso",
+                "desc":"Tape Bondowoso adalah makanan fermentasi khas dari Bondowoso, Jawa Timur. Ini terbuat dari fermentasi beras atau ketan yang menghasilkan rasa manis dan sedikit asam. Tape ini umumnya dimakan sebagai camilan atau bisa juga dijadikan bahan untuk membuat aneka kue tradisional.",
+                "loc":"Kabupaten Bondowoso"
+            },{
+                "id":"11",
+                "nama":"Nasi Tempong",
+                "desc":"Nasi Tempong Jember adalah hidangan pedas khas dari Jember, Jawa Timur. Terdiri dari nasi panas yang disajikan dengan sambal pedas yang terbuat dari campuran cabai, terasi, dan bawang. Hidangan ini biasanya disertai dengan lauk tambahan seperti ayam goreng, ikan, atau telur.",
+                "loc":"Kabupaten Jember"
+            },{
+                "id":"12",
+                "nama":"Soto Lamongan",
+                "desc":"Soto Lamongan adalah kuliner khas Kabupaten Lamongan, Jawa Timur, yang terkenal dengan kuah kuningnya yang gurih. Soto ini biasanya disajikan dengan suwiran daging ayam, irisan kol, tomat, daun bawang, mie bihun, dan irisan telur ayam. Ciri khasnya adalah ditambahkannya serbuk koya yang terbuat dari kerupuk udang dan bawang putih goreng yang ditumbuk hingga halus. ",
+                "loc":"Kabupaten Lamongan"
+            },{
+                "id":"13",
+                "nama":"Bebek Sinjay",
+                "desc":"Bebek Sinjay adalah hidangan bebek panggang khas dari Lumajang, Jawa Timur. Bebek ini disajikan dengan bumbu rempah yang khas, memberikan cita rasa yang gurih dan sedikit pedas. Biasanya disantap dengan nasi hangat dan sambal untuk menambah cita rasa khasnya.",
+                "loc":"Kabupaten Lumajang"
+            },{
+                "id":"14",
+                "nama":"Tahu kuning",
+                "desc":"Tahu Kuning Kediri adalah hidangan khas dari Kediri, Jawa Timur. Ini adalah tahu yang digoreng dengan kulitnya yang kuning keemasan, diberi rasa gurih dan sedikit manis. Tahu ini biasanya disajikan dengan saus kacang atau sambal sebagai pelengkap, memberikan cita rasa yang khas dan lezat.",
+                "loc":"Kota Kediri"
+            },{
+                "id":"15",
+                "nama":"",
+                "desc":"",
+                "loc":""
+            },{
+                "id":"16",
+                "nama":"",
+                "desc":"",
+                "loc":""
+            },{
+                "id":"17",
+                "nama":"",
+                "desc":"",
+                "loc":""
+            },{
+                "id":"18",
+                "nama":"",
+                "desc":"",
+                "loc":""
+            },{
+                "id":"19",
+                "nama":"",
+                "desc":"",
+                "loc":""
+            },{
+                "id":"20",
+                "nama":"",
+                "desc":"",
+                "loc":""
             }
         ]},[
         {
@@ -203,7 +328,7 @@
         ]}
         ]
         ]  
-        ]
+        ] 
     ]
 
 }
