@@ -14,6 +14,7 @@ const KerajinanTop = () => {
                 </div>
                 <img src={Kertas} alt="Kertas" className="kertas-ornamen"/>
             </div>
+            <div className="gap-pad"></div>
     </>)
 }
 export default KerajinanTop

@@ -1,0 +1,61 @@
+.batik-container{
+    position: relative;
+    z-index: -2;
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: white;
+    overflow-x: hidden;
+}
+.batik-scroll{
+    transition: .3s ease;
+    width: 700%;
+    margin-left: -100%;
+    display: flex;
+    z-index: -2;
+}
+.batik-field{
+    width: 20%;
+}
+.batik-container .button{
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    display: flex;
+}
+.batik-container .left{
+    left: 0;
+    transform: rotate(180deg);
+}
+.batik-container .button button{
+    width: 100%;
+    transition: .3s ease;
+    outline: none;
+    border: none;
+    border-radius: 30px 0 0 30px;
+}
+.batik-container .button button:hover{
+    background-color: rgba(81, 81, 81,.2);
+}
+.batik-container .button  button:hover span{
+    color: white;
+}
+.batik-container .button button span{
+    font-size: 32pt;
+    color: rgb(90, 90, 90);
+}
+.batik-container .right{
+    right: 0;
+    position: absolute;
+}
+.m-left .card-container{
+    position: absolute  ;
+    bottom: 35px;
+    left: -65%;
+    pointer-events: none;
+}
+.m-right .card-container{
+    position: absolute;
+    right: -65%;
+    bottom: 35px;
+    pointer-events: none;
+}
