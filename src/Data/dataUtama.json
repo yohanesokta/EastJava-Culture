@@ -255,7 +255,7 @@
                 "id":"11",
                 "nama":"Nasi Tempong",
                 "desc":"Nasi Tempong Jember adalah hidangan pedas khas dari Jember, Jawa Timur. Terdiri dari nasi panas yang disajikan dengan sambal pedas yang terbuat dari campuran cabai, terasi, dan bawang. Hidangan ini biasanya disertai dengan lauk tambahan seperti ayam goreng, ikan, atau telur.",
-                "loc":"Kabupaten Jember"
+                "loc":"Kabupaten Jember "
             },{
                 "id":"12",
                 "nama":"Soto Lamongan",
@@ -270,37 +270,37 @@
                 "id":"14",
                 "nama":"Tahu kuning",
                 "desc":"Tahu Kuning Kediri adalah hidangan khas dari Kediri, Jawa Timur. Ini adalah tahu yang digoreng dengan kulitnya yang kuning keemasan, diberi rasa gurih dan sedikit manis. Tahu ini biasanya disajikan dengan saus kacang atau sambal sebagai pelengkap, memberikan cita rasa yang khas dan lezat.",
-                "loc":"Kota Kediri"
+                "loc":"Kabupaten Kediri" 
             },{
                 "id":"15",
-                "nama":"",
-                "desc":"",
-                "loc":""
+                "nama":"Soto Ngas",
+                "desc":"Soto Ngas merupakan soto khas dari Nganjuk, Jawa Timur, berkuah kental dengan rempah-rempah, daging ayam/sapi, tauge, ketupat/nasi, dan disajikan dengan sambal serta jeruk nipis untuk rasa gurih yang khas.",
+                "loc":"Kabupaten Nganjuk"
             },{
                 "id":"16",
-                "nama":"",
-                "desc":"",
-                "loc":""
+                "nama":"Nasi Serpang",
+                "desc":"Nasi Serpang Pamekasan: hidangan khas dari Pamekasan, Madura, berisi nasi disajikan dengan ikan laut goreng kering dan sambal petis, memberikan cita rasa gurih dan pedas khas daerah tersebut.",
+                "loc":"Kabupaten Pamekasan"
             },{
                 "id":"17",
-                "nama":"",
-                "desc":"",
-                "loc":""
+                "nama":"Soto Pacitan",
+                "desc":"Soto Pacitan merupakan hidangan khas dari Pacitan, Jawa Timur, berkuah kental dengan rempah-rempah, daging ayam/sapi, tauge, dan ketupat/nasi, disajikan dengan sambal dan jeruk nipis untuk cita rasa gurih yang khas.",
+                "loc":"Kabupaten Pacitan"
             },{
                 "id":"18",
-                "nama":"",
-                "desc":"",
-                "loc":""
+                "nama":"Rujak Soto",
+                "desc":"Rujak Soto adalah hidangan khas dari Situbondo, Jawa Timur. Ini adalah perpaduan unik antara rujak dan soto. Berisi potongan buah segar seperti nanas, bengkoang, serta tauge dan potongan ketupat, disiram dengan kuah soto yang kaya rempah-rempah. Rujak ini memiliki cita rasa segar, pedas, dan gurih yang menciptakan sensasi unik dalam satu hidangan.",
+                "loc":"Kabupaten Situbondo"
             },{
                 "id":"19",
-                "nama":"",
-                "desc":"",
-                "loc":""
+                "nama":"Sate Ambal",
+                "desc":"Sate Ambal adalah hidangan sate khas Tuban, Jawa Timur, terbuat dari potongan daging sapi atau kambing yang ditusuk dan dipanggang, disajikan dengan bumbu kacang yang khas dan rempah-rempah untuk cita rasa yang kaya dan unik.",
+                "loc":"Kabupaten Tuban"
             },{
                 "id":"20",
-                "nama":"",
-                "desc":"",
-                "loc":""
+                "nama":"Nasi Krawu",
+                "desc":"Nasi Krawu, kuliner khas Tulungagung, adalah nasi dengan potongan daging sapi iris tipis disajikan bersama sambal, irisan mentimun, dan lalapan. Hidangan ini menggambarkan cita rasa khas dengan kombinasi nasi dan daging sapi yang lezat.",
+                "loc":"Kabupaten Tulungagung "
             }
         ]},[
         {
@@ -321,9 +321,74 @@
                 "loc":"Kota Blitar"
             },{
                 "id":"4",
-                "nama":"Jaranan Kepang",
-                "desc":"Jaranan kepang Kediri adalah seni pertunjukan tradisional dengan tarian, musik gamelan, dan atraksi kuda-kudaan dari anyaman bambu. Para penari membawakan cerita-cerita dengan gerakan dinamis di antara kuda-kudaan tersebut. Pertunjukan penuh energi dengan kombinasi tarian, musik, dan atraksi visual yang memukau.",
+                "nama":" Anyaman Jaranan Kepang",
+                "desc":"Anyaman Jaranan kepang Kediri adalah seni pertunjukan tradisional dengan tarian, musik gamelan, dan atraksi kuda-kudaan dari anyaman bambu. Para penari membawakan cerita-cerita dengan gerakan dinamis di antara kuda-kudaan tersebut. Pertunjukan penuh energi dengan kombinasi tarian, musik, dan atraksi visual yang memukau.",
                 "loc":"Kota Kediri"
+            },{
+                "id":"5",
+                "nama":"Miniatur Penari Gandrung",
+                "desc":"Miniatur penari gandrung adalah Kerajinan khas Banyuwangi karya kecil yang mereplikasi keanggunan tarian tradisional Banyuwangi. Dengan detail halus, miniatur ini menggambarkan penari gandrung memakai kostum khas daerah tersebut, menciptakan representasi visual dari keindahan budaya lokal.",
+                "loc":"Kabupaten Banyuwangi"
+            },{
+                "id":"6",
+                "nama":"Perahu Kolek",
+                "desc":"Perahu kolek adalah kapal khas Bangkalan Madura yang unik, berbentuk panjang dengan ujung melengkung ke atas. Menggunakan seni kerajinan kayu tradisional, sering dihiasi dengan warna-warna cerah dan motif khas daerah. Dipakai untuk perikanan dan transportasi di perairan sekitar Madura.",
+                "loc":"Kabupaten Bangkalan"
+            },{
+                "id":"7",
+                "nama":"Tenun Blambangan",
+                "desc":"Kain tenun Blambangan merupakan hasil dari tradisi tenun ikat khas dari Bondowoso, Jawa Timur. Kain ini memperlihatkan motif-motif yang terinspirasi dari alam, budaya, dan sejarah lokal. Tenunan ini mencerminkan kekayaan warisan budaya daerah tersebut dengan corak yang unik dan kaya makna, sering kali dihasilkan melalui teknik ikat yang rumit dan teliti.",
+                "loc":"Kabupaten Bondowoso"
+            },{
+                "id":"8",
+                "nama":"Tenun Ikat Troso",
+                "desc":"Tenun Troso adalah tenun ikat khas dari daerah Troso, Lamongan, Jawa Timur. Kain tenun Troso terkenal dengan motif yang kaya dan warna-warna yang cerah.Teknik ikatnya yang rumit menciptakan pola yang jelas dan tajam pada kain. Motifnya terinspirasi dari alam dan geometri, menambah keunikan visual pada kain ini. Keindahan motifnya dan teknik pembuatannya yang rumit menjadi daya tarik utama dari kain tenun Troso dari Lamongan.",
+                "loc":"Kabupaten Lamongan"
+            },{
+                "id":"9",
+                "nama":"Batik Gedog Kerek",
+                "desc":"Batik Gedog Kerek merupakan batik khas yang berasal dari daerah Ponorogo, Jawa Timur, memiliki pola geometris teratur seperti lingkaran dan segi empat dengan kombinasi warna kontras. Motif-motif pada batik ini dianggap memiliki makna simbolis yang dalam dalam budaya lokal, mewakili gagasan tentang kekuatan, kesuburan, dan keselarasan. Batik Gedog Kerek merupakan bagian yang penting dari warisan kultural Ponorogo dan menampilkan keahlian dan keindahan dari kerajinan tradisional Jawa Timur.",
+                "loc":"Kabupaten Ponorogo"
+            },{
+                "id":"10",
+                "nama":"Batik Gajah Mada",
+                "desc":"Batik Gajah Mada berasal dari daerah Tulungagung, Jawa Timur. Batik ini merupakan varian batik yang terinspirasi dari tokoh sejarah, Gajah Mada, serta kejayaan masa lalu Indonesia. Motifnya sering menggambarkan tokoh-tokoh sejarah atau elemen-elemen budaya Nusantara yang kuat. Batik ini menggabungkan corak tradisional dengan elemen-elemen yang menggambarkan kejayaan masa lampau, menciptakan karya yang sarat akan nilai sejarah dan kebanggaan nasional.",
+                "loc":"Tulungagung"
+            },{
+                "id":"11",
+                "nama":"Batik Madura Modern",
+                "desc":"Batik Madura modern sering menggabungkan motif-motif tradisional Batik Madura dengan sentuhan modern dalam desainnya. Madura modern menggunakan warna-warna yang lebih cerah dan kontras serta memadukan dengan elemen-elemen desain yang lebih kontemporer. Desainnya beragam, bisa jadi lebih minimalis, dengan permainan warna yang lebih modern, atau bisa juga menggabungkan motif tradisional dengan elemen-elemen modern dengan pola yang lebih dinamis.",
+                "loc":"Madura"
+            },{
+                "id":"12",
+                "nama":"Tikar Pandan Khas Jombang",
+                "desc":"Tikar pandan khas Jombang adalah anyaman tradisional yang dibuat dari daun pandan. Tikar ini memiliki corak dan motif khas yang unik dari Jombang, Jawa Timur. Dibuat dengan teknik anyaman yang rumit, tikar ini sering digunakan sebagai alas tidur atau hiasan dalam budaya setempat.",
+                "loc":"Kabupaten Jombang"
+            },{
+                "id":"13",
+                "nama":"Batik Lumajang Yusie",
+                "desc":"Batik Lumajang Yusie adalah Seni kain khas kabupaten lumajang, mencerminkan alam dan budaya lokal dengan motif yang menggambarkan keunikan daerah tersebut.",
+                "loc":"Kabupaten Lumajang"
+            },{
+                "id":"14",
+                "nama":"Batik Pace",
+                "desc":"Batik Pace adalah seni kain tradisional yang berasal dari Pacitan, Jawa Timur, dengan motif dan pola unik yang merefleksikan keindahan alam serta warisan budaya lokal.",
+                "loc":"Kabupaten Pacitan"
+            },{
+                "id":"15",
+                "nama":"Tangguk koboy",
+                "desc":"Tangguk koboy adalah alat musik tradisional khas Probolinggo yang terbuat dari bambu. Berbentuk tabung panjang dengan lubang di bagian sampingnya, tangguk koboy dimainkan dengan cara meniup lubangnya untuk menghasilkan bunyi yang khas. Alat musik ini sering digunakan dalam kesenian atau upacara adat di daerah Probolinggo, Jawa Timur.",
+                "loc":"Kabupaten Probolinggo"
+            },{
+                "id":"16",
+                "nama":"Odheng Madura",
+                "desc":"Odheng merupakan penutup kepala dalam setelah pakaian adat ini. Berbahan kain dan umumnya bermotif batik dengan warna coklat-hitam, merah marun-hitam, atau merah soga.",
+                "loc":"Kabupaten Sampang"
+            },{
+                "id":"17",
+                "nama":"Anyaman Enceng Gondok",
+                "desc":"Anyaman enceng gondok khas Pasuruan, Jawa Timur, melibatkan teknik anyaman dari tanaman enceng gondok yang tumbuh subur di daerah tersebut. Produk anyaman ini sering kali berupa keranjang, tas, atau produk kerajinan lainnya. Anyaman enceng gondok Pasuruan memiliki ciri khas pola dan desain yang unik, mencerminkan keindahan seni tradisional serta kearifan lokal masyarakat Pasuruan dalam mengolah bahan alam menjadi produk yang bernilai dan fungsional.",
+                "loc":"Kabupaten Pasuruan"
             }
         ]}
         ]
