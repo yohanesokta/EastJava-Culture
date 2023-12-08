@@ -23,6 +23,9 @@ return(<>
                     <p>Jember Fashion Carnival di Jawa Timur adalah panggung megah di mana mode bertemu seni pertunjukan. Merupakan peristiwa tahunan yang menghipnotis, carnival ini menampilkan busana spektakuler dengan ornamen kreatif dan konsep visual yang luar biasa.</p>
                 </div>
             </div>
+            <div className="image-left">
+                <img src={Image} alt="" />
+            </div>
     </div>
 </>)
 }

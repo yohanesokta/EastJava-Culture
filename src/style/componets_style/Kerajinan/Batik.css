@@ -18,6 +18,9 @@
     transition: 0.3s ease;
     width: 20%;
 }
+.hide{
+    display: none;
+}
 .batik-container .button{
     width: 100px;
     height: 100%;

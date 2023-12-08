@@ -5,7 +5,7 @@
     border-radius: 15px;
     position: relative;
     padding: 20px;
-    box-shadow: 2px 2px 10px gray;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0,.3);
 }
 .card2 img{
     width: 300px;

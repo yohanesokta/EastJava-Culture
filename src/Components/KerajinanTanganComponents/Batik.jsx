@@ -16,32 +16,43 @@ function KerajinanBatik() {
             Dom[load]= document.getElementById("card-" + String(load));
             load++;
         }
+    let BtnL = document.getElementById('batik-btn-l')
+    let BtnR = document.getElementById('batik-btn-r')
 
-    function Slider(mLeft,on,mRight,rmLeft,rmRight,value){
+    function Slider(value){
         document.getElementById("batikScroll").style.marginLeft = "-" + value + "%"
     } 
     function makeSlider(action){
         if (action == 'next'){
-            if(tab == 1){
-                Slider(2,3,4,1,3,180);
-                tab = 2
+            switch(tab){
+                case 1 : Slider(200); tab = 2; document.getElementById('batik-btn-r').classList.remove('hide');  break;
+                case 2 : Slider(300); tab = 3; break;
+                case 3 : Slider(400); tab = 4; break;
+                case 4 : Slider(500); tab = 5; break;
             }
         }
         if (action == 'prev'){
-            if (tab == 2 ) { Slider(1,2,3,2,4,100);  tab = 1}
+            if (tab == 2 ) { Slider(100);  tab = 1}
+
+            switch(tab){
+                case 2 : Slider(100); tab = 1; break;
+                case 3 : Slider(200); tab = 2; break;
+                case 4 : Slider(300); tab = 3; break;
+                case 5 : Slider(400); tab = 4; break;
+            }
         }
+
     }
-    
     return (
         <>
             <div className="batik-container">
-                <div className="button left" onClick={()=>{makeSlider('next')}}>
+                <div className="button left" id="batik-btn-l" onClick={()=>{makeSlider('prev')}}>
                     <button>
                         <Gmaterial name="navigate_next" />
                     </button>
                 </div>
-                <div className="button right">
-                    <button onClick={()=>{makeSlider('prev')}}>
+                <div className="button right" id="batik-btn-r">
+                    <button onClick={()=>{makeSlider('next')}}>
                         <Gmaterial name="navigate_next" />
                     </button>
                 </div>
