@@ -1,0 +1,19 @@
+.card2{
+    width: 300px;
+    height: 500px;
+    display: block;
+    border-radius: 15px;
+    position: relative;
+    padding: 20px;
+    box-shadow: 2px 2px 10px gray;
+}
+.card2 img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.card2 p{
+    padding-bottom: 20px;
+    border-bottom: 2px solid gray;
+    height: 150px;
+}

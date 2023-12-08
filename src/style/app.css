@@ -9,7 +9,7 @@ html{
     display: none;
 }
 *{
-
+    cursor: default;
     margin: 0;
     scrollbar-width: none;
     padding: 0;

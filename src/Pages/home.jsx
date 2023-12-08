@@ -7,6 +7,9 @@ import HomeAbout from "../Components/Home/HomeAbout";
 import FestivalBudaya from "../Components/Home/FestivalBudaya";
 import Navbar from "../Components/Navbar";
 import Title from "../Components/title";
+import KerajinanTangan from "../Components/Home/KerajinanTangan";
+import Footer from "../Components/bundle/Footer.jsx";
+import GayaHidup from "../Components/bundle/GayaHidup/GayaHidup.jsx";
 
 const Home = () => {
 
@@ -22,6 +25,9 @@ const Home = () => {
             <DestinasiBudaya />
             <ExplorasiKuliner />
             <FestivalBudaya />
+            <KerajinanTangan />
+            <GayaHidup/>
+            <Footer/>
         </>
     );
 };

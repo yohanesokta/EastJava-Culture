@@ -3,7 +3,8 @@
     width: 100%;
     height: 350px;
     padding: 50px 0;
-    background-color: #a36361;
+    background-color: #A36361;
+    position: relative;
 }
 .jember-fest .text-right {
     width: 50%;
