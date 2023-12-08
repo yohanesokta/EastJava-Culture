@@ -4,7 +4,8 @@ import Kenduren from "../festivalBudayaComponents/Keduren"
 import ReogPonorogo from "../festivalBudayaComponents/ReogPonorogo"
 import Top from "../festivalBudayaComponents/Top"
 
-const FestivalBudaya = () =>{
+const FestivalBudaya = () =>{    
+
     return(
         <>
             <Top />
@@ -12,6 +13,7 @@ const FestivalBudaya = () =>{
             <GandrungSewu />
             <JemberFestival />
             <ReogPonorogo />
+            
         </>
     )
 }

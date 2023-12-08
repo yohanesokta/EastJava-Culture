@@ -4,7 +4,7 @@ import KerajinanTop from "../KerajinanTanganComponents/KerajinanTop"
 const KerajinanTangan = () => {
     return(<>
         <KerajinanTop />
-        <KerajinanBatik />
+        {/* <KerajinanBatik /> */}
     </>)
 }
 export default KerajinanTangan

@@ -7,13 +7,15 @@
     overflow-x: hidden;
 }
 .batik-scroll{
-    transition: .3s ease;
+    transition: s ease;
     width: 700%;
     margin-left: -100%;
+    transition: 2s ease;
     display: flex;
     z-index: -2;
 }
 .batik-field{
+    transition: 0.3s ease;
     width: 20%;
 }
 .batik-container .button{
@@ -47,16 +49,7 @@
     right: 0;
     position: absolute;
 }
-.m-left .card-container{
-    position: absolute  ;
-    
-    bottom: 35px;
-    left: -65%;
-    pointer-events: none;
-}
-.m-right .card-container{
-    position: absolute;
-    right: -65%;
-    bottom: 35px;
-    pointer-events: none;
-}
+.swiper {
+    width: 600px;
+    height: 300px;
+  }

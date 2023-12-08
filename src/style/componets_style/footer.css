@@ -1,0 +1,120 @@
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #5E5E5E;
+    display: flex;
+}
+.logo{
+    width: 30%;
+    height: 100%;
+}
+.logo p{
+    color: white;
+    font-size: 10pt;
+    margin-left: 5%;
+    font-weight: 600;
+}
+.col-logo{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.col-logo img{
+    margin: auto;
+    margin-left: 5%;
+    height: 80%;
+    object-fit: cover;
+}
+.left-container{
+    width: 70%;
+    height: 100%;
+}
+.l-top{
+    position: relative;
+    width: 100%;
+    height: 48.5%;
+    display: flex;
+}
+.line{
+    position: relative;
+    width: 100%;
+    height: 3%;
+    display: flex;
+    background-color: #5E5E5E;
+}
+.line::before , .line::after{
+    content: "";
+    width: 43%;
+    height: 4px;
+    border-radius: 20px;
+    position: absolute;
+    background-color: white;
+}
+.line::after{
+    right: 0;
+}
+.line img{
+    position: absolute;
+    width: 10%;
+    left: 45%;
+    top:-10px
+}
+.l-bottom{
+    display: flex;
+    width: 100%;
+    height: 48.5%;
+}
+.l-top .left , .l-top .right{
+    display: flex;
+    width: 40%;
+    height: 90%;
+}
+.l-top .right{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.l-top .left a{
+    text-decoration: none;
+    font-size: 12pt;
+    margin: auto;
+    color: white;
+}
+.l-top .left a span{
+    transform: rotate(-90deg);
+}
+.l-top .right .con{
+    width: 80%;
+    margin: auto;
+}
+.l-top .right .con p{
+    font-size: 10pt;
+    color: white;
+}
+.l-top .right .con .linked{
+    width: 80%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.l-top .right .con .linked a img{
+    transition: .2s ease;
+    width: 30px;
+}
+.l-top .right .con .linked a{
+    margin: auto 0;
+}
+.l-top .right .con .linked a:hover img{
+    opacity: .5;
+}
+.l-bottom .container-lbottom{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.l-bottom .container-lbottom span{
+    font-size: 11pt;
+    margin: auto;
+    color: white;
+}

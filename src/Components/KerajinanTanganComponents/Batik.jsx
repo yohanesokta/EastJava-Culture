@@ -18,16 +18,12 @@ function KerajinanBatik() {
         }
 
     function Slider(mLeft,on,mRight,rmLeft,rmRight,value){
-        Dom[rmLeft].classList.remove('m-left');
-        Dom[rmRight].classList.remove('m-right');
-        Dom[mLeft].classList.add('m-left');
-        Dom[mRight].classList.add('m-right');
         document.getElementById("batikScroll").style.marginLeft = "-" + value + "%"
     } 
     function makeSlider(action){
         if (action == 'next'){
             if(tab == 1){
-                Slider(2,3,4,1,3,200);
+                Slider(2,3,4,1,3,180);
                 tab = 2
             }
         }
@@ -50,7 +46,7 @@ function KerajinanBatik() {
                     </button>
                 </div>
                 <div className="batik-scroll" id="batikScroll">
-                    <div className="batik-field m-left" id="card-1">
+                    <div className="batik-field" id="card-1">
                         <CardKerajinan
                             image={ImageBlambangan}
                             name="Baju Tenun Blambangan"
@@ -64,7 +60,7 @@ function KerajinanBatik() {
                             desc="Batik Gajah Mada berasal dari daerah Tulungagung, Jawa Timur. Batik ini merupakan varian batik yang terinspirasi dari tokoh sejarah, Gajah Mada, serta kejayaan masa lalu Indonesia. Motifnya sering menggambarkan tokoh-tokoh sejarah atau elemen-elemen budaya Nusantara yang kuat. Batik ini menggabungkan corak tradisional dengan elemen-elemen yang menggambarkan kejayaan masa lampau, menciptakan karya yang sarat akan nilai sejarah dan kebanggaan nasional."
                         />
                     </div>
-                    <div className="batik-field m-right" id="card-3">
+                    <div className="batik-field" id="card-3">
                         <CardKerajinan
                             image={ImageMaduraModern}
                             name="Batik Madura Modern"
