@@ -93,3 +93,12 @@
     margin: 0 auto;
     width: 90%;
 }
+@media only screen and (max-width:1150px){
+    .card-field{
+        display: block;
+        width: auto;
+    }
+    .card-field .card2{
+        margin-bottom: 40px;
+    }
+}
