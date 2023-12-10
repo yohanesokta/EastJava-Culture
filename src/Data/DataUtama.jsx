@@ -1,12 +1,12 @@
-import destinasiBudaya from "./destinasibudaya";
+import DestinasiBudaya from "../Components/Home/DestinasiBudaya";
 import kesenianTradisional from "./kesenianTradisional";
 import kerajinanTangan from "./kerajinanTangan";
 import kulinerLokal from "./kulinerLokal";
 import festivalBudaya from "./festivalBudaya";
 import gayaHidup from "./gayaHidup";
-const Data = {
+const  DataUtama = {
   Budaya: [
-    destinasiBudaya,
+    DestinasiBudaya,
     kesenianTradisional,
     kerajinanTangan,
     kulinerLokal,
@@ -14,5 +14,4 @@ const Data = {
     gayaHidup,
     ],
 };
-
-export default Data;
+export default DataUtama
