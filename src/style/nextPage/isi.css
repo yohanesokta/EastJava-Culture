@@ -1,6 +1,5 @@
 .container-next{
     width: 100%;
-    display: flex;
 }
 .container-next .image{
     width: 100%;
@@ -28,4 +27,26 @@
     bottom: 50px; 
     left: 50px;
     font-weight: 700;   
+}
+.desc{
+    width: 90%;
+    margin-left: 5%;
+}
+.desc h1{
+    margin-bottom: 20px;
+}
+.maps{
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+}
+.container-map{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.maps iframe{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
 }

@@ -1,6 +1,6 @@
 const kulinerLokal=
 {
-    "Kuliner Lokal": [
+    "KulinerLokal": [
       {
         id: "1",
         nama: "Rujak Cingur",

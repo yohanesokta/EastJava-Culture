@@ -1,6 +1,6 @@
 const gayaHidup=
 {
-    "Gaya Hidup Tradisional":[
+    "GayaHidupTradisional":[
         {
             id:"1",
             nama:"Tungku Api",

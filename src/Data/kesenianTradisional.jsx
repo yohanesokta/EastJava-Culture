@@ -1,6 +1,6 @@
 const kesenianTradisional=
 {
-    "Kesenian tradisional": [
+    "Keseniantradisional": [
       {
         id: "1",
         nama: "Topeng Maulud",

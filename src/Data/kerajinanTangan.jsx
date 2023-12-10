@@ -1,6 +1,6 @@
 const kerajinanTangan=
  {
-            "Kerajinan Tangan": [
+            "KerajinanTangan": [
               {
                 id: "1",
                 nama: "Miniatur ikon Surabaya",

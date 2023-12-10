@@ -1,5 +1,5 @@
 const festivalBudaya = {
-  "Festival Budaya": [
+  "FestivalBudaya": [
     {
       id: "1",
       nama: "Festival Kenduren Jombang",
