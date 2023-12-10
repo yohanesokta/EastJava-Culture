@@ -14,3 +14,5 @@ const Data = {
     gayaHidup,
     ],
 };
+
+export default Data;
