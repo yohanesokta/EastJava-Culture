@@ -14,12 +14,16 @@ const destinasiBudaya = {
       nama: "Museum Sepuluh November",
       desc: "Museum 10 November di Surabaya adalah tempat yang mengenang pertempuran bersejarah pada 10 November 1945. Di sini, Anda bisa melihat artefak dan dokumentasi mengenai perjuangan heroik rakyat Surabaya dalam menghadapi penjajah.",
       loc: "Jl. Pahlawan, Alun-alun Contong, Kec. Bubutan, Surabaya, Jawa Timur 60174",
+      MapId : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.958572578533!2d112.73528777491435!3d-7.245554992760864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f93fc001bc5d%3A0x110e38d8a6c23fbe!2sMonumen%20Tugu%20Pahlawan%20dan%20Museum%20Sepuluh%20Nopember%20Surabaya!5e0!3m2!1sen!2sid!4v1702190328714!5m2!1sen!2sid"
+
     },
     {
       id: "3",
       nama: "Monumen Trisula",
+      Kota:"Blitar",
       desc: "Monumen Trisula di Blitar adalah monumen yang didedikasikan untuk mengenang Soekarno, Mohammad Hatta, dan Kyai Abdul Wahid Hasyim dalam perjuangan kemerdekaan Indonesia. Bentuknya menyerupai trisula dan menjadi simbol penting dalam sejarah perjuangan bangsa.",
       loc: "P3RF+5MX, Jl. Trisula, Bakung Utara, Bakung, Kec. Bakung, Kabupaten Blitar, Jawa Timur 66163",
+      "MapId":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3948.434131980344!2d112.07166277492497!3d-8.259512191774244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78c36ad42f91a1%3A0x4508a7083e7c5a85!2sTrisula%20Monument!5e0!3m2!1sen!2sid!4v1702194944220!5m2!1sen!2sid"
     },
     {
       id: "4",

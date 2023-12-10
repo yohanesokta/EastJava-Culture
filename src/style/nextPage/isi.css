@@ -1,4 +1,9 @@
+
 .container-next{
+    width: 100%;
+    padding-bottom: 200px;
+}
+.container-isi{
     width: 100%;
 }
 .container-next .image{
@@ -49,4 +54,8 @@
     width: 90%;
     height: 100%;
     margin: 0 auto;
+}
+.maps p{
+    padding: 20px;
+    margin-left: 5%;
 }

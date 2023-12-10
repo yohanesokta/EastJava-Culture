@@ -12,7 +12,7 @@ import imagePasuruan from "../../assets/destinasi/pasuruan.png"
 export default function DestinasiBudaya() {
   return (
     <>
-      <div className="desBudaya">
+      <div className="desBudaya" id="destinasiBudaya">
         <div className="flex-container">
           <h1>Destinasi Budaya Jawa Timur</h1>
         </div>

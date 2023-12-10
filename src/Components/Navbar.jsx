@@ -7,9 +7,9 @@ import React, { useState } from 'react';
 const DropdownMenuBudaya = () => {
   return (
     <div className="dropdown-menu">
-      <a href="#">Destinasi Budaya</a>
-      <a href="#">Festival Budaya</a>
-      <a href="#">Gaya Hidup Tradisional</a>
+      <a href="/#destinasiBudaya">Destinasi Budaya</a>
+      <a href="/#festivalBudaya">Festival Budaya</a>
+      <a href="/#gayaHidup">Gaya Hidup Tradisional</a>
       <a href="#">Destinasi Budaya</a>
     </div>
   );
@@ -47,7 +47,7 @@ const Navbar = () => {
           <Gmaterial name="segment" />
         </div>
         <div className="col-nav">
-          <a href="#" className="nav-menu">
+          <a href="/#" className="nav-menu">
             <p>Home</p> <Gmaterial hide="yes" name="fiber_manual_record" />
           </a>
           <a className="nav-menu">
@@ -58,7 +58,7 @@ const Navbar = () => {
             <p>Kesenian</p> <Gmaterial name="arrow_drop_down" />
             <DropdownMenuKesenian />
           </a>
-          <a href="#" className="nav-menu">
+          <a href="/#kuliner" className="nav-menu">
             <p>Kuliner</p> <Gmaterial hide="yes" name="fiber_manual_record" />
           </a>
         </div>
