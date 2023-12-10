@@ -6,6 +6,7 @@ const kesenianTradisional=
         nama: "Topeng Maulud",
         desc: "Topeng Maulud Surabaya adalah seni pertunjukan tradisional yang menggabungkan tarian, drama, dan topeng khas. Dipentaskan di Surabaya, kesenian ini memukau dengan gerakan tarian yang anggun dan cerita-cerita yang menghibur, seringkali berdasarkan tema keagamaan.",
         loc: "Kota Surabaya",
+        kota:""
       },
       {
         id: "2",
