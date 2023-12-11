@@ -2,6 +2,7 @@ import "../style/navbar.css";
 import Logo from "../assets/logo.png";
 import Gmaterial from "./bundle/GoogleMaterial";
 import React, { useState } from 'react';
+import Login from "./bundle/Login";
 
 
 const DropdownMenuBudaya = () => {
@@ -64,7 +65,7 @@ const Navbar = () => {
         </div>
         <div className="search">
           {/* <input></input> */}
-          <Gmaterial name="search" />
+          <Login />
         </div>
       </nav>
     </>

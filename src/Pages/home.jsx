@@ -22,7 +22,7 @@ const Home = () => {
             <ExplorasiBudaya />
             <DestinasiBudaya />
             <AboutKesenian />
-            <DestinasiBudaya />
+
             <ExplorasiKuliner />
             <FestivalBudaya />
             <KerajinanTangan />

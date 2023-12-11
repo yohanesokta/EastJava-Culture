@@ -41,3 +41,7 @@ body{
     position: relative;
     z-index: -20;
 }
+.swiper{
+    width: 100%;
+    height: auto;
+}

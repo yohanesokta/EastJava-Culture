@@ -118,3 +118,51 @@ footer{
     margin: auto;
     color: white;
 }
+.footer{
+    display: none;
+}
+@media only screen and (max-width:950px){
+    footer{
+        display: none;
+    }
+    .footer{
+        display: block;
+        width: 100%;
+        background-color: #5E5E5E;
+    }
+    .footer img{
+        padding: 20px 0;
+        width: 30%;
+        border-bottom: 2px solid white;
+    }
+    .footer .name{
+        display: block;
+    }
+    .footer .name p{
+        text-align: center;
+        color: white;
+        line-height: 30px;
+    }
+    .con {
+        width: 100%;
+    }
+    .con p{
+        text-align: center;
+        color: white;
+    }
+    .con .linked{
+        margin-left: 25%;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .con .linked a{
+        text-decoration:  none;
+        border: none;
+    }
+    .con .linked img{
+        width: 100%;
+        border: none;
+
+    }
+}
