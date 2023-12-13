@@ -26,8 +26,16 @@ const DropdownMenuKesenian = () => {
   );
 }
 
-const Navbar = () => {
+const Navbar = ({noGray}) => {
+let prop
+  if (noGray) { 
+    prop = ""
+  }else{
+    prop = "nav-gray"
 
+  }
+  
+  
   let drop = false
   const setDrop = () =>{
     if (drop) {
@@ -44,7 +52,7 @@ function LoginButton(){
 
   return (
     <>
-      <nav id="navbar">
+      <nav id="navbar" className={prop}>
         <img src={Logo} alt="logo" />
         <div className="btn-dropdown" onClick={setDrop}>
           <Gmaterial name="segment" />

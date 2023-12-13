@@ -6,6 +6,7 @@ import Isi from './Pages/isi'
 import NotFound from "./Components/bundle/NotFound"
 import { useEffect } from 'react'
 import { gapi } from 'gapi-script'
+import HomePage from './Pages/HomePage'
 
 function App() {
 
@@ -24,7 +25,7 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/' element={<HomePage/>} />
           <Route path='/page/:slug' element={<Isi />} />
           <Route path='*' element={<NotFound />} />
         </Routes>

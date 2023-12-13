@@ -1,5 +1,6 @@
 .home-about{
     padding-top: 45px;
+    padding-bottom: 20px;
     background-color:  white;
     width: 100%;
     position: relative;
@@ -14,9 +15,16 @@
     margin: auto;
 }
 .flex-container p{
-    margin: auto;
-    width: 65%;
     text-align: justify;
+}
+.flex-container  .home-about-field{
+    margin: auto;
+    width: 80%;
+}
+.flex-container .home-about-field h1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
 }
 .about-line-2{
     display: flex;
@@ -36,30 +44,8 @@
     overflow: hidden;
     margin-top: 10px;
 }
-.box-effect-f{
-    width: 80px;
-    display: flex;
-    justify-content: space-between;
-}
-.box-effect-f svg:last-child{
-    transform: rotate(90deg);
-}
-.box-effect .box-effect-f:last-child{
-    margin-top: 4px;
-}
-.box-effect .box-effect-f:last-child svg:first-child{
-    transform: rotate(90deg);
-}
-
 /* Next about ++ */
 
-.next-about{
-    background-color: white;
-    width: 100%;
-}
-.next-about .circle-element{
-    height: 80px;
-}
 @media only screen and (max-width:550px){
     .circle-element , .first-svg{
         display: none;

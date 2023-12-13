@@ -1,0 +1,41 @@
+.card-title {
+    background-color: white;
+    text-align: center;
+    color: #882929;
+    padding: 40px 0;
+}
+.card-slide-four{
+    width: 100%;
+    background-color: white;
+    padding-bottom: 80px;
+}
+.card-slide{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.card-button{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.card-button img{
+    margin: auto 0;
+    top: calc(50% - (15%/2)) ;
+    position: absolute;
+    height: 15%;
+}
+.card-button img:first-child{
+    left: 10%;
+}
+.card-button img:last-child{
+    right: 10%;
+    transform: rotate(180deg);
+}
+.card-slide-four .field-content{
+    width: 960px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
