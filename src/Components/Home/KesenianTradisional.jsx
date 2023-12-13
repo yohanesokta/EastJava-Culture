@@ -23,12 +23,12 @@ import "../../style/swiper.css";
 
 
 
-export default function DestinasiBudaya() {
+export default function KesenianTradisional() {
     return (
         <>
             <div className="desBudaya" id="destinasiBudaya">
                 <div className="flex-container">
-                    <h1>Destinasi Budaya Jawa Timur</h1>
+                    <h1>Kesenian Tradisional</h1>
                 </div>
                 <div className="container-budaya-field">
                     <Swiper

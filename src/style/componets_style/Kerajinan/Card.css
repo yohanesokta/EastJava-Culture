@@ -66,3 +66,32 @@
     height: 100%;
     object-fit: cover;
 }
+@media only screen and (max-width:870px){
+    .card-container{
+        width: 98%;
+    }
+}
+@media only screen and (max-width:600px){
+    .card-kerajinan{
+        display: block;
+    }
+    .card-kerajinan .text-right{
+        position: relative;
+        width: 85%;
+        margin-left: 7.5%;
+    }
+.card-kerajinan .image-left{
+    display: none;
+    }
+    .card-container .text-right span{
+        display: none;
+    }
+    .card-container {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .card-container .text-right p{
+        height: 250px;
+        overflow: hidden;
+    }
+}

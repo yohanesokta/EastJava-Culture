@@ -3,7 +3,7 @@ import ImagesUtama from "../../assets/Festival/utama.png";
 const Top = () => {
   return (
     <>
-      <div className="top-fest">
+      <div className="top-fest" id="festivalBudaya">
         <img src={ImagesUtama} alt="" />
         <svg xmlns="http://www.w3.org/2000/svg" fill="none">
           <path

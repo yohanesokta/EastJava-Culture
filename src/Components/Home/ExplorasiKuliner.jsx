@@ -82,7 +82,7 @@ const ExplorasiKuliner = () => {
 
   return (
     <>
-      <div className="explore-kuliner">
+      <div className="explore-kuliner" id="kuliner">
         <h1>Explorasi Kuliner Lokal</h1>
         <div className="con-explore">
           <div className="con-button">

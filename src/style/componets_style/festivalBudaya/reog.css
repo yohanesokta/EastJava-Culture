@@ -65,3 +65,43 @@
     bottom: 0;
     right: 0;
 }
+@media only screen and (min-width : 1730px){
+    .reog .images{
+        width: 50%;
+        height: 480px;
+    }
+    .reog .images img{
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+@media only screen and (max-width:1600px){
+    .reog{
+        height: 650px;
+    }
+}
+@media only screen and (max-width:870px){
+    .reog .line{
+        margin-top: 10px;
+    }
+    .reog .reog-paragraf{
+        margin-top: -10px;
+    }
+    .reog .images {
+        width: 90%;
+        height: 300px;
+    }
+    .reog .images img{
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+@media only screen and (max-width : 590px){
+.reog-paragraf{
+    width: 90%;
+}
+}

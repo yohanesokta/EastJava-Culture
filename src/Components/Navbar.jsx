@@ -2,14 +2,15 @@ import "../style/navbar.css";
 import Logo from "../assets/logo.png";
 import Gmaterial from "./bundle/GoogleMaterial";
 import React, { useState } from 'react';
+import Login from "./bundle/Login";
 
 
 const DropdownMenuBudaya = () => {
   return (
     <div className="dropdown-menu">
-      <a href="#">Destinasi Budaya</a>
-      <a href="#">Festival Budaya</a>
-      <a href="#">Gaya Hidup Tradisional</a>
+      <a href="/#destinasiBudaya">Destinasi Budaya</a>
+      <a href="/#festivalBudaya">Festival Budaya</a>
+      <a href="/#gayaHidup">Gaya Hidup Tradisional</a>
       <a href="#">Destinasi Budaya</a>
     </div>
   );
@@ -37,7 +38,9 @@ const Navbar = () => {
       drop = true
     }
   }
-
+function LoginButton(){
+  document.getElementById('login-container').style.display = "flex"
+}
 
   return (
     <>
@@ -47,7 +50,7 @@ const Navbar = () => {
           <Gmaterial name="segment" />
         </div>
         <div className="col-nav">
-          <a href="#" className="nav-menu">
+          <a href="/#" className="nav-menu">
             <p>Home</p> <Gmaterial hide="yes" name="fiber_manual_record" />
           </a>
           <a className="nav-menu">
@@ -58,13 +61,12 @@ const Navbar = () => {
             <p>Kesenian</p> <Gmaterial name="arrow_drop_down" />
             <DropdownMenuKesenian />
           </a>
-          <a href="#" className="nav-menu">
+          <a href="/#kuliner" className="nav-menu">
             <p>Kuliner</p> <Gmaterial hide="yes" name="fiber_manual_record" />
           </a>
         </div>
         <div className="search">
-          {/* <input></input> */}
-          <Gmaterial name="search" />
+          <button onClick={LoginButton}>Login</button>
         </div>
       </nav>
     </>

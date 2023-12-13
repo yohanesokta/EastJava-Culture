@@ -8,7 +8,7 @@ import ImagePetani from "../../../assets/GayaHidup/Petani.png"
 export default function GayaHidup() {
    return (
       <>
-         <div className="gaya-hidup">
+         <div className="gaya-hidup" id="gayaHidup">
             <div className="images">
             <div className="image-top">
                <img src={Images} alt="" />

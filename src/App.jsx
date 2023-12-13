@@ -1,19 +1,34 @@
-import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './Pages/home'
-import About from './Pages/about'
 import './style/app.css'
 import Test from './test'
+import Isi from './Pages/isi'
+import NotFound from "./Components/bundle/NotFound"
+import { useEffect } from 'react'
+import { gapi } from 'gapi-script'
+
 function App() {
 
+  const ClientID = import.meta.env.VITE_GOOGLE_CLIENT_ID
+
+  useEffect(() => {
+    function start() {
+      gapi.client.init({
+        clientId: ClientID,
+        scope: ""
+      })
+    }
+    gapi.load('client:auth2', start)
+  })
   return (
     <>
-        <Router>
-           <Routes>
-            <Route path='/' element={<Home/>} />
-            <Route path='/pages/about' element={<About/>} />
-            <Route path='/pages/test' element={<Test />} />
-           </Routes>
-        </Router>
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/page/:slug' element={<Isi />} />
+          <Route path='*' element={<NotFound />} />
+        </Routes>
+      </Router>
     </>
   )
 }
