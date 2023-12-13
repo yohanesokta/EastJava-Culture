@@ -1,18 +1,18 @@
 import { GoogleLogin } from "react-google-login";
 
-const ClientID = "649924286661-uug7ckbh0oi8ck108abfqj5pocfpks2g.apps.googleusercontent.com"
+const ClientID = import.meta.env.VITE_GOOGLE_CLIENT_ID
 
-function onSuccess(res){
-    console.log("sukses",res.profileObj);
+function onSuccess(res) {
+    console.log("sukses", res.profileObj);
     document.getElementById("login-container").style.display = "none"
 }
-function onFailure(res){
-    console.log("Falure | ",res)
+function onFailure(res) {
+    console.log("Falure | ", res)
     document.getElementById("login-container").style.display = "none"
 }
 
-function Login(){
-    return(
+function Login() {
+    return (
         <>
             <GoogleLogin
                 clientId={ClientID}
