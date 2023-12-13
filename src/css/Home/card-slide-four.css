@@ -27,15 +27,44 @@
     height: 15%;
 }
 .card-button img:first-child{
-    left: 10%;
+    left: 5%;
 }
 .card-button img:last-child{
-    right: 10%;
+    right: 5%;
     transform: rotate(180deg);
 }
 .card-slide-four .field-content{
+    width: 2880px;
+    display: flex;
+}
+.container-field{
     width: 960px;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
+}
+.card-slide-four .field-content .card-element{
+    margin: 0 10px;
+}
+@media only screen and (max-width:1210px){
+    .card-button img:first-child{
+        left: 2.5%;
+    }
+    .card-button img:last-child{
+        right: 2.5%;
+    }
+    
+}
+@media only screen and (max-width:1120px){
+    .container-field{
+        width: calc(240px*3);
+    }
+}
+@media only screen and (max-width:860px){
+    .container-field{
+        width: calc(240px*2);
+    }
+}
+@media only screen and (max-width:610px){
+    .container-field{
+        width: 240px;
+    }
 }

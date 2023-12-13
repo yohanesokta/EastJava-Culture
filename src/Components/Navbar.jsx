@@ -8,7 +8,7 @@ import Login from "./bundle/Login";
 const DropdownMenuBudaya = () => {
   return (
     <div className="dropdown-menu">
-      <a href="/#destinasiBudaya">Destinasi Budaya</a>
+      <a href="/destinasi">Destinasi Budaya</a>
       <a href="/#festivalBudaya">Festival Budaya</a>
       <a href="/#gayaHidup">Gaya Hidup Tradisional</a>
       <a href="#">Destinasi Budaya</a>

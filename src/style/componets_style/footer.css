@@ -84,3 +84,32 @@ footer{
     display: flex;
     margin: auto 0;
  }
+ @media only screen and (max-width:830px){
+   footer{
+      height: auto;
+   }
+   .footer-container{
+      display: block;
+   }
+   .image-footer{
+      width: 100%;
+      display: flex;
+   }
+   .image-footer{
+      width: 40%;
+      margin: auto;
+   }
+   .text-left{
+      margin-top: 20px;
+      width: 100%;
+      background-color: #5E5E5E;
+   }
+   .footer-bottom .social{
+      display: none;
+   }
+   .footer-bottom span{
+      width: 100%;
+      margin: 0   ;
+      text-align: center
+   };
+ }
