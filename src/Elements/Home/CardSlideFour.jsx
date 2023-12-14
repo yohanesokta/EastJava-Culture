@@ -1,6 +1,8 @@
 import "../../css/Home/card-slide-four.css";
 import CardButton from "../../assets/HomeElements/arrow_back.svg";
 import CardElement from "../Bundle/CardElement";
+
+
 import GandrungSewu from "../../assets/HomeElements/FestivalImage/fest1.png";
 import KebayaBanyuwangi from "../../assets/HomeElements/FestivalImage/fest2.png";
 import BatikProbolingo from "../../assets/HomeElements/FestivalImage/fest3.png";
@@ -9,7 +11,6 @@ import KarapanSonok from "../../assets/HomeElements/FestivalImage/KarapanSonok.p
 import Wayang from "../../assets/HomeElements/FestivalImage/Wayang.png"
 import Pandalungan from "../../assets/HomeElements/FestivalImage/pandalungan.png"
 import Rontek from "../../assets/HomeElements/FestivalImage/rontek_pacitan.png"
-
 import PetikLaut from "../../assets/HomeElements/FestivalImage/PetikLaut.png"
 import Batik from "../../assets/HomeElements/FestivalImage/rontek_pacitan.png"
 import Rontek from "../../assets/HomeElements/FestivalImage/rontek_pacitan.png"
