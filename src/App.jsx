@@ -30,6 +30,7 @@ function App() {
           <Route path='/destinasi/' element={<PageDestinasi />}/>
           <Route path='/destinasi/:slug' element={<Isi />} />
           <Route path='*' element={<NotFound />} />
+          
         </Routes>
       </Router>
     </>

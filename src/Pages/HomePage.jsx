@@ -9,13 +9,13 @@ import Footer from "../Components/bundle/Footer.jsx";
 const HomePage = () => {
     return (
         <>
-            <Title string="East Java Culture | HomePage" />
+            {/* <Title string="East Java Culture | HomePage" />
             <LoginContainer />
             <Navbar noGray={true}/>
             <HeroSection />
-            <HomeAbout />
+            <HomeAbout /> */}
             <CardSlideFour />
-            <Footer />
+            {/* <Footer /> */}
         </>
     );
 };

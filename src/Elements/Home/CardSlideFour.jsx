@@ -15,11 +15,12 @@ import PetikLaut from "../../assets/HomeElements/FestivalImage/PetikLaut.png"
 import KarapanSapi from "../../assets/HomeElements/FestivalImage/KarapanSapi.png"
 import Kenduren from "../../assets/HomeElements/FestivalImage/Kenduren.png"
 import JemberFasion from "../../assets/HomeElements/FestivalImage/JemberFasion.png"
-
+import BtnControl from "../Bundle/BtnControl";
 
 
 
 export default function CardSlideFour() {
+
     return (
         <>
             <div className="card-title">
@@ -28,11 +29,11 @@ export default function CardSlideFour() {
             <div className="card-slide-four">
                 <div className="card-slide">
                     <div className="card-button">
-                        <img src={CardButton} alt="" />
-                        <img src={CardButton} alt="" />
+                        <img src={CardButton} alt="" onClick={()=>{BtnControl('kiri')}}/>
+                        <img src={CardButton} alt="" onClick={()=>{BtnControl('kanan')}}/>
                     </div>
                     <div className="container-field">
-                        <div className="field-content">
+                        <div className="field-content" id='longkonten'>
                             <CardElement
                                 image={GandrungSewu}
                                 tanggal="22 DESEMBER 2023"
