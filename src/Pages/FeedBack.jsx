@@ -1,36 +1,32 @@
 import Navbar from "../Components/Navbar"
 import Footer from "../Components/bundle/Footer"
-import Gmaterial from "../Components/bundle/GoogleMaterial"
 import "../css/Home/feedback.css"
 import chel from "../assets/HomeElements/icon/chel.jpg"
+import  CommentElement from "../Elements/Bundle/CommentElement"
+import FeedbackField from "../Elements/Bundle/feedback/FeedbackField"
+
 const FeedBack = () => {
     return(<>
         <Navbar />
         <div className="nav-gap"></div>
         <div className="feedback">
-            <div className="feedback-container">
-                <div className="feedback-quest active">
-                    <div className="label">
-                        <p>Seberapa Menarik Jawa Timur Bagimu ?</p>
-                        <Gmaterial name="navigate_next" />
-                    </div>
-                    <div className="comment-container">
-                        <div className="comment-field">
-                            <div className="comment-head">
-                                <img src={chel} alt="" />
-                                <h3>3/10/23</h3>
-                            </div>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo est quaerat perspiciatis accusamus autem dolorum dolores, obcaecati vel alias reiciendis vero velit tempora animi molestiae quo hic labore ipsa corrupti sequi et repudiandae architecto consequuntur eveniet ullam. Quod omnis quo </p>
-                        </div>
-                        <div className="comment-field">
-                            <div className="comment-head">
-                                <img src={chel} alt="" />
-                                <h3>3/10/23</h3>
-                            </div>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo est quaerat perspiciatis accusamus autem dolorum dolores, obcaecati vel alias reiciendis vero velit tempora animi molestiae quo hic labore ipsa corrupti sequi et repudiandae architecto consequuntur eveniet ullam. Quod omnis quo </p>
-                        </div>
-                    </div>
-                </div>
+            <div className="feedback-container"> 
+            <FeedbackField id="questOne" soal="Apa Yang Kamu Sukai Dari Jawa Timur" comment={[
+                <CommentElement image={chel} isi="Comment 1" />,
+                <CommentElement image={chel} isi="Comment 2" />
+            ]}/>
+            <FeedbackField id="questTwo" soal="Apa Yang Kamu Sukai Dari Jawa Timur" comment={[
+                <CommentElement image={chel} isi="Comment 3" />,
+                <CommentElement image={chel} isi="Comment 4" />
+            ]}/>
+            <FeedbackField id="questThree" soal="Apa Yang Kamu Sukai Dari Jawa Timur" comment={[
+                <CommentElement image={chel} isi="Comment 3" />,
+                <CommentElement image={chel} isi="Comment 4" />
+            ]}/>
+            <FeedbackField id="questFour" soal="Apa Yang Kamu Sukai Dari Jawa Timur" comment={[
+                <CommentElement image={chel} isi="Comment 3" />,
+                <CommentElement image={chel} isi="Comment 4" />
+            ]}/>
             </div>
         </div>
         <Footer/>
