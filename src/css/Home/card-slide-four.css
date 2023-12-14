@@ -25,6 +25,13 @@
     top: calc(50% - (15%/2)) ;
     position: absolute;
     height: 15%;
+    transition: 0.2s ease;
+}
+.card-button img:hover{
+    opacity: .5;
+}
+.card-button img::selection{
+    background-color: white;
 }
 .card-button img:first-child{
     left: 5%;
@@ -40,6 +47,7 @@
 .container-field{
     width: 960px;
     margin: auto;
+    overflow: hidden;
 }
 .card-slide-four .field-content .card-element{
     margin: 0 10px;

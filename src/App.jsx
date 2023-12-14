@@ -28,7 +28,7 @@ function App() {
         <Routes>
           <Route path='/' element={<HomePage/>} />
           <Route path='/destinasi/' element={<PageDestinasi />}/>
-          <Route path='/page/:slug' element={<Isi />} />
+          <Route path='/destinasi/:slug' element={<Isi />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </Router>
