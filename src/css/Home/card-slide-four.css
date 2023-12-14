@@ -1,0 +1,78 @@
+.card-title {
+    background-color: white;
+    text-align: center;
+    color: #882929;
+    padding: 40px 0;
+}
+.card-slide-four{
+    width: 100%;
+    background-color: white;
+    padding-bottom: 80px;
+}
+.card-slide{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.card-button{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.card-button img{
+    margin: auto 0;
+    top: calc(50% - (15%/2)) ;
+    position: absolute;
+    height: 15%;
+    transition: 0.2s ease;
+}
+.card-button img:hover{
+    opacity: .5;
+}
+.card-button img::selection{
+    background-color: white;
+}
+.card-button img:first-child{
+    left: 5%;
+}
+.card-button img:last-child{
+    right: 5%;
+    transform: rotate(180deg);
+}
+.card-slide-four .field-content{
+    width: 2880px;
+    display: flex;
+}
+.container-field{
+    width: 960px;
+    margin: auto;
+    overflow: hidden;
+}
+.card-slide-four .field-content .card-element{
+    margin: 0 10px;
+}
+@media only screen and (max-width:1210px){
+    .card-button img:first-child{
+        left: 2.5%;
+    }
+    .card-button img:last-child{
+        right: 2.5%;
+    }
+    
+}
+@media only screen and (max-width:1120px){
+    .container-field{
+        width: calc(240px*3);
+    }
+}
+@media only screen and (max-width:860px){
+    .container-field{
+        width: calc(240px*2);
+    }
+}
+@media only screen and (max-width:610px){
+    .container-field{
+        width: 240px;
+    }
+}

@@ -2,10 +2,12 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './Pages/home'
 import './style/app.css'
 import Test from './test'
-import Isi from './Pages/isi'
+import Isi from './Pages/Page'
 import NotFound from "./Components/bundle/NotFound"
 import { useEffect } from 'react'
 import { gapi } from 'gapi-script'
+import HomePage from './Pages/HomePage'
+import PageDestinasi from './Pages/PageDestinasi'
 
 function App() {
 
@@ -24,8 +26,9 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/page/:slug' element={<Isi />} />
+          <Route path='/' element={<HomePage/>} />
+          <Route path='/destinasi/' element={<PageDestinasi />}/>
+          <Route path='/destinasi/:slug' element={<Isi />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </Router>

@@ -4,165 +4,112 @@ footer{
     background-color: #5E5E5E;
     display: flex;
 }
-.logo{
-    width: 30%;
-    height: 100%;
-}
-.logo p{
-    color: white;
-    font-size: 10pt;
-    margin-left: 5%;
-    font-weight: 600;
-}
-.col-logo{
-    width: 100%;
-    height: 80%;
+.footer-container{
     display: flex;
-}
-.col-logo img{
     margin: auto;
-    margin-left: 5%;
-    height: 80%;
-    object-fit: cover;
-}
-.left-container{
-    width: 70%;
+    width: 90%;
     height: 100%;
 }
-.l-top{
-    position: relative;
-    width: 100%;
-    height: 48.5%;
+.image-footer{
+    width:20%;
+    height: 100%;
     display: flex;
 }
-.line{
-    position: relative;
-    width: 100%;
-    height: 3%;
-    display: flex;
-    background-color: #5E5E5E;
+.image-footer img{
+    width: 80%;
+    margin: auto;
 }
-.line::before , .line::after{
-    content: "";
-    width: 43%;
-    height: 4px;
-    border-radius: 20px;
-    position: absolute;
+.text-left{
+    display: flex;
+    width: 80%;
+    height: 100%;
+ }
+ .text-left p{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    color: white;
+    font-size: 9pt;
+ }
+ .text-left-field{
+    margin: auto;
+ }
+ .line{
+    display: flex;
+    width: 100%;
+    margin: 30px 0;
+    height: 1px;
     background-color: white;
-}
-.line::after{
-    right: 0;
-}
-.line img{
-    position: absolute;
-    width: 10%;
-    left: 45%;
-    top:-10px
-}
-.l-bottom{
-    display: flex;
+ }
+ .line img{
+    background-color: #5E5E5E;
+    width: 80px;
+    margin: auto;
+    padding: 0 20px;
+    margin-top: -5px;
+ }
+ .footer-bottom{
+    position: relative;
     width: 100%;
-    height: 48.5%;
-}
-.l-top .left , .l-top .right{
     display: flex;
-    width: 40%;
-    height: 90%;
-}
-.l-top .right{
+ }
+ .footer-bottom span{
+    font-size: 8pt;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: white;
+    font-weight: 500;
+ }
+ .footer-bottom .social{
+    padding: 0 50px;
+    margin: auto;
     position: absolute;
-    top: 0;
     right: 0;
-}
-.l-top .left a{
-    text-decoration: none;
-    font-size: 12pt;
-    margin: auto;
-    color: white;
-}
-.l-top .left a span{
-    transform: rotate(-90deg);
-}
-.l-top .right .con{
-    width: 80%;
-    margin: auto;
-}
-.l-top .right .con p{
-    font-size: 10pt;
-    color: white;
-}
-.l-top .right .con .linked{
-    width: 80%;
+ }
+ .footer-bottom .social p{
+    text-align: left;
+    margin: 0 20px;
+    margin-top: -20px;
+ }
+ .footer-bottom .social .social-icon{
+    width: 100%;
     margin-top: 10px;
     display: flex;
-    justify-content: space-between;
-}
-.l-top .right .con .linked a img{
-    transition: .2s ease;
-    width: 30px;
-}
-.l-top .right .con .linked a{
-    margin: auto 0;
-}
-.l-top .right .con .linked a:hover img{
-    opacity: .5;
-}
-.l-bottom .container-lbottom{
-    width: 90%;
-    margin: 20px auto;
+ }
+ .social-icon img{
+    width: 25px;
+    margin: auto 10px;
+ }
+ .social-icon a{
     display: flex;
-    justify-content: space-between;
-}
-.l-bottom .container-lbottom span{
-    font-size: 11pt;
-    margin: auto;
-    color: white;
-}
-.footer{
-    display: none;
-}
-@media only screen and (max-width:950px){
-    footer{
-        display: none;
-    }
-    .footer{
-        display: block;
-        width: 100%;
-        background-color: #5E5E5E;
-    }
-    .footer img{
-        padding: 20px 0;
-        width: 30%;
-        border-bottom: 2px solid white;
-    }
-    .footer .name{
-        display: block;
-    }
-    .footer .name p{
-        text-align: center;
-        color: white;
-        line-height: 30px;
-    }
-    .con {
-        width: 100%;
-    }
-    .con p{
-        text-align: center;
-        color: white;
-    }
-    .con .linked{
-        margin-left: 25%;
-        width: 50%;
-        display: flex;
-        justify-content: space-between;
-    }
-    .con .linked a{
-        text-decoration:  none;
-        border: none;
-    }
-    .con .linked img{
-        width: 100%;
-        border: none;
-
-    }
-}
+    margin: auto 0;
+ }
+ @media only screen and (max-width:830px){
+   footer{
+      height: auto;
+   }
+   .footer-container{
+      display: block;
+   }
+   .image-footer{
+      width: 100%;
+      display: flex;
+   }
+   .image-footer{
+      width: 40%;
+      margin: auto;
+   }
+   .text-left{
+      margin-top: 20px;
+      width: 100%;
+      background-color: #5E5E5E;
+   }
+   .footer-bottom .social{
+      display: none;
+   }
+   .footer-bottom span{
+      width: 100%;
+      margin: 0   ;
+      text-align: center
+   };
+ }
