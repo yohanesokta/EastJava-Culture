@@ -7,12 +7,13 @@ export default function IsiField({data}){
                 <div className="image">
                     <img src={ImageDummy1} alt="images" />
                     <p>
-                        berikut ini adalah beberapa destinasi budaya yang ada di{" "}
                         {data.nama}
                     </p>
+                    <h1>
+                        {data.kota}
+                    </h1>
                 </div>
                 <div className="desc">
-                    <h1>Deskripsi {data.nama}</h1>
                     <p>{data.desc}</p>
                 </div>
                 <div className="maps">

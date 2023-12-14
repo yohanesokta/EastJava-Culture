@@ -8,6 +8,7 @@ import { useEffect } from 'react'
 import { gapi } from 'gapi-script'
 import HomePage from './Pages/HomePage'
 import PageDestinasi from './Pages/PageDestinasi'
+import FeedBack from './Pages/FeedBack'
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
           <Route path='/' element={<HomePage/>} />
           <Route path='/destinasi/' element={<PageDestinasi />}/>
           <Route path='/destinasi/:slug' element={<Isi />} />
+          <Route path='/feedback/' element={<FeedBack/>}/>
           <Route path='*' element={<NotFound />} />
         </Routes>
       </Router>
