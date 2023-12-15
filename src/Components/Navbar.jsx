@@ -20,7 +20,6 @@ const DropdownMenuKesenian = () => {
   return (
     <div className="dropdown-menu drop2">
       <a href="#">Kerajinan Tangan</a>
-      <a href="#">Bahasa dan Sastra</a>
       <a href="#">Gaya Hidup Tradisional</a>
     </div>
   );
@@ -66,8 +65,7 @@ function LoginButton(){
             <DropdownMenuBudaya />
           </a>
           <a className="nav-menu">
-            <p>Kesenian</p> <Gmaterial name="arrow_drop_down" />
-            <DropdownMenuKesenian />
+            <p><Kerajinan></Kerajinan></p> <Gmaterial hide="yes" name="arrow_drop_down" />
           </a>
           <a href="/#kuliner" className="nav-menu">
             <p>Kuliner</p> <Gmaterial hide="yes" name="fiber_manual_record" />

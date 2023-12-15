@@ -1,4 +1,4 @@
-let keadaan = 0;
+let keadaan = 1;
 let mundur = 0;
 
 function animate(object, changObject, value) {
@@ -46,6 +46,7 @@ export default function BtnControl(aksi,MaxKeadaan) {
             keadaan -= 1;
         }
     }
+    console.log(`Keadaan  = ${keadaan} | Max  = ${MaxKeadaan} | mundur = ${mundur} | Size  = ${size}`)
     animate(conProps,props ,mundur)
 }
 
