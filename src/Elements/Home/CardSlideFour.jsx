@@ -29,10 +29,10 @@ export default function CardSlideFour() {
             <div className="card-slide-four">
                 <div className="card-slide">
                     <div className="card-button">
-                        <img src={CardButton} alt="" onClick={()=>{BtnControl('kiri')}}/>
-                        <img src={CardButton} alt="" onClick={()=>{BtnControl('kanan')}}/>
+                        <img src={CardButton} alt="" onClick={()=>{BtnControl('kanan',12)}}/>
+                        <img src={CardButton} alt="" onClick={()=>{BtnControl('kiri',12)}}/>
                     </div>
-                    <div className="container-field">
+                    <div className="container-field" id="container-content">
                         <div className="field-content" id='longkonten'>
                             <CardElement
                                 image={GandrungSewu}

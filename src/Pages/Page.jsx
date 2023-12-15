@@ -10,7 +10,6 @@ export default function Isi({ slug }) {
     const data = DataUtama.Budaya[0].DestinasiBudaya;
     let result = [];
     data.forEach((element,key) => {
-        console.log(element.kota)
         if (element.kota == param.slug) {
             result.push(
                 <IsiField data={element}  key={key}/>

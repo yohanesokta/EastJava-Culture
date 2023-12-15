@@ -46,6 +46,7 @@
 }
 .container-field{
     width: 960px;
+    transition: .25s ease;
     margin: auto;
     overflow: hidden;
 }
