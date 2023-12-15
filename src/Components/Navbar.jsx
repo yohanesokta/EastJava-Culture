@@ -11,19 +11,9 @@ const DropdownMenuBudaya = () => {
       <a href="/destinasi">Destinasi Budaya</a>
       <a href="/#festivalBudaya">Festival Budaya</a>
       <a href="/#gayaHidup">Gaya Hidup Tradisional</a>
-      <a href="#">Destinasi Budaya</a>
     </div>
   );
 };
-
-const DropdownMenuKesenian = () => {
-  return (
-    <div className="dropdown-menu drop2">
-      <a href="#">Kerajinan Tangan</a>
-      <a href="#">Gaya Hidup Tradisional</a>
-    </div>
-  );
-}
 
 const Navbar = ({noGray}) => {
 let prop
@@ -64,15 +54,15 @@ function LoginButton(){
             <p>Budaya</p> <Gmaterial name="arrow_drop_down" />
             <DropdownMenuBudaya />
           </a>
-          <a className="nav-menu">
-            <p><Kerajinan></Kerajinan></p> <Gmaterial hide="yes" name="arrow_drop_down" />
+          <a className="nav-menu" href="/kerajinan">
+            <p>Kerajinan</p> <Gmaterial hide="yes" name="arrow_drop_down" />
           </a>
-          <a href="/#kuliner" className="nav-menu">
+          <a href="/kuliner" className="nav-menu">
             <p>Kuliner</p> <Gmaterial hide="yes" name="fiber_manual_record" />
           </a>
         </div>
         <div className="search">
-          <button onClick={LoginButton}>Login</button>
+          <button onClick={()=>{window.location.href = "/feedback"}}>Umpan Balik </button>
         </div>
       </nav>
     </>
