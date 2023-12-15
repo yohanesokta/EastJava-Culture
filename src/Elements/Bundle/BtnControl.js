@@ -29,7 +29,7 @@ export default function BtnControl(aksi,MaxKeadaan) {
     MaxKeadaan = MaxKeadaan / calculateSize()
 
     if (aksi == "kiri") {
-        if (keadaan == MaxKeadaan){
+        if (keadaan >= MaxKeadaan){
             mundur = 0;
             keadaan = 1;
         }else{
