@@ -1,14 +1,21 @@
+import { gapi } from "gapi-script";
 import { GoogleLogin } from "react-google-login";
 
 const ClientID = import.meta.env.VITE_GOOGLE_CLIENT_ID
 
 function onSuccess(res) {
-    console.log("sukses", res.profileObj);
-    document.getElementById("login-container").style.display = "none"
-}
-function onFailure(res) {
-    console.log("Falure | ", res)
-    document.getElementById("login-container").style.display = "none"
+    let username  = document.getElementById('username')
+    let userimage  = document.getElementById('userimage')
+    userimage.value = res.profileObj.imageUrl
+    username.value = res.profileObj.name
+    document.getElementById('userprofile-image').src = res.profileObj.imageUrl
+    let btnKirim  = document.getElementsByClassName('btnKirim')
+    Array.from(btnKirim).forEach((element) => {
+        element.innerHTML = "Kirim"
+    });
+    Array.from(document.getElementsByClassName('userprofile')).forEach((e)=>{
+        e.style.display = "block"
+    })
 }
 
 function Login() {
@@ -16,9 +23,8 @@ function Login() {
         <>
             <GoogleLogin
                 clientId={ClientID}
-                buttonText="Lanjut Dengan Google"
+                buttonText=""
                 onSuccess={onSuccess}
-                onFailure={onFailure}
                 cookiePolicy={"single_host_origin"}
                 isSignedIn={true}
             />
