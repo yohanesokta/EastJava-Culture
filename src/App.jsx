@@ -9,6 +9,8 @@ import PageDestinasi from './Pages/PageDestinasi'
 import FeedBack from './Pages/FeedBack'
 import Kerajinan from './Elements/Container/Kerajinan'
 import Kuliner from './Elements/Container/Kuliner'
+import PageGayaHidup from './Pages/GayaHidup'
+import FestivalContainer from './Elements/FestivalContainer/FestivalContainer'
 
 function App() {
   const ClientID = import.meta.env.VITE_GOOGLE_CLIENT_ID
@@ -32,6 +34,8 @@ function App() {
           <Route path='/feedback/' element={<FeedBack/>}/>
           <Route path='/kerajinan/' element={<Kerajinan/>} />
           <Route path='/kuliner' element={<Kuliner/>}/>
+          <Route path='/gayahidup/'element={<PageGayaHidup/>} />
+          <Route path='/festival/' element={<FestivalContainer/>}/>
           <Route path='*' element={<NotFound />} />
         </Routes>
       </Router>

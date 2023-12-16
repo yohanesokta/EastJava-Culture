@@ -123,6 +123,10 @@
     background-color: #8FB8F6;
     border: none;
     height: 40px;
+    transition: .3s ease;
+}
+.input-container button:hover{
+    background-color: #4275c1;
 }
 .input-container button button{
     width: 100%;
@@ -167,9 +171,6 @@
     border: none;
     box-shadow: none;
     outline: 0;
-}
-.search{
-    display: none;
 }
 @media only screen and (max-width:1025px){
     .comment-container{

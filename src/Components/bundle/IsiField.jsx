@@ -5,7 +5,7 @@ export default function IsiField({data}){
     return(<>
          <div className="container-next">
                 <div className="image">
-                    <img src={ImageDummy1} alt="images" />
+                    <img src={`../../../public/image/DestinasiBudaya/U${data.id}.jpg`} alt="images" />
                     <p>
                         {data.nama}
                     </p>

@@ -9,8 +9,8 @@ const DropdownMenuBudaya = () => {
   return (
     <div className="dropdown-menu">
       <a href="/destinasi">Destinasi Budaya</a>
-      <a href="/#festivalBudaya">Festival Budaya</a>
-      <a href="/#gayaHidup">Gaya Hidup Tradisional</a>
+      <a href="/festival">Festival Budaya</a>
+      <a href="/gayahidup">Gaya Hidup Tradisional</a>
     </div>
   );
 };
