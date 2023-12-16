@@ -1,11 +1,25 @@
-const CommentElement = ({image , isi}) => {
+import verif from "../../assets/verif.svg";
+const CommentElement = ({ image, isi, name, day, time }) => {
+    // Awokawokawok Panggah Centang Ijo 😄
+
+    let Verif = () => {
+        if (String(name).toLocaleLowerCase().includes(import.meta.env.VITE_NAMA_ADMIN)) {
+            return <img src={verif} alt="" />;
+        } else {
+            return <div className="no-div"></div>;
+        }
+    };
+
     return (
         <>
             <div className="comment-field">
                 <div className="comment-head">
                     <img src={image} alt="" />
-                    <h2>Bu Lely</h2>
-                    <h3>3/10/23</h3>
+                    <div className="name">
+                        <h2>{name}<Verif/></h2>
+                        <p>{time}</p>
+                    </div>
+                    <h3>{day}</h3>
                 </div>
                 <p>{isi}</p>
             </div>
@@ -13,4 +27,4 @@ const CommentElement = ({image , isi}) => {
     );
 };
 
-export default CommentElement
+export default CommentElement;
