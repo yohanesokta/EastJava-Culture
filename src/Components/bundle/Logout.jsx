@@ -1,17 +1,19 @@
-import { GoogleLogin } from "react-google-login";
+import { GoogleLogout } from "react-google-login";
 
 const ClientID = import.meta.env.VITE_GOOGLE_CLIENT_ID
 
 function onSuccess() {
-    console.log("logout from google")
+    window.location.href = "/feedback"
 }
 
 function Logout() {
     return (<>
-        <GoogleLogin
+        <GoogleLogout
             clientId={ClientID}
             buttonText={"Logout"}
-            onSuccess={onSuccess}
+            onLogoutSuccess={onSuccess}
         />
     </>)
 }
+
+export default Logout

@@ -1,0 +1,29 @@
+.image-kuliner{
+    height: 500px;
+    position: relative;
+}
+.image-kuliner img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    object-fit: cover;
+}
+.image-kuliner-text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: white;
+    display: flex;
+}
+.image-kuliner-text p{
+    font-size: 28pt;
+    width: 70%;
+    font-weight: 600;
+    margin: auto;
+}
+@media only screen and (max-width:600px){
+    .image-kuliner-text p{
+        font-size: 18pt;
+    }
+}
