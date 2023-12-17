@@ -1,6 +1,7 @@
 import React from "react";
 import CommentElement from "../CommentElement";
 import ReactDOM from "react-dom/client";
+import { json } from "react-router-dom";
 
 export default function KirimControl(id, comment) {
     let txt = document.getElementById(`userinput${id}`);
@@ -16,13 +17,25 @@ export default function KirimControl(id, comment) {
             `${date.getDate()}/${date.getMonth()}/${date.getFullYear()}`,
             `${date.getHours()} : ${date.getMinutes()}`,
         ];
-        let url = `${import.meta.env.VITE_DATA_API}?image=${
-            userimage.value
-        }&quest=${id}&nama=${username.value}&date${day[0]}&time${
-            day[1]
-        }&field=${txt.value}`;
+        let url = import.meta.env.VITE_DATA_API
+        const data = {
+            token : 'PRJ12',
+            quest : id,
+            image : userimage.value,
+            nama : username.value,
+            date : day[0],
+            time : day[1],
+            field : txt.value
+        }
 
-        fetch(url, {method: "POST"});
+
+        fetch(url, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+              },
+            body  : JSON.stringify(data)
+        });
 
         comment.push(
             <CommentElement
