@@ -155,7 +155,7 @@ const destinasiBudaya = {
     },
     {
       id: "23",
-      kota: "Mojokerto",
+      kota: "Mojokerto(NotFix)",
       nama: "Candi Brahu",
       desc: "Candi Brahu di Madiun adalah situs arkeologi kuno dengan arsitektur Hindu yang memukau. Meski ukurannya tidak besar, candi ini menampilkan keindahan dan detail arsitektur yang menarik bagi pengunjung yang tertarik pada sejarah klasik.",
       loc: "Kabupaten Mojokerto",
