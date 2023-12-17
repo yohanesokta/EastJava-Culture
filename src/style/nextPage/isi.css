@@ -42,10 +42,13 @@
 }
 .desc{
     width: 90%;
-    margin-left: 5%;
 }
 .desc h1{
     margin-bottom: 20px;
+}
+.desc p{
+    padding: 50px 5%;
+    border-left: 10px solid red;
 }
 .maps{
     margin-top: 50px;
