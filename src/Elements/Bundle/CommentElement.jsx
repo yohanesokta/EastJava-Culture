@@ -14,7 +14,7 @@ const CommentElement = ({ image, isi, name, day, time }) => {
         <>
             <div className="comment-field">
                 <div className="comment-head">
-                    <img src={image} alt="" />
+                    <img src={image} alt="" className="fotoprofile" />
                     <div className="name">
                         <h2>{name}<Verif/></h2>
                         <p>{time}</p>

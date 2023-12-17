@@ -2,7 +2,6 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/bundle/Footer";
 import "../css/Home/feedback.css";
 import chel from "../assets/HomeElements/icon/chel.jpg";
-import CommentElement from "../Elements/Bundle/CommentElement";
 import FeedbackField from "../Elements/Bundle/feedback/FeedbackField";
 import Logout from "../Components/bundle/Logout";
 import { useEffect, useState } from "react";
@@ -21,6 +20,10 @@ function FeedBack() {
                     fed = false
                 })
             })
+
+            Array(document.getElementsByClassName('skleton')).forEach((e)=>{
+                console.log(e)
+            })
         }
     });
 
@@ -36,6 +39,7 @@ function FeedBack() {
                         id="quest_1"
                         soal="Apa Yang Kamu Sukai Dari Jawa Timur"
                         Data={Data}
+                        active={'active'}
                     />
                     <FeedbackField
                         id="quest_2"
@@ -59,7 +63,7 @@ function FeedBack() {
                 <div className="flex-container">
                     <img
                         id="userprofile-image"
-                        src={chel}
+                        src=""
                         referrerpolicy="no-referrer"
                     />
                     <p>Yohanes</p>

@@ -1,0 +1,60 @@
+
+.skleton{
+    padding-bottom: 20px;
+}
+.skleton .fotoprofile{
+    background-image: linear-gradient(90deg, #ddd 0px, #e8e8e8 40px, #dddd 80px);
+    background-size: 600px;
+    transition: 0.3s ease;
+    animation: profile 1s infinite;
+}
+.skleton h2{
+    background-image: linear-gradient(90deg, #ddd 0px, #e8e8e8 40px, #dddd 80px);
+    background-size: 600px;
+    transition: 0.3s ease;
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    animation: profile 1s infinite;
+}
+.skleton .name p{
+    background-image: linear-gradient(90deg, #ddd 0px, #e8e8e8 40px, #dddd 80px);
+    background-size: 600px;
+    transition: 0.3s ease;
+    width: 50px;
+    padding: 0;
+    margin-top: 5px;
+    height: 10px;
+    border-radius: 10px;
+    animation: profile 1s infinite;
+}
+.skleton h3{
+    background-image: linear-gradient(90deg, #ddd 0px, #e8e8e8 40px, #dddd 80px);
+    background-size: 600px;
+    transition: 0.3s ease;
+    width: 50px;
+    padding: 0;
+    margin-top: 5px;
+    height: 10px;
+    border-radius: 10px;
+    animation: profile 1s infinite;
+}
+
+.skleton .comment-field{
+    background-image: linear-gradient(90deg, #ddd 0px, #e8e8e8 40px, #dddd 80px);
+    background-size: 600px;
+    transition: 0.3s ease;
+    width: 50px;
+    padding: 0;;
+    height: 10px;
+    border-radius: 10px;
+    animation: profile 1s infinite;
+}
+@keyframes profile {
+    0%{
+        background-position: -100px;
+    }
+    100%{
+        background-position: 100px;
+    }
+}

@@ -5,20 +5,24 @@ import { useEffect, useState } from "react";
 import KirimControl from "./KirimControl";
 import { json } from "react-router-dom";
 import CommentElement from "../CommentElement";
+import CommentSkleton from "../CommentSkleton";
 
 // let fetchComment = true;
 
 
-export default function FeedbackField({ id, soal, Data }) {
+export default function FeedbackField({ id, soal, Data , active}) {
     const [Ft,SetFt] = useState(true)
-    let comment = [];
+    let comment = [
+        <CommentSkleton/>
+    ];
     const [CommentValue, SetComment] = useState(comment);
     if (Data !== "default") {
         if (Ft) {
+        comment = [];
             Data.response.data.forEach((e) => {
                 if (e.name == id) {
                     e.data.forEach((e) => {
-                        CommentValue.push(
+                        comment.push(
                             <CommentElement
                                 day={e.date}
                                 image={e.image}
@@ -31,6 +35,7 @@ export default function FeedbackField({ id, soal, Data }) {
                     });
                 }
             });
+            SetComment(comment)
             console.log("repreview")
             SetFt(false)
         }
@@ -55,7 +60,7 @@ export default function FeedbackField({ id, soal, Data }) {
 
     return (
         <>
-            <div className="feedback-quest" id={id}>
+            <div className={`feedback-quest ${active ?? ''}`} id={id}>
                 <div
                     className="label"
                     onClick={() => {

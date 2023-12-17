@@ -81,7 +81,7 @@
     color: gray;
     font-weight: 500;
 }
-.comment-head img{
+.comment-head .fotoprofile{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -102,8 +102,8 @@
     height: 14px;
     margin: 0;
     position: absolute;
-    top: 15px;
-    right: -2                   0px;
+    top: 16px;
+    right: -18px;
 }
 .comment-field P{
     width: 90%;
