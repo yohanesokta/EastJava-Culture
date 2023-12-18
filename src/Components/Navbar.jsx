@@ -15,29 +15,29 @@ const DropdownMenuBudaya = () => {
   );
 };
 
-const Navbar = ({noGray}) => {
-let prop
-  if (noGray) { 
+const Navbar = ({ noGray }) => {
+  let prop
+  if (noGray) {
     prop = ""
-  }else{
+  } else {
     prop = "nav-gray"
 
   }
-  
-  
+
+
   let drop = false
-  const setDrop = () =>{
+  const setDrop = () => {
     if (drop) {
       document.getElementById('navbar').classList.remove('active')
       drop = false
-    } else{
+    } else {
       document.getElementById('navbar').classList.add('active')
       drop = true
     }
   }
-function LoginButton(){
-  document.getElementById('login-container').style.display = "flex"
-}
+  function LoginButton() {
+    document.getElementById('login-container').style.display = "flex"
+  }
 
   return (
     <>
@@ -47,7 +47,7 @@ function LoginButton(){
           <Gmaterial name="segment" />
         </div>
         <div className="col-nav">
-          <a href="/#" className="nav-menu">
+          <a href="/" className="nav-menu">
             <p>Home</p> <Gmaterial hide="yes" name="fiber_manual_record" />
           </a>
           <a className="nav-menu">
@@ -62,7 +62,7 @@ function LoginButton(){
           </a>
         </div>
         <div className="search">
-          <button onClick={()=>{window.location.href = "/feedback"}}>Umpan Balik </button>
+          <button onClick={() => { window.location.href = "/feedback" }}>Umpan Balik </button>
         </div>
       </nav>
     </>

@@ -3,7 +3,7 @@ export default function IsiField({ data }) {
     return (<>
         <div className="container-next">
             <div className="image">
-                <img src={`/prev/${data.id}.jpg`} alt="images" />
+                <img src={`/prev/U${data.id}.jpg`} alt="images" />
                 <p>
                     {data.nama}
                 </p>

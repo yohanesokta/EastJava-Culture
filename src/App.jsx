@@ -11,6 +11,8 @@ import Kerajinan from './Elements/Container/Kerajinan'
 import Kuliner from './Elements/Container/Kuliner'
 import PageGayaHidup from './Pages/GayaHidup'
 import FestivalContainer from './Elements/FestivalContainer/FestivalContainer'
+import IventKalender from './Pages/IventKalender'
+import IventGallery from './Pages/IventGallery'
 
 function App() {
   const ClientID = import.meta.env.VITE_GOOGLE_CLIENT_ID
@@ -28,14 +30,16 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path='/' element={<HomePage/>} />
-          <Route path='/destinasi/' element={<PageDestinasi />}/>
+          <Route path='/' element={<HomePage />} />
+          <Route path='/destinasi/' element={<PageDestinasi />} />
           <Route path='/destinasi/:slug' element={<Isi />} />
-          <Route path='/feedback/' element={<FeedBack/>}/>
-          <Route path='/kerajinan/' element={<Kerajinan/>} />
-          <Route path='/kuliner' element={<Kuliner/>}/>
-          <Route path='/gayahidup/'element={<PageGayaHidup/>} />
-          <Route path='/festival/' element={<FestivalContainer/>}/>
+          <Route path='/feedback/' element={<FeedBack />} />
+          <Route path='/kerajinan/' element={<Kerajinan />} />
+          <Route path='/kuliner' element={<Kuliner />} />
+          <Route path='/gayahidup/' element={<PageGayaHidup />} />
+          <Route path='/festival/' element={<FestivalContainer />} />
+          <Route path='/ivent/Kalender' element={<IventKalender />} />
+          <Route path='/ivent/Gallery' element={<IventGallery />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </Router>

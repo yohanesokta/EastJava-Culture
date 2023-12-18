@@ -29,29 +29,35 @@ export default function CardSlideFour() {
             <div className="card-slide-four">
                 <div className="card-slide">
                     <div className="card-button">
-                        <img src={CardButton} alt="" onClick={()=>{BtnControl('kanan',12)}}/>
-                        <img src={CardButton} alt="" onClick={()=>{BtnControl('kiri',12)}}/>
+                        <img src={CardButton} alt="" onClick={() => { BtnControl('kanan', 12) }} />
+                        <img src={CardButton} alt="" onClick={() => { BtnControl('kiri', 12) }} />
                     </div>
                     <div className="container-field" id="container-content">
                         <div className="field-content" id='longkonten'>
                             <CardElement
                                 image={GandrungSewu}
                                 tanggal="22 DESEMBER 2023"
+                                red={true}
+                                link={'/ivent/Kalender'}
                                 tittle="FESTIVAL GANDRUNG SEWU"
                             />
                             <CardElement
                                 image={KebayaBanyuwangi}
                                 tanggal="22 DESEMBER 2023"
+                                red={true}
+                                link={'/ivent/Gallery'}
                                 tittle="FESTIVAL KEBAYA BANYUWANGI"
                             />
                             <CardElement
                                 image={BatikProbolingo}
                                 tanggal="22 DESEMBER 2023"
+                                red={true}
                                 tittle="FESTIVAL BATIK PROBOLINGGO"
                             />
                             <CardElement
                                 image={ReogPonorogo}
-                                tanggal="22 DESEMBER 2023"
+                                red={true}
+                                tanggal="Comming Soon"
                                 tittle="FESTIVAL  REOG PONOROGO"
                             />
 

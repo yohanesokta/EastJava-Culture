@@ -14,14 +14,14 @@ function FeedBack() {
         if (fed) {
             console.log("true");
             fed = false;
-            fetch(import.meta.env.VITE_DATA_API).then((result)=>{
-                result.json().then((Response)=>{
+            fetch(import.meta.env.VITE_DATA_API).then((result) => {
+                result.json().then((Response) => {
                     SetData(Response)
                     fed = false
                 })
             })
 
-            Array(document.getElementsByClassName('skleton')).forEach((e)=>{
+            Array(document.getElementsByClassName('skleton')).forEach((e) => {
                 console.log(e)
             })
         }
@@ -66,7 +66,7 @@ function FeedBack() {
                         src=""
                         referrerpolicy="no-referrer"
                     />
-                    <p>Yohanes</p>
+                    <p id="userprofile-name">Yohanes</p>
                 </div>
                 <Logout />
             </div>

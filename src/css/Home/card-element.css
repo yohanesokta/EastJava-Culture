@@ -43,7 +43,10 @@
     font-size: 8pt;
     padding: 5px 20px;
     border-radius: 0 50px 50px 0;
-    background-color: rgba(255, 255, 255,.4);
+    background-color: rgba(255, 255, 255,1);
+}
+.text-black{
+    color: black;
 }
 .card-image .text-detail h1{
     font-weight: 600;

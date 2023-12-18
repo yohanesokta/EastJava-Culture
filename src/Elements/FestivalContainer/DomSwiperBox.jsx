@@ -15,12 +15,12 @@ const DomSwiperBox = () => {
             <Swiper
                 loop={"true"}
                 slidesPerView={"auto"}
-                initialSlide={1}
+                initialSlide={Math.floor(Math.random() * 4) + 1}
                 centeredSlides={true}
                 spaceBetween={20}
                 pagination={{
                     type: 'fraction',
-                  }}
+                }}
                 navigation={true}
                 modules={[Pagination, Navigation]}
                 className="mySwiper"
@@ -37,27 +37,27 @@ const DomSwiperBox = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="con-slider"><iframe
-                            src={Convert(
-                                "https://www.youtube.com/watch?v=ZSQU5GFxIgo"
-                            )}
-                            frameborder="0"
-                        ></iframe></div>
+                        src={Convert(
+                            "https://www.youtube.com/watch?v=ZSQU5GFxIgo"
+                        )}
+                        frameborder="0"
+                    ></iframe></div>
                 </SwiperSlide>
                 <SwiperSlide>
-                <div className="con-slider"><iframe
-                            src={Convert(
-                                "https://www.youtube.com/watch?v=0q8G27lwIvc"
-                            )}
-                            frameborder="0"
-                        ></iframe></div>
+                    <div className="con-slider"><iframe
+                        src={Convert(
+                            "https://www.youtube.com/watch?v=0q8G27lwIvc"
+                        )}
+                        frameborder="0"
+                    ></iframe></div>
                 </SwiperSlide>
                 <SwiperSlide>
-                <div className="con-slider"><iframe
-                            src={Convert(
-                                "https://youtu.be/C7moJigOJ0k?si=Y60XrycZG_WEHV8W"
-                            )}
-                            frameborder="0"
-                        ></iframe></div>
+                    <div className="con-slider"><iframe
+                        src={Convert(
+                            "https://youtu.be/C7moJigOJ0k?si=Y60XrycZG_WEHV8W"
+                        )}
+                        frameborder="0"
+                    ></iframe></div>
                 </SwiperSlide>
             </Swiper>
         </>

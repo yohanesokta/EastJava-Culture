@@ -29,11 +29,18 @@ body{
 #hide{
     opacity: 0;
 }
+.nav-gap{
+  width: 100%;
+  height: 70px;
+}
 .flex-container{
     width: 100%;
     display: flex;
 }
 
+.red-text{
+  color: red;
+}
 .disable{
     display: none;
 }
