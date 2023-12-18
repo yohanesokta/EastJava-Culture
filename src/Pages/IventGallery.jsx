@@ -5,14 +5,22 @@ import thumb from '../assets/Festival/gallery-thum.png';
 import "../css/Festival/ivent-kalender.css"
 import "../css/Festival/ivent-gallery.css"
 import { useParams } from "react-router-dom";
+import GalleryData from "../Data/event/GalleryData"
+
 const IventGallery = () => {
     const param = useParams().slug
+    let data = []
+    GalleryData.forEach((e) => {
+        if (e.namaId == param) {
+            data = e
+        }
+    })
+
     return (<>
         <Navbar />
         <div className="nav-gap"></div>
-        <IventHero title="Festival Gandrung Sewu" desc="adalah perayaan budaya yang diadakan setiap tahun di Banyuwangi, Jawa Timur, Indonesia. Gandrung adalah tarian tradisional yang diiringi oleh musik khas daerah tersebut. Acara ini menjadi bagian penting dari upaya promosi pariwisata Banyuwangi, menampilkan kekayaan seni dan budaya lokal." image={thumb} />
-        <h2 className="title-ivent">berikut ini adalah galeri foto kegiatan
-            festival gandrung sewu banyuwangi</h2>
+        <IventHero title={data.nama} desc={data.desc} image={`/thumb/${param}/5.jpg`} />
+        <h2 className="title-ivent">berikut ini adalah galeri foto kegiatan {data.nama}</h2>
         <div className="image-container">
             <div className="image-top">
                 <img src={`/thumb/${param}/1.jpg`} alt="" />
