@@ -5,6 +5,7 @@ import chel from "../assets/HomeElements/icon/chel.jpg";
 import FeedbackField from "../Elements/Bundle/feedback/FeedbackField";
 import Logout from "../Components/bundle/Logout";
 import { useEffect, useState } from "react";
+import Title from "../Components/title";
 
 let fed = true
 
@@ -29,6 +30,7 @@ function FeedBack() {
 
     return (
         <>
+            <Title string="East Java Culture | FeedBack" />
             <Navbar />
             <div className="nav-gap"></div>
             <div className="feedback">

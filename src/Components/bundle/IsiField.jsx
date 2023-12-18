@@ -1,4 +1,3 @@
-import ImageDummy1 from "../../assets/NextPage/Destinasi/tuguPahlawan.jpg";
 export default function IsiField({ data }) {
     return (<>
         <div className="container-next">

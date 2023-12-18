@@ -3,9 +3,11 @@ import Navbar from "../../Components/Navbar";
 import Footer from "../../Components/bundle/Footer";
 import "../../css/Home/Kuliner.css";
 import IMG from "../../assets/HomeElements/kuliner.jpg";
+import Title from "../../Components/title";
 export default function Kuliner() {
     return (
         <>
+            <Title string="East Java Culture | Kuliner" />
             <Navbar />
             <div className="nav-gap"></div>
             <div className="image-kuliner">

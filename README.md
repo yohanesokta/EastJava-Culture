@@ -9,7 +9,7 @@ _East Java Culture adalah jendela digital ke pesona budaya Jawa Timur. Dari fest
 
 ## Prerequisites
 
--   [ node | npm | yarn](https://nodejs.org/)
+-   [ node](https://nodejs.org/) |  [npm](https://nodejs.org/) | [yarn](https://nodejs.org/)
 
 Before you start, install the dependencies. Clone the repository and navigate to the directory:
 
@@ -23,7 +23,7 @@ copy & edit ".env.example" to ".env"
 
 # Terimakasih
 
-    Kami senang Anda mengunjungi website kami yang menyajikan informasi jadwal festival budaya Jawa Timur. Fokus kami pada seni, destinasi wisata, kerajinan tangan, dan gaya hidup tradisional di Jawa Timur. Semoga informasi yang kami sajikan dapat memberikan wawasan yang berharga untuk Anda!
+_Kami senang Anda mengunjungi website kami yang menyajikan informasi jadwal festival budaya Jawa Timur. Fokus kami pada seni, destinasi wisata, kerajinan tangan, dan gaya hidup tradisional di Jawa Timur. Semoga informasi yang kami sajikan dapat memberikan wawasan yang berharga untuk Anda!_
 
 # React + Vite
 

@@ -3,10 +3,11 @@ import Footer from "../../Components/bundle/Footer";
 import imgThum from "../../assets/Festival/thumnail.png";
 import "../../css/Festival/festival-container.css";
 import DomSwiperBox from "./DomSwiperBox";
-
+import Title from "../../Components/title";
 const FestivalContainer = () => {
     return (
         <>
+            <Title string="East Java Culture | Festival" />
             <Navbar />
             <div className="nav-gap"></div>
             <div className="festival-thumb">

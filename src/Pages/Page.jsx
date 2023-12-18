@@ -3,7 +3,8 @@ import "../style/nextPage/isi.css";
 import DataUtama from "../Data/DataUtama";
 import IsiField from "../Components/bundle/IsiField";
 import Footer from "../Components/bundle/Footer";
-import Navbar from "../Components/Navbar";
+import Navbar from "../Components/Navbar"
+import Title from "../Components/title";
 
 export default function Isi({ slug }) {
     const param = useParams();
@@ -18,6 +19,7 @@ export default function Isi({ slug }) {
     });
     return (
         <>
+        <Title string={`Destinasi ${param.slug} | EastJavaCulture`}/>
             <Navbar />
             <div className="nav-gap"></div>
             <div className="container-isi">

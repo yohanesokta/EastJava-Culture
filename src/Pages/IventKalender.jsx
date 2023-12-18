@@ -5,8 +5,11 @@ import ThumnailImgae from "../assets/Festival/ponorogo-thumb.png"
 import CalenderImage from "../assets/Festival/reog-calender.png"
 import Gmaterial from "../Components/bundle/GoogleMaterial"
 import IventHero from "../Elements/Bundle/IventHero"
+import Title from "../Components/title"
+
 const IventKalender = () => {
     return (<>
+            <Title string="East Java Culture | Ivent" />
         <Navbar />
         <div className="nav-gap"></div>
         <IventHero title="Festival Reog Ponorogo" desc="Festival Reog Ponorogo adalah acara tahunan yang menampilkan kekayaan seni dan budaya daerah Ponorogo, terutama seni pertunjukan Reog yang menjadi ciri khasnya. Reog sendiri adalah bentuk seni pertunjukan yang melibatkan tarian, musik, dan pertunjukan topeng yang spektakuler." image={ThumnailImgae} />
