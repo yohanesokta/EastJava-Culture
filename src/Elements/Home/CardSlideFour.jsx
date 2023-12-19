@@ -17,8 +17,6 @@ import Kenduren from "../../assets/HomeElements/FestivalImage/Kenduren.png"
 import JemberFasion from "../../assets/HomeElements/FestivalImage/JemberFasion.png"
 import BtnControl from "../Bundle/BtnControl";
 
-
-
 export default function CardSlideFour() {
 
     return (
@@ -40,6 +38,21 @@ export default function CardSlideFour() {
                                 red={true}
                                 link={'/ivent/Kalender'}
                                 tittle="FESTIVAL GANDRUNG SEWU"
+                            />
+                             <CardElement
+                                image={Wayang}
+                                tanggal="22 DESEMBER 2023"
+                                tittle="FESTIVAL WAYANG KULIT"
+                            />
+                             <CardElement
+                                image={Rontek}
+                                tanggal="22 DESEMBER 2023"
+                                tittle="FESTIVAL RONTEK PACITAN"
+                            />
+                             <CardElement
+                                image={Pandalungan}
+                                tanggal="22 DESEMBER 2023"
+                                tittle="FESTIVAL PANDALUNGAN"
                             />
                             <CardElement
                                 image={KebayaBanyuwangi}
@@ -66,21 +79,9 @@ export default function CardSlideFour() {
                                 tanggal="22 DESEMBER 2023"
                                 tittle="FESTIVAL SAPI SONOK MADURA"
                             />
-                            <CardElement
-                                image={Wayang}
-                                tanggal="22 DESEMBER 2023"
-                                tittle="FESTIVAL WAYANG KULIT"
-                            />
-                            <CardElement
-                                image={Pandalungan}
-                                tanggal="22 DESEMBER 2023"
-                                tittle="FESTIVAL PANDALUNGAN"
-                            />
-                            <CardElement
-                                image={Rontek}
-                                tanggal="22 DESEMBER 2023"
-                                tittle="FESTIVAL RONTEK PACITAN"
-                            />
+                           
+                           
+                           
                             {/* END 8 */}
                             <CardElement
                                 image={PetikLaut}

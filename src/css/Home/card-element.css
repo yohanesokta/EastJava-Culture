@@ -37,6 +37,11 @@
     color: white;
     transition: .3s ease;
 }
+.card-image .text-detail h1{
+    height: 48px;
+    width: 90%;
+    margin-left: 5%;
+}
 .card-image .text-detail P{
     width: 50%;
     font-weight: 600;
