@@ -6,10 +6,10 @@ export default function HomeAbout() {
       <div className="home-about">
         <div className="flex-container">
           <div className="home-about-field">
-            <h1>Menyelami Keberagaman Budaya Jawa Timur: Tradisi dan Inovasi Bertemu dalam Setiap Nada Kebudayaan</h1>
-          <p>
-          East Java Culture adalah jendela digital ke pesona budaya Jawa Timur. Dari festival yang menggembirakan hingga kesenian yang mempesona, destinasi bersejarah, kerajinan tangan yang unik, dan gaya hidup tradisional, kami hadirkan untuk memberikan informasi terkait jadwal festival budaya. Dengan fokus pada kesenian, destinasi wisata, kerajinan tangan, dan gaya hidup, situs ini mengundang Anda untuk menjelajahi dan merasakan kekayaan budaya Jawa Timur yang luar biasa. Selamat menikmati pesona budaya kami!
-          </p>
+            <h1>Menyelami Keberagaman Budaya Jawa Timur: Tradisi dan Inovasi Bertemu Dalam Setiap Nada Kebudayaan</h1>
+            <p>
+              East Java Culture adalah jendela digital ke pesona budaya Jawa Timur. Dari festival yang menggembirakan hingga kesenian yang mempesona, destinasi bersejarah, kerajinan tangan yang unik, dan gaya hidup tradisional, kami hadirkan untuk memberikan informasi terkait jadwal festival budaya. Dengan fokus pada kesenian, destinasi wisata, kerajinan tangan, dan gaya hidup, situs ini mengundang Anda untuk menjelajahi dan merasakan kekayaan budaya Jawa Timur yang luar biasa. Selamat menikmati pesona budaya kami!
+            </p>
           </div>
         </div>
       </div>
