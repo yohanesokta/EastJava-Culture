@@ -8,6 +8,7 @@ import IventHero from "../Elements/Bundle/IventHero"
 import Title from "../Components/title"
 import { useParams } from "react-router-dom"
 import Datas from "../Data/event/Main"
+import CardDateTime from "../Elements/Bundle/CardDateTime"
 
 function IventKalender() {
     let data = {}
@@ -26,34 +27,8 @@ function IventKalender() {
 
 
         <h2 className="title-ivent">Berikut ini adalah agenda pelaksanaan kegiatan {data.nama}</h2>
+        <CardDateTime date={data.tgl} time={data.time} loc={data.loc} />
 
-        <div className="calender-container">
-            <div className="calender-field">
-                <div className="card-calender">
-                    <div className="card-icon">
-                        <Gmaterial name="calendar_month" />
-                        <p>DATE</p>
-                    </div>
-                    <p>{data.tgl}</p>
-                    {/* <p>Expired</p> */}
-                </div>
-
-                <div className="card-calender">
-                    <div className="card-icon">
-                        <Gmaterial name="calendar_month" />
-                        <p>TIME</p>
-                    </div>
-                    <p>{data.time}</p>
-                </div>
-                <div className="card-calender">
-                    <div className="card-icon">
-                        <Gmaterial name="location_on" />
-                        <p>LOCATION</p>
-                    </div>
-                    <p>{data.loc}</p>
-                </div>
-            </div>
-        </div>
         <div className="calender-container iframe-container">
             <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FJakarta&showTitle=0&showNav=1&showDate=1&showCalendars=0&showTz=0&showTabs=0&src=MmM2ZDZmNzU3OGRiMGM0NDA0YmY0YmYyOTA2YTBhZDEwMTgxMTllZTA2YWRhOWZiNzM5NzViM2EyN2E5ZTFhMkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23C0CA33" height="600" frameborder="0" scrolling="no"></iframe>
 
