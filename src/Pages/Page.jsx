@@ -6,7 +6,7 @@ import Footer from "../Components/bundle/Footer";
 import Navbar from "../Components/Navbar"
 import Title from "../Components/title";
 
-export default function Isi({ slug }) {
+export default function Isi() {
     const param = useParams();
     const data = DataUtama.Budaya[0].DestinasiBudaya;
     let result = [];
@@ -15,8 +15,7 @@ export default function Isi({ slug }) {
             result.push(
                 <IsiField data={element}  key={key}/>
             )
-        }
-    });
+        }});
     return (
         <>
         <Title string={`Destinasi ${param.slug} | EastJavaCulture`}/>
