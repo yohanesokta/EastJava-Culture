@@ -13,6 +13,7 @@ import PageGayaHidup from './Pages/GayaHidup'
 import FestivalContainer from './Elements/FestivalContainer/FestivalContainer'
 import IventKalender from './Pages/IventKalender'
 import IventGallery from './Pages/IventGallery'
+import EventComming from './Pages/EventComming'
 
 function App() {
   const ClientID = import.meta.env.VITE_GOOGLE_CLIENT_ID
@@ -41,6 +42,7 @@ function App() {
           <Route path='/festival/' element={<FestivalContainer />} />
           <Route path='/event/kalender/:slug' element={<IventKalender />} />
           <Route path='/event/gallery/:slug' element={<IventGallery />} />
+          <Route path='/event/comming/:slug' element={<EventComming />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </Router>
