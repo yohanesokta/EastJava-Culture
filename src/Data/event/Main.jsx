@@ -7,7 +7,8 @@ const MainEvent = {
             tgl:"14-16 September 2023",
             time:"18.00",
             loc:"Pantai Boom Marina Banyuwangi",
-            geocalender:""
+            geocalender:"",
+            nameId:"GandrungSewu"
         },
         {
             id:"2",
@@ -16,7 +17,8 @@ const MainEvent = {
             tgl:"5 November 2023",
             time:"20.00",
             loc:"Pendapa Jayangrana Taman Budaya Jawa Timur",
-            geocalender:""
+            geocalender:"",
+            nameId:"Wayang"
         },
         {
             id:"3",
@@ -25,7 +27,8 @@ const MainEvent = {
             tgl:"18-19 November 2023",
             time:"19.00",
             loc:"Alun-alun Pacitan",
-            geocalender:""
+            geocalender:"",
+            nameId:"RontekPacitan"
         },
         {
             id:"4",
@@ -34,7 +37,8 @@ const MainEvent = {
             tgl:"21 Oktober 2023",
             time:"15.00",
             loc:"Pelataran Candi Jabung, Desa Jabung Candi, Kecamatan Paiton, Kabupaten Probolinggo",
-            geocalender:""
+            geocalender:"",
+            nameId:"Pandalungan"
         }
     ]
 }
