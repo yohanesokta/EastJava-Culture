@@ -75,17 +75,19 @@ export default function CardSlideFour() {
                                 image={KebayaBanyuwangi}
                                 tanggal="Comming Soon"
                                 red={true}
-                                link={"/ivent/Gallery"}
+                                link={"/event/comming/Kebaya"}
                                 tittle="FESTIVAL KEBAYA BANYUWANGI"
                             />
                             <CardElement
                                 image={BatikProbolingo}
                                 tanggal="Comming Soon"
+                                link={"/event/comming/Batik"}
                                 red={true}
                                 tittle="FESTIVAL BATIK PROBOLINGGO"
                             />
                             <CardElement
                                 image={ReogPonorogo}
+                                link={"/event/comming/Reog"}
                                 red={true}
                                 tanggal="Comming Soon"
                                 tittle="FESTIVAL  REOG PONOROGO"
@@ -93,6 +95,7 @@ export default function CardSlideFour() {
 
                             <CardElement
                                 image={KarapanSonok}
+                                link={"/event/comming/Sapi"}
                                 tanggal="Comming Soon"
                                 red={true}
                                 tittle="FESTIVAL SAPI SONOK MADURA"
@@ -105,11 +108,13 @@ export default function CardSlideFour() {
                                 tanggal="Comming Soon"
                                 tittle="FESTIVAL PETIK 
                                 LAUT"
+                                link={"/event/comming/PetikLaut"}
                             />
                             <CardElement
                                 red={true}
                                 image={Kenduren}
                                 tanggal="Comming Soon"
+                                link={"/event/comming/Kenduren"}
                                 tittle="FESTIVAL KENDUREN JOMBANG"
                             />
 

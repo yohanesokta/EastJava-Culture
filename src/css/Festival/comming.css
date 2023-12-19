@@ -1,0 +1,45 @@
+.desc {
+    padding: 20px 0;
+}
+.desc h1{
+    margin-left: 5%;
+}
+.desc h3{
+    margin-left: 5%;
+}
+.desc button{
+    margin-left: 5%;
+    padding: 10px 50px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    font-weight: 500;
+    position: relative;
+    transition: .5s ease;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255,0);
+}
+.desc button::before{
+    content: "";
+    transition: .3s ease;
+    background-color: rgb(93, 169, 255);
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.desc button:hover:before{
+    width: 0%;
+    left: 50%;
+}
+.desc button:hover{
+    background-color: rgb(26, 68, 117);
+}
+.desc button:active{
+    transition: 0s;
+    background-color: rgb(162, 237, 252);
+}
