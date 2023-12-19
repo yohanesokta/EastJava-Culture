@@ -29,18 +29,36 @@ nav img{
 }
 .search button{
     width: 100px;
-    height:60%;
-    border-radius: 20px;
+    height:50%;
+    border-radius: 5px;
     outline: none;
     border: none;
     margin: auto 0;
-    background-color: rgba(255, 255, 255,.7);
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255,0);
     transition: .3s ease;
     font-weight: 600;
-    font-size: 10pt;
+    font-size: 8pt;
+    color: white;
+    position: relative;
+    overflow: hidden;
 }
-.search button:hover{
-    background-color: white;
+.search button::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: .3s ease;
+    margin-left: 50%;
+    width: 0;
+}
+
+.search button:hover::after{
+    width: 100%;    
+    margin-left: 0;
 }
 .col-nav{
     height: 100%;
