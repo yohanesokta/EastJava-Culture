@@ -36,7 +36,7 @@ export default function CardSlideFour() {
                                 image={GandrungSewu}
                                 tanggal="22 DESEMBER 2023"
                                 red={true}
-                                link={'/ivent/Kalender'}
+                                link={'/ivent/kalender/'}
                                 tittle="FESTIVAL GANDRUNG SEWU"
                             />
                              <CardElement
