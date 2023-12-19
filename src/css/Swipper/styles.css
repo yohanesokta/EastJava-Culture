@@ -1,0 +1,21 @@
+.swiper{
+    width: 100%;
+    height: 500px;
+}
+.swiper-slide{
+    position: relative;
+    background-color: white;
+    width: 65%;
+}
+.con-slider{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-pagination-horizontal{
+    opacity: 0;
+}

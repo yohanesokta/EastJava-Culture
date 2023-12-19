@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+.container-gaya-hidup{
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+}
+.gaya-hidup{
+    background-color: white;
+    width: 100%;
+    position: relative;
+}
+.images{
+    width: 100%;
+    height: 500px;
+}
+.gaya-hidup img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image-top{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.image-top .col-text{
+    width: 70%;
+    height: 40%;
+    margin: auto;
+    z-index: 1;
+    border-radius: 10px;
+    border: 3px solid white;
+    display: flex;
+}
+.gaya-hidup .col-text p{
+    font-size: 38pt;
+    width: 90%;
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-weight: 500;
+}
+.two-col{
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin-top: -30px;
+    z-index: 2;
+}
+.two-col p{
+    width: 60%;
+    background-color: #F1F1F1;
+    color: black;
+    font-size: 12pt;
+    text-align: center;
+    font-weight: 500;
+    padding: 20px 30px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.three-text{
+    width: 100%;
+    display: flex;
+}
+.three-text p{
+    font-size: 12pt;
+    font-weight: 600;
+    margin: auto;
+    padding: 40px;
+}
+.col-four{
+    width: 100%;
+    padding-bottom: 50px;
+    display: flex;
+}
+.container-card{
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: white;
+    display: flex;
+}
+.card-field{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+}
+@media only screen and (max-width:1150px){
+    .card-field{
+        display: block;
+        width: auto;
+    }
+    .card-field .card2{
+        margin-bottom: 40px;
+    }
+}
+@media only screen and (max-width:980px){
+    
+    .image-top .col-text{
+        width: 90%;
+        line-height: 40pt;
+        word-spacing: 20px;
+    }
+}
+@media only screen and (max-width:750px){
+    .image-top .col-text{
+        height: 70%;
+    }
+}
+@media only screen and (max-width:400px){
+    .image-top .col-text p{
+        font-size: 24pt;
+        word-spacing: normal;
+    }
+}

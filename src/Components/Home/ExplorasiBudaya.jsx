@@ -8,7 +8,6 @@ export default function ExplorasiBudaya() {
   return (
     <>
       <div className="explorasi-budaya">
-        <img src={Element2} alt="element2" className="element2" />
         <div className="images-container">
           <div className="images">
             <img src={image_1} alt="image_utama" />

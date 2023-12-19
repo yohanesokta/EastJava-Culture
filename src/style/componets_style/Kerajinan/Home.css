@@ -1,0 +1,55 @@
+.con-home-kerajinan {
+    width: 100%;
+    height: 450px;
+    padding-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.gap-pad{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+}
+.con-home-kerajinan .Images-ornamen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text-container {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.text-container .text {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.text-container .text h1 {
+    font-size: 36pt;
+}
+.text-container .text h2 {
+    font-size: 14pt;
+}
+.kertas-ornamen{
+    position: absolute;
+    width: 110%;
+    bottom: -5%;
+    left: -5%;
+    filter: blur(2px);
+}
+.gap{
+    height: 100px;
+    background-color: white;
+}
+@media only screen and (max-width: 755px) {
+    .text-container .text h1 {
+        font-size: 24pt;
+    }
+    .text-container .text h2 {
+        font-size: 14pt;
+    }
+}

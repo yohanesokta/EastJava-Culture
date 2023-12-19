@@ -1,0 +1,85 @@
+.explore-kuliner{
+    width: 100%;
+    background-color: white;
+    padding-bottom: 120px;
+    padding-top: 4  0px;    
+}
+.explore-kuliner h1{
+    text-align: center;
+    font-size: 24pt;
+    color: #9EABA2;
+}
+.con-explore{
+    margin-top: 40px;
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+}
+.con-content-explore{
+    width: 500%;
+    display: flex;
+}
+.content-animate{
+    transition: .5s ease;
+}
+.content-explore{
+    width: 100%;
+    display: flex;
+}
+.content-explore .content{
+    width: 80%;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px auto;
+}
+.con-button{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.con-button .tombol{
+    display: flex;
+    height: 100%;
+    position: absolute;
+}
+.con-button .tombol button{
+    width: 60px;
+    margin: auto 0;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    display: flex;
+    transition: .3s ease;
+    background-color: rgb(176, 176, 176);
+    height: 60px;
+}
+.con-button .tombol button:hover{
+    background-color: gray;
+}
+.con-button .tombol button:active{
+    background-color: rgb(192, 192, 192);
+}
+.con-button .tombol button span{
+    margin: auto;
+    font-size: 24pt;
+    font-weight: bold;
+    color: white;
+}
+.con-button .left{
+    left: var(--global-gap);
+}
+.con-button .left button span{
+    transform: rotate(180deg);
+}
+.con-button .right{
+    right: var(--global-gap);
+}
+
+@media only screen and (max-width:1050px){
+    .con-button{
+        display: none;
+    }
+    .con-explore{
+        overflow-x: scroll;
+    }
+}

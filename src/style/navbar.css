@@ -9,6 +9,9 @@ nav{
     /* Kalau  Menurutku Ini Ganti */
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.46) 0%, rgba(0, 0, 0, 0.14) 73.44%, rgba(0, 0, 0, 0.00) 100%), rgba(0, 0, 0, 0.20);
 }
+.nav-gray { 
+    background-color: #333333;
+}
 .btn-dropdown{
     display: none;
 }
@@ -24,14 +27,20 @@ nav img{
     height: 70px;
     display: flex;
 }
-.search span{
-    color: white;
-    font-size: 25px;
-    margin: auto;
+.search button{
+    width: 100px;
+    height:60%;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin: auto 0;
+    background-color: rgba(255, 255, 255,.7);
+    transition: .3s ease;
+    font-weight: 600;
+    font-size: 10pt;
 }
-.search input{
-    height: 28px;
-    margin-top:calc((70px - 28px)/2);
+.search button:hover{
+    background-color: white;
 }
 .col-nav{
     height: 100%;

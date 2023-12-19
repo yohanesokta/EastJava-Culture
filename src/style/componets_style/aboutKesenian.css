@@ -25,7 +25,8 @@
 .about-kesenian-field{
     width: 100%;
     position: relative;
-    height: 70vh;
+    margin-top: 70vh;
+    height: 1px;
 }
 .about-button{
     padding: 10px 15px;

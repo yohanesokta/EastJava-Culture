@@ -1,0 +1,44 @@
+.festival-thumb{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background-color: black;
+}
+.festival-thumb img{
+    width: 100%;
+    opacity: .51;
+    height: 100%;
+    object-fit: cover;
+}
+.fest-thum-text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: white;
+    top: 0;
+    display: flex;
+    left: 0;
+}
+.text{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+.text h1{
+    font-size: 36pt;
+}
+.text p{
+    font-size: 14pt;
+    font-weight: 500;
+}
+.video-title{
+    width: 100%;
+    display: flex;
+    padding: 50px 0;
+}
+.video-title h1{
+    width: 80%;
+    margin: auto;
+    font-size: 18pt;
+    text-align: center;
+}

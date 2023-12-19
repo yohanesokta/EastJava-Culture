@@ -7,6 +7,7 @@
 .card-slider img{
     transition: .5s ease;
     width: 250px;
+    pointer-events: none;
 } 
 .card-text{
     position: absolute;
