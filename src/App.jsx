@@ -40,6 +40,8 @@ function App() {
           <Route path='/gayahidup/' element={<PageGayaHidup />} />
           <Route path='/festival/' element={<FestivalContainer />} />
           <Route path='/ivent/Kalender' element={<IventKalender />} />
+          
+          <Route path='/ivent/kalender/:slug' element={<IventKalender/>}/>
           <Route path='/ivent/Gallery' element={<IventGallery />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
