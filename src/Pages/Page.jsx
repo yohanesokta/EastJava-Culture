@@ -15,8 +15,7 @@ export default function Isi() {
             result.push(
                 <IsiField data={element}  key={key}/>
             )
-        }
-    });
+        }});
     return (
         <>
         <Title string={`Destinasi ${param.slug} | EastJavaCulture`}/>
