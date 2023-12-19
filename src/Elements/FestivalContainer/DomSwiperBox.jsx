@@ -59,6 +59,9 @@ const DomSwiperBox = () => {
                         frameborder="0"
                     ></iframe></div>
                 </SwiperSlide>
+                <div className="swiper-button-left"></div>
+                <div className="swiper-button-right"></div>
+
             </Swiper>
         </>
     );

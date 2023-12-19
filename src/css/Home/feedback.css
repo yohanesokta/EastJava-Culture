@@ -1,9 +1,8 @@
 .feedback{
     display: flex;
-    margin: 100px 0;
     width: 100%;
     display: flex;
-    padding-bottom: 400px;
+    margin-bottom: 50px;
 }
 .feedback-container{
     width: 90%;
@@ -27,12 +26,20 @@
 }
 .feedback-quest .label{
     width: 100%;
-    height: 60px;
+    padding: 16px 0;
     display: flex;
     position: relative;
 }
 .feedback-quest p{
     margin: auto 40px;
+    height: 24px;
+    width: 70%;
+    overflow: hidden;
+}
+.feedback-title{
+    font-weight: 500;
+    margin: 50px 0;
+    text-align: center;
 }
 .feedback-quest .label span{
     font-size: 20px;
@@ -43,6 +50,10 @@
 }
 .feedback-container .active{
     height: auto;
+}
+.active  p{
+    height: auto;
+    overflow: none;
 }
 .feedback-container .active .label{
     background-color:#B9CFF0 ;

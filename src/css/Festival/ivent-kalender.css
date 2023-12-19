@@ -35,23 +35,32 @@
     text-align: center;
 }
 .calender-container{
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
     margin-bottom: 20px;
     display: flex;
 }
 .calender-container iframe{
-    margin: auto;
-    width: 80%;
+    width: 48%;
+    border: none;
+}
+.calender-container iframe:last-child{
+    border: none;
+    width: 48%;
+    height: 600px;
+    margin-left: 2%;
 }
 .calender-field{
     flex-wrap: wrap;
     width: 80%;
+    
     display: flex;
     gap: 10px;
     margin: auto;
 }
 .card-calender{
     padding: 10px;
+    margin-bottom: 50px;
     width: 300px;
     background-color: rgb(238, 238, 238);
     height: 100px;
@@ -64,6 +73,7 @@
 .card-calender .card-icon{
     margin-bottom: 10px;
     display: flex;
+    width: auto;
     gap: 10px;
     font-weight: 600;
 }
@@ -85,6 +95,19 @@
         left: 0;
         margin: 0 auto;
         text-align: center;
+    }
+    .iframe-container{
+        display: block;
+    }
+    .calender-container iframe{
+        width: 100%;
+        border: none;
+    }
+    .calender-container iframe:last-child{
+        border: none;
+        width: 100%;
+        height: 600px;
+        margin: 0;
     }
 }
 @media only screen and (min-width:1225px){

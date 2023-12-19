@@ -33,30 +33,36 @@ function FeedBack() {
             <Title string="East Java Culture | FeedBack" />
             <Navbar />
             <div className="nav-gap"></div>
+            <p className="feedback-title">Berikan Pendapatmu tentang budaya di Jawa Timur</p>
             <div className="feedback">
                 <input type="hidden" id="username" />
                 <input type="hidden" id="userimage" />
                 <div className="feedback-container">
                     <FeedbackField
                         id="quest_1"
-                        soal="Apa Yang Kamu Sukai Dari Jawa Timur"
+                        soal="Dari semua daerah di jawa timur yang kamu kunjungi, Kebudayaan apa yang paling berkesan saat kamu mengunjunginya ?"
                         Data={Data}
                         active={'active'}
                     />
                     <FeedbackField
                         id="quest_2"
                         Data={Data}
-                        soal="Apa Yang Kamu Sukai Dari Jawa Timur"
+                        soal="Makanan daerah mana yang menurutmu paling enak ?"
                     />
                     <FeedbackField
                         id="quest_3"
                         Data={Data}
-                        soal="Apa Yang Kamu Sukai Dari Jawa Timur"
+                        soal="Apakah kamu pernah mengunjungi kegiatan festival yang ada di jawa timur?"
                     />
                     <FeedbackField
                         id="quest_4"
                         Data={Data}
-                        soal="Apa Yang Kamu Sukai Dari Jawa Timur"
+                        soal="Festival budaya mana yang paling kamu minati menurutmu?"
+                    />
+                    <FeedbackField
+                        id="quest_5"
+                        Data={Data}
+                        soal="Apakah kamu pernah membeli kerajinan di daerah jawa timur untuk di jadikan Cinderamata ? , Kerajinan apa yang menurutmu paling menarik?"
                     />
                 </div>
             </div>

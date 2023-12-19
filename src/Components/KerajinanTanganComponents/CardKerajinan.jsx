@@ -4,7 +4,7 @@ import Ornamen from "../../assets/ornament/sarangLebah.png"
 const CardKerajinan = (props) => {
     return (
         <>
-            <div className="example-container">
+            <div className="example-container" id="card-kerajinan">
                 <div className="card-container">
                     <div className="card-kerajinan">
                         <img src={Ornamen} alt="ornamen" />

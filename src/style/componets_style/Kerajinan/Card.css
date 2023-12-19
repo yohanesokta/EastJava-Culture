@@ -74,14 +74,17 @@
 @media only screen and (max-width:600px){
     .card-kerajinan{
         display: block;
+        background: white;
+
     }
     .card-kerajinan .text-right{
         position: relative;
         width: 85%;
         margin-left: 7.5%;
     }
-.card-kerajinan .image-left{
-    display: none;
+    .card-kerajinan .image-left{
+        z-index: 0;
+        width: 100%;
     }
     .card-container .text-right span{
         display: none;
@@ -90,8 +93,38 @@
         margin-left: 10%;
         margin-right: 10%;
     }
+    .card-container .text-right h1{
+        position: absolute;
+        color: rgb(99, 99, 99);
+        background-color: white;
+        bottom: 0;
+        padding-bottom: 10px;
+        left: 0;
+        margin: 0;
+        z-index: 2;
+    }
     .card-container .text-right p{
         height: 250px;
         overflow: hidden;
+        border-radius: 10px;    
+        position: relative;
+        opacity: 0;
+        z-index: 1;
+        padding: 20px;
+    }
+    
+    .card-container:hover .text-right p{
+        display: block;
+       transition: .2s ease;
+       opacity: 1;
+    }
+    .card-container:hover .text-right h1{
+        transition: .2s ease;
+        opacity: 0 ;
+    }
+    .card-container:hover .image-left{
+       opacity: 0;
+       transition: .2s ease;
+
     }
 }
