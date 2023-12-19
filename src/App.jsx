@@ -30,6 +30,7 @@ function App() {
     <>
       <Router>
         <Routes>
+      
           <Route path='/' element={<HomePage />} />
           <Route path='/destinasi/' element={<PageDestinasi />} />
           <Route path='/destinasi/:slug' element={<Isi />} />
