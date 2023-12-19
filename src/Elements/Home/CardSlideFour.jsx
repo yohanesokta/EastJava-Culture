@@ -115,11 +115,13 @@ export default function CardSlideFour() {
 
                             <CardElement
                                 image={KarapanSapi}
+                                link={"/event/gallery/karapan"}
                                 tanggal="22 DESEMBER 2023"
                                 tittle="FESTIVAL KARAPAN SAPI"
                             />
                             <CardElement
                                 image={JemberFasion}
+                                link={"/event/gallery/jember"}
                                 tanggal="22 DESEMBER 2023"
                                 tittle="JEMBER FASHION CARNAVAL"
                             />

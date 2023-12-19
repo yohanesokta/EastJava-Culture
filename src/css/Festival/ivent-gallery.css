@@ -1,0 +1,30 @@
+.image-container{
+    width: 95%;
+    margin-left: 2.5%;
+}
+.image-container .image-top{
+    width: 100%;
+    display: flex;
+    height: 400px;
+    gap: 5px;
+}
+
+.image-container .image-top > img{
+    width: 65%;
+    height: 100%;
+    object-fit: cover;
+}
+.image-container .image-top .image-top-right{
+    width: 35%;
+}
+.image-top-right img{
+    height: 49.2%;
+    width: 100%;
+    object-fit:cover;
+}
+.image-container >img{
+    margin: 5px 0 20px 0;
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+}
