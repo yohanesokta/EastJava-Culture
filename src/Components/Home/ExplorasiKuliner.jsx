@@ -12,73 +12,73 @@ const ExplorasiKuliner = () => {
   let fungsiButton = true
 
   function FungiRightButton() {
-    if (fungsiButton){
+    if (fungsiButton) {
       fungsiButton = false
-      setTimeout(()=>{
-        fungsiButton = true
-      },600)
-
-
-    scrollValue += 100;
-    if (scrollValue >= 500) {
-      scrollValue = 0;
-    }
-    document.getElementById(
-      "moved-content"
-    ).style.marginLeft = `-${scrollValue}%`;
-
-    if (scrollValue == 400) {
       setTimeout(() => {
-        document
-          .getElementById("moved-content")
-          .classList.remove("content-animate");
+        fungsiButton = true
+      }, 600)
+
+
+      scrollValue += 100;
+      if (scrollValue >= 500) {
         scrollValue = 0;
-        document.getElementById(
-          "moved-content"
-        ).style.marginLeft = `-${scrollValue}%`;
-      }, 500);
-      setTimeout(()=>{
-        document
-          .getElementById("moved-content")
-          .classList.add("content-animate");
-      },600)
+      }
+      document.getElementById(
+        "moved-content"
+      ).style.marginLeft = `-${scrollValue}%`;
+
+      if (scrollValue == 400) {
+        setTimeout(() => {
+          document
+            .getElementById("moved-content")
+            .classList.remove("content-animate");
+          scrollValue = 0;
+          document.getElementById(
+            "moved-content"
+          ).style.marginLeft = `-${scrollValue}%`;
+        }, 500);
+        setTimeout(() => {
+          document
+            .getElementById("moved-content")
+            .classList.add("content-animate");
+        }, 600)
+      }
     }
   }
-}
 
   function FungiLeftButton() {
-    if (fungsiButton){
+    if (fungsiButton) {
       fungsiButton = false
-      setTimeout(()=>{
-        fungsiButton = true
-      },600)
-
-
-    scrollValue -= 100;
-    if (scrollValue < 0) {
-      scrollValue = 400;
-    }
-    document.getElementById(
-      "moved-content"
-    ).style.marginLeft = `-${scrollValue}%`;
-    if (scrollValue == 0) {
       setTimeout(() => {
-        document
-          .getElementById("moved-content")
-          .classList.remove("content-animate");
+        fungsiButton = true
+      }, 600)
+
+
+      scrollValue -= 100;
+      if (scrollValue < 0) {
         scrollValue = 400;
-        document.getElementById(
-          "moved-content"
-        ).style.marginLeft = `-${scrollValue}%`;
-      }, 500);
-      setTimeout(()=>{
-        document
-          .getElementById("moved-content")
-          .classList.add("content-animate");
-      },600)
+      }
+      document.getElementById(
+        "moved-content"
+      ).style.marginLeft = `-${scrollValue}%`;
+      if (scrollValue == 0) {
+        setTimeout(() => {
+          document
+            .getElementById("moved-content")
+            .classList.remove("content-animate");
+          scrollValue = 400;
+          document.getElementById(
+            "moved-content"
+          ).style.marginLeft = `-${scrollValue}%`;
+        }, 500);
+        setTimeout(() => {
+          document
+            .getElementById("moved-content")
+            .classList.add("content-animate");
+        }, 600)
+      }
     }
   }
-}
 
   return (
     <>
@@ -134,9 +134,9 @@ const ExplorasiKuliner = () => {
               <div className="content">
                 <LargeCardKuliner
                   image={KueManco}
-                  name="Lontong Kupang"
-                  location="Sidoarjo"
-                  desc="Lontong kupang adalah hidangan tradisional dari Indonesia, terutama Jawa Timur. Terdiri dari lontong (nasi padat) dan kupang (kerang kecil), direbus atau dikukus. Disajikan dengan kuah santan dan rempah, serta tambahan seperti tauge, seledri, bawang goreng, dan sambal. Hidangan ini memiliki cita rasa khas Indonesia."
+                  name="Kue Manco"
+                  location="Madiun"
+                  desc="Kue Manco adalah makanan ringan khas Madiun, Jawa Timur, berbentuk bulat pipih dengan tekstur renyah di luar dan lembut di dalam. Terbuat dari campuran tepung terigu, kelapa parut, gula, dan santan, kue ini kemudian digoreng hingga berwarna keemasan. Biasanya disajikan sebagai camilan manis yang lezat."
                 />
               </div>
             </div>

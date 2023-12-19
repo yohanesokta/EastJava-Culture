@@ -72,3 +72,8 @@
         display: none;
     }
   }
+@media only screen and (min-width:1160px){
+    .batik-container .button{
+        width: 150px;
+    }
+}
