@@ -19,33 +19,33 @@ function KerajinanBenda() {
     let load = 1;
     let tab = 1
     let Dom = []
-        while (load <= 7) {
-            Dom[load]= document.getElementById("card2-" + String(load));
-            load++;
-        }
+    while (load <= 7) {
+        Dom[load] = document.getElementById("card2-" + String(load));
+        load++;
+    }
     let BtnL = document.getElementById('batik-btn-l')
     let BtnR = document.getElementById('batik-btn-r')
 
-    function Slider(value){
+    function Slider(value) {
         document.getElementById("batikScroll2").style.marginLeft = "-" + value + "%"
-    } 
-    function makeSlider(action){
-        if (action == 'next'){
-            switch(tab){
-                case 1 : Slider(200); tab = 2;  break;
-                case 2 : Slider(300); tab = 3; break;
-                case 3 : Slider(400); tab = 4; break;
-                case 4 : Slider(500); tab = 5; break;
+    }
+    function makeSlider(action) {
+        if (action == 'next') {
+            switch (tab) {
+                case 1: Slider(200); tab = 2; break;
+                case 2: Slider(300); tab = 3; break;
+                case 3: Slider(400); tab = 4; break;
+                case 4: Slider(500); tab = 5; break;
             }
         }
-        if (action == 'prev'){
-            if (tab == 2 ) { Slider(100);  tab = 1}
+        if (action == 'prev') {
+            if (tab == 2) { Slider(100); tab = 1 }
 
-            switch(tab){
-                case 2 : Slider(100); tab = 1; break;
-                case 3 : Slider(200); tab = 2; break;
-                case 4 : Slider(300); tab = 3; break;
-                case 5 : Slider(400); tab = 4; break;
+            switch (tab) {
+                case 2: Slider(100); tab = 1; break;
+                case 3: Slider(200); tab = 2; break;
+                case 4: Slider(300); tab = 3; break;
+                case 5: Slider(400); tab = 4; break;
             }
         }
 
@@ -53,16 +53,6 @@ function KerajinanBenda() {
     return (
         <>
             <div className="batik-container">
-                <div className="button left" id="batik-btn-l" onClick={()=>{makeSlider('prev')}}>
-                    <button>
-                        <Gmaterial name="navigate_next" />
-                    </button>
-                </div>
-                <div className="button right" id="batik-btn-r">
-                    <button onClick={()=>{makeSlider('next')}}>
-                        <Gmaterial name="navigate_next" />
-                    </button>
-                </div>
                 <div className="batik-scroll" id="batikScroll2">
                     <div className="batik-field" id="card2-1">
                         <CardKerajinan
@@ -113,6 +103,16 @@ function KerajinanBenda() {
                             desc="Batik Gajah Mada berasal dari daerah Tulungagung, Jawa Timur. Batik ini merupakan varian batik yang terinspirasi dari tokoh sejarah, Gajah Mada, serta kejayaan masa lalu Indonesia. Motifnya sering menggambarkan tokoh-tokoh sejarah atau elemen-elemen budaya Nusantara yang kuat. Batik ini menggabungkan corak tradisional dengan elemen-elemen yang menggambarkan kejayaan masa lampau, menciptakan karya yang sarat akan nilai sejarah dan kebanggaan nasional."
                         />
                     </div>
+                </div>
+                <div className="button left" id="batik-btn-l" onClick={() => { makeSlider('prev') }}>
+                    <button>
+                        <Gmaterial name="navigate_next" />
+                    </button>
+                </div>
+                <div className="button right" id="batik-btn-r">
+                    <button onClick={() => { makeSlider('next') }}>
+                        <Gmaterial name="navigate_next" />
+                    </button>
                 </div>
             </div>
         </>

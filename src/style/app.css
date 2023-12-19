@@ -11,7 +11,6 @@ html{
 *{
     cursor: default;
     margin: 0;
-    scrollbar-width: none;
     padding: 0;
     font-family: 'Poppins';
 }

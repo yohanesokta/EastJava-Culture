@@ -30,7 +30,7 @@ function App() {
     <>
       <Router>
         <Routes>
-      
+
           <Route path='/' element={<HomePage />} />
           <Route path='/destinasi/' element={<PageDestinasi />} />
           <Route path='/destinasi/:slug' element={<Isi />} />
@@ -39,7 +39,7 @@ function App() {
           <Route path='/kuliner' element={<Kuliner />} />
           <Route path='/gayahidup/' element={<PageGayaHidup />} />
           <Route path='/festival/' element={<FestivalContainer />} />
-          <Route path='/event/kalender/:slug' element={<IventKalender/>}/>
+          <Route path='/event/kalender/:slug' element={<IventKalender />} />
           <Route path='/event/gallery/:slug' element={<IventGallery />} />
           <Route path='*' element={<NotFound />} />
         </Routes>

@@ -1,4 +1,5 @@
 .swiper{
+    position: relative;
     width: 100%;
     height: 500px;
 }
@@ -18,4 +19,38 @@
 
 .swiper-pagination-horizontal{
     opacity: 0;
+}
+.swiper-button-prev{
+    margin-left: 5%;
+    font-weight: 200px;
+}
+.swiper-button-prev::after , .swiper-button-next::after{
+    font-weight: 800;
+    color: white;
+}
+.swiper-button-next{
+    margin-right: 5%;
+}
+.swiper-button-left{
+    width: calc(15% + 20px);
+    background-color: rgba(255, 255, 255,.5);
+    height: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    top: 0;
+}
+.swiper-button-right{
+    width: calc(15% + 20px);
+    background-color: rgba(255, 255, 255,.5);
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+}
+@media only screen and (max-width:760px){
+    .swiper-button-left ,.swiper-button-right{
+        width: calc(15% + 10px);
+    }   
 }
