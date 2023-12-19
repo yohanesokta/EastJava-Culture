@@ -1,4 +1,5 @@
  .image-thumb{
+    background-color: black;
     width: 100%;
     height: 400px;
     position: relative;
@@ -7,6 +8,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
+    opacity: .5;
     object-fit: cover;
  }
  .text-container{
@@ -84,6 +86,11 @@
         margin: 0 auto;
         text-align: center;
     }
+}
+@media only screen and (min-width:1225px){
+   .calender-field{
+    justify-content: space-between;
+   }
 }
 @media only screen and (max-width:810px){
     .card-calender{
