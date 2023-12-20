@@ -19,17 +19,17 @@ const Footer = () => {
                     <div className="text-left">
                         <div className="text-left-field">
                             <p>
-                                Kami senang Anda mengunjungi website kami yang
+                                Kami senang anda mengunjungi website kami yang
                                 menyajikan informasi jadwal festival budaya Jawa
                                 Timur. Fokus kami pada seni, destinasi wisata,
                                 kerajinan tangan, dan gaya hidup tradisional di
                                 Jawa Timur. Semoga informasi yang kami sajikan
                                 dapat memberikan wawasan yang berharga untuk
-                                Anda!
+                                anda!
                             </p>
                             <div className="line"><img src={Ornamen} alt="" /></div>
                             <div className="footer-bottom">
-                                <span>Hak Cipta &copy; 2023 Indonesia Culture</span>
+                                <span>Hak Cipta &copy; 2023 SMK PGRI PLOSO </span>
                                 <div className="social">
                                     <p>Ikuti Social Media Kami</p>
                                     <div className="social-icon">
@@ -47,4 +47,6 @@ const Footer = () => {
         </>
     );
 };
+
+
 export default Footer;

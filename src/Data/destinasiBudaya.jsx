@@ -12,7 +12,7 @@ const destinasiBudaya = {
       id: "2",
       kota: "Surabaya",
       nama: "Museum Sepuluh November",
-      desc: "Museum 10 November di Surabaya adalah tempat yang mengenang pertempuran bersejarah pada 10 November 1945. Di sini, Anda bisa melihat artefak dan dokumentasi mengenai perjuangan heroik rakyat Surabaya dalam menghadapi penjajah.",
+      desc: "Museum 10 November di Surabaya adalah tempat yang mengenang pertempuran bersejarah pada 10 November 1945. Di sini, anda bisa melihat artefak dan dokumentasi mengenai perjuangan heroik rakyat Surabaya dalam menghadapi penjajah.",
       loc: "Jl. Pahlawan, Alun-alun Contong, Kec. Bubutan, Surabaya, Jawa Timur 60174",
       MapId: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.9586193159794!2d112.7352824115889!3d-7.24554967114198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f93fc001bc5d%3A0x110e38d8a6c23fbe!2sMonumen%20Tugu%20Pahlawan%20dan%20Museum%20Sepuluh%20Nopember%20Surabaya!5e0!3m2!1sid!2sid!4v1702195491238!5m2!1sid!2sid"
     },

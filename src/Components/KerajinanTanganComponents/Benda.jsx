@@ -72,14 +72,14 @@ function KerajinanBenda() {
                         <CardKerajinan
                             image={ImageCermin}
                             name="Cermin Hias Kenjeran"
-                            desc="Cermin hias Kenjeran adalah produk kerajinan yang khas dari daerah Kenjeran, Surabaya, Jawa Timur. Cermin ini sering dihias dengan ukiran-ukiran halus, dekoratif, dan motif-motif khas yang mencerminkan keindahan seni lokal. Biasanya, cermin hias Kenjeran memiliki kerangka yang dihiasi dengan ukiran kayu atau anyaman rotan yang menciptakan tampilan yang elegan dan menarik. Kerajinan ini merupakan bagian penting dari warisan budaya seni rupa Surabaya."
+                            desc="Cermin Hias Kenjeran adalah produk kerajinan yang khas dari daerah Kenjeran, Surabaya, Jawa Timur. Cermin ini sering dihias dengan ukiran-ukiran halus, dekoratif, dan motif-motif khas yang mencerminkan keindahan seni lokal. Biasanya, cermin hias Kenjeran memiliki kerangka yang dihiasi dengan ukiran kayu atau anyaman rotan yang menciptakan tampilan yang elegan dan menarik. Kerajinan ini merupakan bagian penting dari warisan budaya seni rupa Surabaya."
                         />
                     </div>
                     <div className="batik-field" id="card2-4">
                         <CardKerajinan
                             image={ImageEncengGondok}
                             name="Anyaman Enceng Gondok"
-                            desc="Anyaman enceng gondok khas Pasuruan, Jawa Timur, melibatkan teknik anyaman dari tanaman enceng gondok yang tumbuh subur di daerah tersebut. Produk anyaman ini sering kali berupa keranjang, tas, atau produk kerajinan lainnya. Anyaman enceng gondok Pasuruan memiliki ciri khas pola dan desain yang unik, mencerminkan keindahan seni tradisional serta kearifan lokal masyarakat Pasuruan dalam mengolah bahan alam menjadi produk yang bernilai dan fungsional."
+                            desc="Anyaman Enceng Gondok khas Pasuruan, Jawa Timur, melibatkan teknik anyaman dari tanaman enceng gondok yang tumbuh subur di daerah tersebut. Produk anyaman ini sering kali berupa keranjang, tas, atau produk kerajinan lainnya. Anyaman enceng gondok Pasuruan memiliki ciri khas pola dan desain yang unik, mencerminkan keindahan seni tradisional serta kearifan lokal masyarakat Pasuruan dalam mengolah bahan alam menjadi produk yang bernilai dan fungsional."
                         />
                     </div>
                     <div className="batik-field" id="card2-5">
@@ -93,7 +93,7 @@ function KerajinanBenda() {
                         <CardKerajinan
                             image={ImageUkirKayu}
                             name="Ukiran Kayu Khas Jember"
-                            desc="Tikar pandan khas Jombang ini memiliki perbedaan dengan tikar pandan dari daerah lain. Perbedaan tersebut biasanya terletak pada  teknik rajut yang berbeda dan cara pengolahan daun yang berbeda. Selain itu tikar pandan Khas Jombang juga memiliki corak yang berbeda, tikar pandan Khas Jombang biasanya bermotif polosan warna yang muncul alami dari daun pandan tersebut, karakteristik bahan yang digunakan juga berbeda hal tersebut sangat berpengaruh dalam kekuatan dan tekstur pada tikar."
+                            desc="Ukiran kayu Jember adalah seni budaya yang menggambarkan motif daerah dengan warna cerah. Ukiran ini dapat ditemukan pada berbagai benda dan merupakan warisan budaya."
                         />
                     </div>
                     <div className="batik-field" id="card2-7">
