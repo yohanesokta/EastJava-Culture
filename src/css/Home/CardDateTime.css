@@ -55,7 +55,7 @@
     color: gray;
 }
 @media only  screen and (max-width:570px){
-    .container-field{
+    .container-field2{
         height: auto;
         display: block;
     }

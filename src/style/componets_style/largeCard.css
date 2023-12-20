@@ -115,8 +115,18 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.84) 0%, rgba(255, 255, 255, 0.
         width: 100%;
         margin: 0;
     }
-    .large-card .right-field .right-content p,.large-card .right-content h2{
+    .large-card .right-content h2{
         display: none;
+    }
+    .large-card .right-field .right-content p{
+        display: none;
+    }
+    .large-card:hover .right-field .right-content p{
+        color: white;
+        display: block;
+        width: 90%;
+        top: 0;
+        text-align: center;
     }
     .large-card .right-field{
         display: block;
@@ -130,6 +140,10 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.84) 0%, rgba(255, 255, 255, 0.
         font-size: 42pt;
         color: white;
         line-height: 50px;
+
+    }
+    .large-card:hover .right-field span , .large-card:hover .right-field h4{
+        display: none;
     }
     .large-card .right-field h4{
         margin: 0;

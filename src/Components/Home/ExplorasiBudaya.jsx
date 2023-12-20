@@ -23,9 +23,6 @@ export default function ExplorasiBudaya() {
               Dari tarian tradisional hingga kuliner khas, kita akan menemukan
               banyak hal menarik yang membuat kita terpesona
             </p>
-            <div className="flex-container">
-              <button>Explore Lebih Lanjut</button>
-            </div>
           </div>
         </div>
       </div>

@@ -33,10 +33,10 @@ const Footer = () => {
                                 <div className="social">
                                     <p>Ikuti Social Media Kami</p>
                                     <div className="social-icon">
-                                        <a href=""><img src={iGoogle} alt="logo" /></a>
-                                        <a href=""><img src={iYoutube} alt="logo" /></a>
-                                        <a href=""><img src={iFacebook} alt="logo" /></a>
-                                        <a href=""><img src={iInstagram} alt="logo" /></a>
+                                        <a href="mailto:cultureeastjava@gmail.com"><img src={iGoogle} alt="logo" /></a>
+                                        <a href="https://www.youtube.com/@smkpgriploso6327" target="_blank"><img src={iYoutube} alt="logo" /></a>
+                                        <a href="https://www.facebook.com/profile.php?id=61554720876795" target="_blank"><img src={iFacebook} alt="logo" /></a>
+                                        <a href="https://www.instagram.com/eastjavaculture?igsh=YzAwZjE1ZTI0Zg" target="_blank"><img src={iInstagram} alt="logo" /></a>
                                     </div>
                                 </div>
                             </div>
