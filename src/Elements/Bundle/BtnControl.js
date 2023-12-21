@@ -9,45 +9,44 @@ function animate(object, changObject, value) {
     }, 500)
 }
 
-function calculateSize(def){
+function calculateSize(def) {
     let screen = window.screen.width
-    if(screen >= 1120){
-        return(4)
-    }else if(screen <= 1120 && screen >= 860){
-        return(3)
-    }else if(screen <= 860 && screen >= 610){
-        return(2)
-    }else{
-        return(1)
+    if (screen >= 1120) {
+        return (4)
+    } else if (screen <= 1120 && screen >= 860) {
+        return (3)
+    } else if (screen <= 860 && screen >= 610) {
+        return (2)
+    } else {
+        return (1)
     }
 }
 
-export default function BtnControl(aksi,MaxKeadaan) {
+export default function BtnControl(aksi, MaxKeadaan) {
     let props = document.getElementById("longkonten");
     let conProps = document.getElementById("container-content");
     let size = 240 * calculateSize()
     MaxKeadaan = MaxKeadaan / calculateSize()
 
     if (aksi == "kiri") {
-        if (keadaan >= MaxKeadaan){
+        if (keadaan >= MaxKeadaan) {
             mundur = 0;
             keadaan = 1;
-        }else{
-            mundur = size*keadaan;
+        } else {
+            mundur = size * keadaan;
             keadaan += 1;
         }
-    }else{
-        if (keadaan <= 0){
+    } else {
+        if (keadaan <= 0) {
             mundur = 0;
-            keadaan  = MaxKeadaan;
+            keadaan = MaxKeadaan;
         }
-        else{
-            mundur = size*keadaan;
+        else {
+            mundur = size * keadaan;
             keadaan -= 1;
         }
     }
-    console.log(`Keadaan  = ${keadaan} | Max  = ${MaxKeadaan} | mundur = ${mundur} | Size  = ${size}`)
-    animate(conProps,props ,mundur)
+    animate(conProps, props, mundur)
 }
 
 
