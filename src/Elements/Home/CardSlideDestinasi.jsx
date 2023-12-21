@@ -47,7 +47,7 @@ export default function CardSlideFour() {
                             <CardElement
                                 image={Image4}
                                 link={"/destinasi/Mojokerto"}
-                                tittle="Kota Madiun"
+                                tittle="Kota Mojokerto"
                             />
                             <CardElement
                                 image={Image5}
