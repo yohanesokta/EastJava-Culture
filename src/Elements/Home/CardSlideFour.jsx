@@ -44,7 +44,7 @@ export default function CardSlideFour() {
                         <div className="field-content" id="longkonten">
                             <CardElement
                                 image={GandrungSewu}
-                                tanggal="14-16 Sep 2023"
+                                tanggal="16 Agustus 2024"
                                 red={true}
                                 link={"/event/kalender/GandrungSewu"}
                                 tittle="FESTIVAL GANDRUNG SEWU"
@@ -53,21 +53,21 @@ export default function CardSlideFour() {
                                 image={Wayang}
                                 red={true}
                                 link={"/event/kalender/Wayang"}
-                                tanggal="5 November 2023"
+                                tanggal="5 September 2024"
                                 tittle="FESTIVAL WAYANG KULIT"
                             />
                             <CardElement
                                 red={true}
                                 image={Rontek}
                                 link={"/event/kalender/RontekPacitan"}
-                                tanggal="18-19 Nov 2023"
+                                tanggal="19 Juli 2024"
                                 tittle="FESTIVAL RONTEK PACITAN"
                             />
                             <CardElement
                                 image={Pandalungan}
                                 red={true}
                                 link={"/event/kalender/Pandalungan"}
-                                tanggal="21 Oktober 2023"
+                                tanggal="21 Oktober 2024"
                                 tittle="FESTIVAL PANDALUNGAN"
                             />
                             {/* End 4 */}
