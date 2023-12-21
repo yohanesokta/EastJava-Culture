@@ -157,9 +157,81 @@ const destinasiBudaya = {
       id: "23",
       kota: "Mojokerto(NotFix)",
       nama: "Candi Brahu",
-      desc: "Candi Brahu di Madiun adalah situs arkeologi kuno dengan arsitektur Hindu yang memukau. Meski ukurannya tidak besar, candi ini menampilkan keindahan dan detail arsitektur yang menarik bagi pengunjung yang tertarik pada sejarah klasik.",
+      desc: "Candi Brahu di Mojokerto adalah situs arkeologi kuno dengan arsitektur Hindu yang memukau. Meski ukurannya tidak besar, candi ini menampilkan keindahan dan detail arsitektur yang menarik bagi pengunjung yang tertarik pada sejarah klasik.",
       loc: "Kabupaten Mojokerto",
       MapId: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.293353981631!2d112.37187224034814!3d-7.5429524925018345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786ce655555555%3A0xb1299504be8c8c76!2sCandi%20Brahu!5e0!3m2!1sid!2sid!4v1702198045489!5m2!1sid!2sid"
+    },
+    {
+      id: "24",
+      kota: "Mojokerto",
+      nama: "Air Terjun Dlundung Trawas",
+      desc: "Air terjun dlundung trawas adalah sebuah air terjun yang terletak di kawasan Gunung Penanggungan, Mojokerto, Jawa Timur. Air terjun ini memiliki ketinggian sekitar 50-60 meter dengan air yang jernih dan tenang. Air terjun ini juga menyimpan sejarah dan kepercayaan sebagai tempat suci pada zaman kerajaan Singosari dan Majapahit.",
+      loc: "Wisata Dlundung Desa, Hutan, Ketapanrame, Kec. Trawas, Kabupaten Mojokerto, Jawa Timur 61375",
+      MapId: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.0118149720006!2d112.59123667500391!3d-7.681877392335139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78781fc520cca9%3A0x9c60ea727495fe5a!2sAir%20Terjun%20Dlundung!5e0!3m2!1sid!2sid!4v1703140624850!5m2!1sid!2sid"
+    },
+    {
+      id: "25",
+      kota: "Probolinggo",
+      nama: "Gunung Bromo",
+      desc: "Gunung Bromo adalah gunung berapi aktif yang terletak di Jawa Timur, Indonesia. Gunung ini memiliki ketinggian 2.329 meter dan merupakan bagian dari Taman Nasional Bromo Tengger Semeru. Gunung Bromo terkenal sebagai objek wisata yang menawarkan pemandangan matahari terbit yang indah, lautan pasir yang luas, dan upacara adat Kasada yang dilakukan oleh masyarakat Tengger.",
+      loc: "Area Gn. Bromo, Podokoyo, Kec. Tosari, Pasuruan, Jawa Timur",
+      MapId: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31612.36008489832!2d112.95301219999999!3d-7.94249345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd637aaab794a41%3A0xada40d36ecd2a5dd!2sGn.%20Bromo!5e0!3m2!1sid!2sid!4v1703141089678!5m2!1sid!2sid"
+    },
+    {
+      id: "26",
+      nama: "Pantai Ria Kenjeran",
+      kota: "Surabaya",
+      desc: "Pantai Kenjeran adalah salah satu pantai yang terletak di Surabaya, Jawa Timur. Pantai ini memiliki dua bagian, yaitu Pantai Kenjeran Lama dan Pantai Kenjeran Baru. Pantai Kenjeran Lama menawarkan keindahan alam dengan pemandangan Jembatan Suramadu dan pulau pasir. Pantai Kenjeran Baru menawarkan wisata modern dengan bangunan khas Tionghoa dan patung naga besar. ",
+      loc: "Jalan Sukolilo No.100, Sukolilo Baru, Kec. Bulak, Surabaya, Jawa Timur 60122",
+      MapId: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.91146834336!2d112.80093319999999!3d-7.2509163999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e79be2f20f43191%3A0xad5c2fdaadec1f28!2sPantai%20Ria%20Kenjeran!5e0!3m2!1sid!2sid!4v1703141355470!5m2!1sid!2sid"
+    },
+    {
+      id: "27",
+      nama: "Pantai Papuma",
+      kota: "Jember",
+      desc: "Pantai Papuma Jember adalah sebuah pantai pasir putih yang terletak di Desa Lojejer, Kecamatan Wuluhan, Kabupaten Jember, Jawa Timur. Pantai ini memiliki pemandangan yang eksotis dengan bebatuan karang, lautan pasir, dan matahari terbit yang indah. Pantai ini juga memiliki sejarah dan mitos yang berkaitan dengan kerajaan Singosari, Majapahit, dan Ratu Nyi Roro Kidul",
+      loc: "Jl. Raya Lojejer, Area Kebun, Lojejer, Kec. Wuluhan, Kabupaten Jember, Jawa Timur 68162",
+      MapId: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31573.47263978126!2d113.5497378!3d-8.43265225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd682a1db261f43%3A0xd081a4a5943b20ab!2sPantai%20Papuma%20Jember!5e0!3m2!1sid!2sid!4v1703141581841!5m2!1sid!2sid"
+    },
+    {
+      id: "28",
+      nama: "Pantai Pasetran Gondo Mayit",
+      kota: "Blitar",
+      desc: "Pantai Pasetran Gondo Mayit adalah sebuah pantai pasir putih yang terletak di Desa Tambakrejo, Kecamatan Wonotirto, Kabupaten Blitar, Jawa Timur. Pantai ini memiliki nama yang berarti pantai berbau mayat, karena menurut cerita pernah ditemukan banyak mayat di sana. Namun, pantai ini juga memiliki keindahan alam yang mempesona, dengan pemandangan laut biru, bebatuan karang, dan matahari terbit yang indah. Pantai ini juga memiliki sejarah dan mitos yang berkaitan dengan kerajaan Singosari, Majapahit, dan Ratu Nyi Roro Kidul.",
+      loc: "Krajan, Tambakrejo, Kec. Wonotirto, Kabupaten Blitar, Jawa Timur 66173",
+      MapId: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31582.57083776365!2d112.14835500000001!3d-8.320543849999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78c67ea31c2b25%3A0x4dd6216519487a10!2sPantai%20Pasir%20Putih%20Pasetran%20Gondo%20Mayit!5e0!3m2!1sid!2sid!4v1703141710109!5m2!1sid!2sid"
+    },
+    {
+      id: "29",
+      nama: "Pantai Teluk Asmoro",
+      kota: "Malang",
+      desc: "Pantai Teluk Asmoro Malang adalah sebuah pantai pasir putih yang terletak di Desa Tambakrejo, Kecamatan Sumbermanjing Wetan, Kabupaten Malang, Jawa Timur. Pantai ini memiliki pemandangan yang eksotis dengan pulau-pulau kecil yang membentuk hati dan air laut yang berwarna hijau tosca. Pantai ini juga menawarkan berbagai fasilitas dan aktivitas, seperti flying fox, hammock, camping, snorkeling, dan spot selfie.",
+      loc: "Tambak, Sitiarjo, Kec. Sumbermanjing Wetan, Kabupaten Malang, Jawa Timur 65176",
+      MapId: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31572.631493828187!2d112.66546549999998!3d-8.44294225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd601b40a1c6d45%3A0x33697e2746fd1876!2sPantai%20Teluk%20Asmara!5e0!3m2!1sid!2sid!4v1703141866992!5m2!1sid!2sid"
+    },
+    {
+      id: "30",
+      nama: "Telaga Ngabel",
+      kota: "Ponorogo",
+      desc: "Telaga Ngebel adalah sebuah danau alami yang terletak di kaki Gunung Wilis, Kabupaten Ponorogo, Jawa Timur. Telaga ini memiliki luas sekitar 150 hektar dan udara yang sejuk. Telaga ini juga memiliki legenda yang berkaitan dengan ular naga Baru Klinting, yang merupakan jelmaan Patih Kerajaan Bantaran Angin. Telaga Ngebel menawarkan pemandangan indah dan berbagai aktivitas, seperti naik perahu, bus air, atau speedboat.",
+      loc: "Telaga Ngebel, Ngebel, Kec. Ngebel, Kabupaten Ponorogo, Jawa Timur",
+      MapId: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15811.721673135642!2d111.63231065!3d-7.7971919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e79a5c676f9b0f5%3A0xddb87c4b50af9a50!2sTelaga%20Ngebel!5e0!3m2!1sid!2sid!4v1703142070486!5m2!1sid!2sid"
+    },
+    {
+      id: "31",
+      nama: "Sarangan",
+      kota: "Magetan",
+      desc: "Sarangan Magetan adalah sebuah kelurahan yang terletak di Kecamatan Plaosan, Kabupaten Magetan, Jawa Timur. Kelurahan ini terkenal dengan Telaga Sarangan, sebuah danau alami yang berada di lereng Gunung Lawu. Telaga Sarangan menawarkan pemandangan indah dan berbagai aktivitas wisata, seperti berkuda, naik speed boat, dan becak air.",
+      loc: "Kec. Plaosan, Kabupaten Magetan, Jawa Timur",
+      MapId: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31633.861570942685!2d111.21027795!3d-7.658111499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e798c1656a347e7%3A0x620fc673454fac69!2sSarangan%2C%20Kec.%20Plaosan%2C%20Kabupaten%20Magetan%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1703142372310!5m2!1sid!2sid"
+    },
+    {
+      id: "32",
+      nama: "Wisata Kampung Kerapu",
+      kota: "Situbondo",
+      desc: "Wisata Kampung Kerapu adalah sebuah destinasi wisata yang terletak di Dusun Gundil, Desa Klatakan, Kecamatan Kendit, Kabupaten Situbondo, Jawa Timur. Tempat ini menawarkan keindahan alam, budidaya ikan kerapu dan lobster, perpustakaan apung, dermaga kayu, kuliner ikan bakar, dan berbagai aktivitas menarik lainnya. Wisata Kampung Kerapu berada di pinggir jalan pantura dan mudah dijangkau dengan kendaraan pribadi atau umum.",
+      loc: "Gundil, Klatakan, Kec. Kendit, Kabupaten Situbondo, Jawa Timur 68352",
+      MapId: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.888463808847!2d113.89639570000001!3d-7.695117700000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd727fc19d6b431%3A0x3334779b5eb9e951!2sBudidaya%20ikan%20kerapu!5e0!3m2!1sid!2sid!4v1703142588360!5m2!1sid!2sid"
     },
   ],
 }
