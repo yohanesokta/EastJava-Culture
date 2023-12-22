@@ -60,6 +60,9 @@ const Navbar = ({ noGray }) => {
           <a href="/kuliner" className="nav-menu">
             <p>Kuliner</p> <Gmaterial hide="yes" name="fiber_manual_record" />
           </a>
+          <a href="/feedback" id="colfeedback" className="nav-menu">
+            <p>Feedback</p> <Gmaterial hide="yes" name="fiber_manual_record" />
+          </a>
         </div>
         <div className="search">
           <button onClick={() => { window.location.href = "/feedback" }}>Umpan Balik </button>

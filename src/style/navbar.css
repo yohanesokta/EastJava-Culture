@@ -136,7 +136,9 @@ nav img{
 .col-nav a:hover .drop2 {
     height: 120px
 }
-
+#colfeedback{
+    display: none;
+}
 @media only screen and (max-width:1330px){
     .col-nav{
         width: 40%;
@@ -158,16 +160,20 @@ nav img{
     nav{
         transition: 0.3s ease;
     }
+    #colfeedback{
+        display: block;
+    }
     .col-nav{
         z-index: 9;
         display: none;
         width: 90%;
         top:110px;
+        margin-top: 90px;
         left:5%; 
         opacity: 0;
     }
     .col-nav a{
-        margin-top: 10px;
+        margin-bottom: 10px;
     }
     .search{
         display: none;
@@ -180,9 +186,14 @@ nav img{
         width: 70%;
         margin-left: 20%;
     }
+    .col-nav a::before{
+        background-color: rgba(0, 0, 0, 0.00);
+    }
     .col-nav a:hover .dropdown-menu{
-        width: 70%;
-        margin-left: 20%;
+        margin: 0;
+        position: relative;
+        height: 120px;
+        margin-bottom: 60px;
     }
     .dropdown-menu a{
         z-index: auto;
@@ -207,10 +218,13 @@ nav img{
         background-color: rgba(255, 255, 255,.3);
     }
     .active{
-        height: 300px;
+        height: 100vh;
     }
     .active .col-nav{
         opacity: 1;
         display: block;
+    }
+    nav.active{
+        background-color:#333333;
     }
 }

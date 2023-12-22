@@ -13,7 +13,6 @@ function FeedBack() {
     const [Data, SetData] = useState("default");
     useEffect(() => {
         if (fed) {
-            console.log("true");
             fed = false;
             fetch(import.meta.env.VITE_DATA_API).then((result) => {
                 result.json().then((Response) => {
@@ -23,7 +22,6 @@ function FeedBack() {
             })
 
             Array(document.getElementsByClassName('skleton')).forEach((e) => {
-                console.log(e)
             })
         }
     });

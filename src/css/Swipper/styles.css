@@ -52,5 +52,8 @@
 @media only screen and (max-width:760px){
     .swiper-button-left ,.swiper-button-right{
         width: calc(15% + 10px);
-    }   
+    }
+    .swiper{
+        height: calc(100vh / 3);
+}   
 }
