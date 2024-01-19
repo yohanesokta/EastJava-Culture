@@ -19,7 +19,7 @@ export default function CardSlideFour() {
     return (
         <>
             <div className="card-title">
-                <h1>Gelaran Budaya Jawa Timur</h1>
+                <h1>Destinasi Budaya Jawa Timur</h1>
             </div>
             <div className="card-slide-four">
                 <div className="card-slide">
